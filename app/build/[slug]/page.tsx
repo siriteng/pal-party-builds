@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { BuildComments } from "@/components/BuildComments";
 import { LikeButton } from "@/components/LikeButton";
+import { SkillEffect } from "@/components/SkillEffect";
 import { SparkIcon } from "@/components/icons";
 import { findBuildBySlug } from "@/lib/build-repository";
 import { getSeedBuild } from "@/lib/seed-builds";
@@ -42,7 +43,7 @@ export default async function BuildDetailPage({ params }: { params: Promise<{ sl
             {build.pals.map((pal, index) => (
               <article className="detail-pal-card" key={`${pal.slug}-${index}`}>
                 <div className={`detail-pal-art pal-tone-${pal.elements[0]?.toLowerCase() ?? "neutral"}`}><span className="slot-number">{index + 1}</span><img src={pal.imageUrl} alt={pal.name} /></div>
-                <div className="detail-pal-copy"><h3>{pal.name}</h3><span className="partner-skill">{pal.partnerSkill}</span><div className="element-list">{pal.elements.map((element) => <span key={element}>{element}</span>)}</div>{pal.role && <strong>{pal.role}</strong>}{pal.stackNote && <div className="stack-note"><SparkIcon size={14} /> {pal.stackNote}</div>}</div>
+                <div className="detail-pal-copy"><h3>{pal.name}</h3><div className="skill-heading"><span className="partner-skill">{pal.partnerSkill}</span><small>Lv.1 → Lv.5</small></div><div className="element-list">{pal.elements.map((element) => <span key={element}>{element}</span>)}</div><SkillEffect className="skill-effect" text={pal.shortEffect} />{pal.role && <div className="party-role"><span>Party role</span><strong>{pal.role}</strong></div>}{pal.stackNote && <div className="stack-note"><SparkIcon size={14} /> {pal.stackNote}</div>}</div>
               </article>
             ))}
             {!build.pals.length && <p className="party-empty">No Pals have been added to this build.</p>}

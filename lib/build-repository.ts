@@ -3,6 +3,7 @@ import { getDb } from "@/db";
 import { buildPals, builds, comments, likes, users } from "@/db/schema";
 import { seedBuilds } from "./seed-builds";
 import { isCategory } from "./seed-builds";
+import { palBySlug } from "./pals";
 import type { BuildPal, PartyBuild } from "./types";
 
 type CreateBuildInput = {
@@ -88,13 +89,14 @@ export async function ensureSeedData() {
 function parsePal(row: typeof buildPals.$inferSelect): BuildPal {
   let extra: { note?: string; elements?: string[]; shortEffect?: string } = {};
   try { extra = JSON.parse(row.stackNote); } catch { extra = { note: row.stackNote }; }
+  const canonical = palBySlug.get(row.palSlug);
   return {
     slug: row.palSlug,
-    name: row.palName,
-    imageUrl: row.imageUrl,
-    elements: extra.elements ?? [],
-    partnerSkill: row.partnerSkill,
-    shortEffect: extra.shortEffect ?? "",
+    name: canonical?.name ?? row.palName,
+    imageUrl: canonical?.imageUrl ?? row.imageUrl,
+    elements: canonical?.elements ?? extra.elements ?? [],
+    partnerSkill: canonical?.partnerSkill ?? row.partnerSkill,
+    shortEffect: canonical?.shortEffect ?? extra.shortEffect ?? "",
     role: row.role,
     stackNote: extra.note,
   };

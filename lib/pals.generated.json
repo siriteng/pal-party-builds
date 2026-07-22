@@ -8,7 +8,7 @@
       "Ground"
     ],
     "partnerSkill": "Indestructible Fortress",
-    "shortEffect": "Uses Indestructible Fortress."
+    "shortEffect": "Can be ridden. While in party, player and party Pals take (60~80)% less damage from explosive attacks, and are immune to Stun. (Does not stack)"
   },
   {
     "slug": "amione",
@@ -18,7 +18,7 @@
       "Water"
     ],
     "partnerSkill": "Magical Twin Powers",
-    "shortEffect": "Uses Magical Twin Powers."
+    "shortEffect": "While at a base, increases the Watering Work Suitability Level for all other Base Pals by +1. (Does not stack)"
   },
   {
     "slug": "anubis",
@@ -28,7 +28,7 @@
       "Ground"
     ],
     "partnerSkill": "Guardian of the Desert",
-    "shortEffect": "Uses Guardian of the Desert."
+    "shortEffect": "When activated, Anubis changes the player's attack type to Ground and increases Attack by (30~50)%. Occasionally evades attacks with a flash sidestep during battle."
   },
   {
     "slug": "arsox",
@@ -38,7 +38,7 @@
       "Fire"
     ],
     "partnerSkill": "Warm Body",
-    "shortEffect": "Uses Warm Body."
+    "shortEffect": "Can be ridden. While in party, the player gains Cold Resistance +2. (Does not stack)"
   },
   {
     "slug": "astegon",
@@ -49,7 +49,7 @@
       "Dark"
     ],
     "partnerSkill": "Black Ankylosaur",
-    "shortEffect": "Uses Black Ankylosaur."
+    "shortEffect": "Can be ridden as a flying mount. Increases the damage dealt to ores by (1100~3300)%, and you can obtain (150~300)% more Ore while mounted."
   },
   {
     "slug": "astralym",
@@ -59,7 +59,7 @@
       "Unknown"
     ],
     "partnerSkill": "-",
-    "shortEffect": "Uses -."
+    "shortEffect": "This Pal's abilities are still being investigated."
   },
   {
     "slug": "azurmane",
@@ -69,7 +69,7 @@
       "Electric"
     ],
     "partnerSkill": "Plasma Dash",
-    "shortEffect": "Uses Plasma Dash."
+    "shortEffect": "Can be ridden. Grants Air Dash, to move at even higher speeds."
   },
   {
     "slug": "azurobe",
@@ -80,7 +80,7 @@
       "Dragon"
     ],
     "partnerSkill": "Waterwing Dance",
-    "shortEffect": "Uses Waterwing Dance."
+    "shortEffect": "Can be ridden to travel on water. While mounted, changes the player's attack type to Water and increases Attack by (5~20)%."
   },
   {
     "slug": "azurobe-cryst",
@@ -91,7 +91,7 @@
       "Dragon"
     ],
     "partnerSkill": "Icewing Dance",
-    "shortEffect": "Uses Icewing Dance."
+    "shortEffect": "Can be ridden to travel on water. While mounted, changes the player’s attack type to Ice and increases Attack by (5~20)%."
   },
   {
     "slug": "bakemi",
@@ -101,7 +101,7 @@
       "Dark"
     ],
     "partnerSkill": "Grinning Death",
-    "shortEffect": "Uses Grinning Death."
+    "shortEffect": "While in party, attacking enemies afflicted with Poison reduces their Attack by (40~80)%. (Does not stack)"
   },
   {
     "slug": "bastigor",
@@ -111,7 +111,7 @@
       "Ice"
     ],
     "partnerSkill": "Blizzard Crash",
-    "shortEffect": "Uses Blizzard Crash."
+    "shortEffect": "Can be ridden. While mounted, delivers crushing blows with a hammer forged from Ice."
   },
   {
     "slug": "beakon",
@@ -121,7 +121,7 @@
       "Electric"
     ],
     "partnerSkill": "Thunderous",
-    "shortEffect": "Uses Thunderous."
+    "shortEffect": "Can be ridden as a flying mount. While mounted, changes the player's attack type to Electric and increases Attack by (5~20)%. This Pal’s Movement Speed increases by (5~25)% for each other Electric Pal in your party. (Excluding Beakon )"
   },
   {
     "slug": "beakon-cryst",
@@ -131,7 +131,7 @@
       "Ice"
     ],
     "partnerSkill": "Coldsnap",
-    "shortEffect": "Uses Coldsnap."
+    "shortEffect": "Can be ridden as a flying mount. While mounted, changes the player's attack type to Ice and increases Attack by (5~20)%. This Pal’s Movement Speed increases by (5~25)% for each other Ice Pal in your party. (Excluding Beakon Cryst )"
   },
   {
     "slug": "beegarde",
@@ -141,7 +141,7 @@
       "Grass"
     ],
     "partnerSkill": "Worker Bee",
-    "shortEffect": "Uses Worker Bee."
+    "shortEffect": "While in party, increases Elizabee's Attack. Sometimes drops Honey when assigned to Ranch."
   },
   {
     "slug": "bellanoir",
@@ -151,7 +151,7 @@
       "Dark"
     ],
     "partnerSkill": "Nightmare Iris",
-    "shortEffect": "Uses Nightmare Iris."
+    "shortEffect": "When activated, attacks targeted enemy with Nightmare Ray. When this Pal uses Nightmare Ray, it has a x(1.1~2.5) damage multiplier."
   },
   {
     "slug": "bellanoir-libero",
@@ -161,7 +161,7 @@
       "Dark"
     ],
     "partnerSkill": "Nightmare Stare",
-    "shortEffect": "Uses Nightmare Stare."
+    "shortEffect": "When activated, attacks targeted enemy with Nightmare Bloom. When this Pal uses Nightmare Bloom, it has a x(1.1~2.5) damage multiplier."
   },
   {
     "slug": "blazamut",
@@ -171,7 +171,7 @@
       "Fire"
     ],
     "partnerSkill": "Magma Kaiser",
-    "shortEffect": "Uses Magma Kaiser."
+    "shortEffect": "Can be ridden. While in party, increases the Attack and Defense of the Pal fighting alongside you by (5~10)% whenever you defeat an enemy. This effect lasts 20 seconds and stacks up to five times."
   },
   {
     "slug": "blazamut-ryu",
@@ -182,7 +182,7 @@
       "Fire"
     ],
     "partnerSkill": "Dragon Kaiser",
-    "shortEffect": "Uses Dragon Kaiser."
+    "shortEffect": "Can be ridden. While in party, improves player's and Pals' Dragon damage to enemy weak points by (25~40)%. (Does not stack)"
   },
   {
     "slug": "blazehowl",
@@ -192,7 +192,7 @@
       "Fire"
     ],
     "partnerSkill": "Hellflame Lion",
-    "shortEffect": "Uses Hellflame Lion."
+    "shortEffect": "Can be ridden. While in party, Grass Pals drop (40~80)% more items when defeated. (Does not stack)"
   },
   {
     "slug": "blazehowl-noct",
@@ -203,7 +203,7 @@
       "Dark"
     ],
     "partnerSkill": "Darkflame Lion",
-    "shortEffect": "Uses Darkflame Lion."
+    "shortEffect": "Can be ridden. While in party, Neutral Pals drop (40~80)% more items when defeated. (Does not stack)"
   },
   {
     "slug": "blue-slime",
@@ -213,7 +213,7 @@
       "Water"
     ],
     "partnerSkill": "Slime Body",
-    "shortEffect": "Uses Slime Body."
+    "shortEffect": "Can be ridden. Can jump high into the air while mounted."
   },
   {
     "slug": "braloha",
@@ -224,7 +224,7 @@
       "Ground"
     ],
     "partnerSkill": "Balmy Weather",
-    "shortEffect": "Uses Balmy Weather."
+    "shortEffect": "Can be ridden. While in your base, increases the egg production speed of Pals assigned to Breeding Farm by (20~50)%. (Does not stack)"
   },
   {
     "slug": "bristla",
@@ -234,7 +234,7 @@
       "Grass"
     ],
     "partnerSkill": "Princess Gaze",
-    "shortEffect": "Uses Princess Gaze."
+    "shortEffect": "While in party, increases Attack of Grass Pals by (15~30)%. (Does not stack)"
   },
   {
     "slug": "broncherry",
@@ -244,7 +244,7 @@
       "Grass"
     ],
     "partnerSkill": "Love's First Blossom",
-    "shortEffect": "Uses Love's First Blossom."
+    "shortEffect": "Can be ridden. While in party, Pal Eggs you pick up have a (35~45)% chance of becoming an Alpha Pal Egg. (Does not stack)"
   },
   {
     "slug": "broncherry-aqua",
@@ -255,7 +255,7 @@
       "Water"
     ],
     "partnerSkill": "Purity's Full Bloom",
-    "shortEffect": "Uses Purity's Full Bloom."
+    "shortEffect": "Can be ridden. While in party, Pal Eggs you pick up have a (45~55)% chance of becoming an Alpha Pal Egg. (Does not stack)"
   },
   {
     "slug": "bulldosu",
@@ -265,7 +265,7 @@
       "Ground"
     ],
     "partnerSkill": "Yokozuna's Presence",
-    "shortEffect": "Uses Yokozuna's Presence."
+    "shortEffect": "Can be ridden. While in party, player and party Pals take (15~30)% less Electric damage and are immune to Electrify. (Does not stack)"
   },
   {
     "slug": "bushi",
@@ -275,7 +275,7 @@
       "Fire"
     ],
     "partnerSkill": "Brandish Blade",
-    "shortEffect": "Uses Brandish Blade."
+    "shortEffect": "When activated, attacks targeted enemy with Iaigiri. When this Pal uses Iaigiri, it has a x(1.1~2.5) damage multiplier."
   },
   {
     "slug": "bushi-noct",
@@ -286,7 +286,7 @@
       "Dark"
     ],
     "partnerSkill": "Void Blade",
-    "shortEffect": "Uses Void Blade."
+    "shortEffect": "When activated, attacks targeted enemy with Iaigiri. When this Pal uses Iaigiri, it has a x(1.1~2.5) damage multiplier. While in party, increases the player's melee weapon damage by (30~65)% but only when not in combat. (Does not stack)"
   },
   {
     "slug": "caprity",
@@ -296,7 +296,7 @@
       "Grass"
     ],
     "partnerSkill": "Berry Picker",
-    "shortEffect": "Uses Berry Picker."
+    "shortEffect": "Sometimes drops Red Berries from its back when assigned to Ranch. While in party, restores (100~200) Pal’s Hunger to the Pal with the lowest Hunger every 5 minutes. (Does not stack)"
   },
   {
     "slug": "caprity-noct",
@@ -306,7 +306,7 @@
       "Dark"
     ],
     "partnerSkill": "Venom Picker",
-    "shortEffect": "Uses Venom Picker."
+    "shortEffect": "Sometimes drops Venom Gland from its back when assigned to Ranch. While in party, restores (100~200) Pal’s Hunger to the Pal with the lowest Hunger every 5 minutes. (Does not stack)"
   },
   {
     "slug": "carnibora",
@@ -316,7 +316,7 @@
       "Grass"
     ],
     "partnerSkill": "Entangling Tongue",
-    "shortEffect": "Uses Entangling Tongue."
+    "shortEffect": "While in party, when the player performs a dodge roll or dodge step, Carnibora creates a whirlwind that deals damage to enemies it touches ( Grass / Power: (40~80) ). (Does not stack)"
   },
   {
     "slug": "cattiva",
@@ -326,7 +326,7 @@
       "Neutral"
     ],
     "partnerSkill": "Cat Helper",
-    "shortEffect": "Uses Cat Helper."
+    "shortEffect": "While in party, Cattiva helps carry supplies, increasing the player's max carrying capacity by (100~200). (Does not stack)"
   },
   {
     "slug": "cave-bat",
@@ -336,7 +336,7 @@
       "Neutral"
     ],
     "partnerSkill": "Bat Backup",
-    "shortEffect": "Uses Bat Backup."
+    "shortEffect": "While in party, appears near the player. Automatically picks up nearby items."
   },
   {
     "slug": "cawgnito",
@@ -346,7 +346,7 @@
       "Dark"
     ],
     "partnerSkill": "Eerie Nightstreaker",
-    "shortEffect": "Uses Eerie Nightstreaker."
+    "shortEffect": "When activated, grants Night Vision to see in dark places. Activate again to turn off. Sometimes digs up Bone when assigned to Ranch."
   },
   {
     "slug": "celaray",
@@ -356,7 +356,7 @@
       "Water"
     ],
     "partnerSkill": "Zephyr Glider",
-    "shortEffect": "Uses Zephyr Glider."
+    "shortEffect": "While in party, modifies the performance of the equipped glider. Prevents fall damage and extends the duration of high-speed gliding."
   },
   {
     "slug": "celaray-lux",
@@ -367,7 +367,7 @@
       "Electric"
     ],
     "partnerSkill": "Jolt Glider",
-    "shortEffect": "Uses Jolt Glider."
+    "shortEffect": "While in party, modifies the performance of the equipped glider. Prevents fall damage and extends the duration of high-speed gliding."
   },
   {
     "slug": "celesdir",
@@ -377,7 +377,7 @@
       "Neutral"
     ],
     "partnerSkill": "Blessing of Purification",
-    "shortEffect": "Uses Blessing of Purification."
+    "shortEffect": "Can be ridden. This Pal's Attack and Movement Speed increases by (2~6)% for each other Neutral Pal in your party. When in party, recovers Health of the player and Party Pals by (0.15~0.75)% per second. (Does not stack)"
   },
   {
     "slug": "celesdir-noct",
@@ -387,7 +387,7 @@
       "Dark"
     ],
     "partnerSkill": "Blessing of Chaos",
-    "shortEffect": "Uses Blessing of Chaos."
+    "shortEffect": "Can be ridden. While in party, the Pal fighting alongside you gradually loses Health in exchange for (40~80)% Attack increase. (Does not stack)"
   },
   {
     "slug": "chikipi",
@@ -397,7 +397,7 @@
       "Neutral"
     ],
     "partnerSkill": "Egg Layer",
-    "shortEffect": "Uses Egg Layer."
+    "shortEffect": "Sometimes lays an Egg when assigned to Ranch."
   },
   {
     "slug": "chillet",
@@ -408,7 +408,7 @@
       "Dragon"
     ],
     "partnerSkill": "Wriggling Weasel",
-    "shortEffect": "Uses Wriggling Weasel."
+    "shortEffect": "Can be ridden. While mounted, changes the player’s attack type to Dragon and increases Attack by (5~20)%."
   },
   {
     "slug": "chillet-ignis",
@@ -419,7 +419,7 @@
       "Dragon"
     ],
     "partnerSkill": "Sparkling Weasel",
-    "shortEffect": "Uses Sparkling Weasel."
+    "shortEffect": "Can be ridden. While mounted, changes the player’s attack type to Fire and increases Attack by (5~20)%."
   },
   {
     "slug": "cinnamoth",
@@ -429,7 +429,7 @@
       "Grass"
     ],
     "partnerSkill": "Mysterious Scales",
-    "shortEffect": "Uses Mysterious Scales."
+    "shortEffect": "When activated, attacks the targeted enemy with Poison Fog. While at a base, increases the Farming Work Suitability Level for all other Base Pals by +1. (Does not stack)"
   },
   {
     "slug": "clovee",
@@ -440,7 +440,7 @@
       "Neutral"
     ],
     "partnerSkill": "Happy Clover",
-    "shortEffect": "Uses Happy Clover."
+    "shortEffect": "While at a base, increases the Gathering Work Suitability Level for all other Base Pals by +1. (Does not stack)"
   },
   {
     "slug": "cremis",
@@ -450,7 +450,7 @@
       "Neutral"
     ],
     "partnerSkill": "Fluffy Wool",
-    "shortEffect": "Uses Fluffy Wool."
+    "shortEffect": "While in party, increases Attack of Neutral Pals by (15~30)%. (Does not stack) Sometimes drops Wool when assigned to Ranch."
   },
   {
     "slug": "croajiro",
@@ -460,7 +460,7 @@
       "Water"
     ],
     "partnerSkill": "Leap Stance",
-    "shortEffect": "Uses Leap Stance."
+    "shortEffect": "When activated, Croajiro Noct channels its loyalty and puffs up its abdomen to store energy. Climbing on top will propel the player high into the air. While airborne before landing, the player's Attack is increased by (50~86)%."
   },
   {
     "slug": "croajiro-noct",
@@ -471,7 +471,7 @@
       "Dark"
     ],
     "partnerSkill": "Shadow Stance",
-    "shortEffect": "Uses Shadow Stance."
+    "shortEffect": "When activated, Croajiro Noct channels its loyalty and puffs up its abdomen to store energy. Climbing on top will propel the player high into the air. While in party, improves player's and Pals' Dark damage to enemy weak points by (25~40)%. (Does not stack)"
   },
   {
     "slug": "cryolinx",
@@ -481,7 +481,7 @@
       "Ice"
     ],
     "partnerSkill": "Dragon Hunter",
-    "shortEffect": "Uses Dragon Hunter."
+    "shortEffect": "While in party, Dragon Pals drop (40~80)% more items when defeated. (Does not stack)"
   },
   {
     "slug": "cryolinx-terra",
@@ -491,7 +491,7 @@
       "Ground"
     ],
     "partnerSkill": "Explosive Strength",
-    "shortEffect": "Uses Explosive Strength."
+    "shortEffect": "While in party, when attacking enemy weak point, increases the power of the next weak point attack by (30~60)%. (Does not stack)"
   },
   {
     "slug": "daedream",
@@ -501,7 +501,7 @@
       "Dark"
     ],
     "partnerSkill": "Dream Chaser",
-    "shortEffect": "Uses Dream Chaser."
+    "shortEffect": "While in party, appears near the player. Attacks hostile enemies with Dark magic bullets. These bullets will not reduce the target's Health below 1."
   },
   {
     "slug": "dandilord",
@@ -512,7 +512,7 @@
       "Dark"
     ],
     "partnerSkill": "Mist Stalwart",
-    "shortEffect": "Uses Mist Stalwart."
+    "shortEffect": "When activated, the player's attacks inflict Poison (2~6). While in party, grants the player and party Pals immunity to Poison, and nullifies the effects of toxic gas in the World Tree area. (Does not stack)"
   },
   {
     "slug": "dazemu",
@@ -522,7 +522,7 @@
       "Ground"
     ],
     "partnerSkill": "Sand Sprint",
-    "shortEffect": "Uses Sand Sprint."
+    "shortEffect": "Can be ridden. Movement Speed is increased by (50~100)% while mounted on sand."
   },
   {
     "slug": "dazzi",
@@ -532,7 +532,7 @@
       "Electric"
     ],
     "partnerSkill": "Lady of Lightning",
-    "shortEffect": "Uses Lady of Lightning."
+    "shortEffect": "While in party, appears near the player. Attacks hostile enemies with Electric bolts. These bolts will not reduce the target's Health below 1."
   },
   {
     "slug": "dazzi-noct",
@@ -543,7 +543,7 @@
       "Electric"
     ],
     "partnerSkill": "Lady of Dark Lightning",
-    "shortEffect": "Uses Lady of Dark Lightning."
+    "shortEffect": "While in party, appears near the player. Attacks hostile enemies with Dark bolts. These bolts will not reduce the target's Health below 1."
   },
   {
     "slug": "demon-eye",
@@ -553,7 +553,7 @@
       "Dark"
     ],
     "partnerSkill": "Demonic Sight",
-    "shortEffect": "Uses Demonic Sight."
+    "shortEffect": "While in party, increases Attack of Dark Pals by (15~30)%. (Does not stack)"
   },
   {
     "slug": "depresso",
@@ -563,7 +563,7 @@
       "Dark"
     ],
     "partnerSkill": "Caffeine Inoculation",
-    "shortEffect": "Uses Caffeine Inoculation."
+    "shortEffect": "When activated, Depresso chugs an entire energy drink, increasing its Movement Speed and Work Speed by (100~900)%. Sometimes drops Venom Gland when assigned to Ranch."
   },
   {
     "slug": "digtoise",
@@ -573,7 +573,7 @@
       "Ground"
     ],
     "partnerSkill": "Drill Crusher",
-    "shortEffect": "Uses Drill Crusher."
+    "shortEffect": "When activated, enters the Shell Spin state. Follows the player while spinning, increasing ore mining efficiency by (800~2000)%."
   },
   {
     "slug": "dinossom",
@@ -584,7 +584,7 @@
       "Dragon"
     ],
     "partnerSkill": "Fragrant Dragon",
-    "shortEffect": "Uses Fragrant Dragon."
+    "shortEffect": "Can be ridden. While in party, increase Defense of Dragon Pals by (15~30)%. (Does not stack)"
   },
   {
     "slug": "dinossom-lux",
@@ -595,7 +595,7 @@
       "Dragon"
     ],
     "partnerSkill": "Thunder Dragon",
-    "shortEffect": "Uses Thunder Dragon."
+    "shortEffect": "Can be ridden. While in party, increases Defense of Electric Pals by (15~30)%. (Does not stack)"
   },
   {
     "slug": "direhowl",
@@ -605,7 +605,7 @@
       "Neutral"
     ],
     "partnerSkill": "Direhowl Rider",
-    "shortEffect": "Uses Direhowl Rider."
+    "shortEffect": "Can be ridden. Moves slightly faster than most mounts."
   },
   {
     "slug": "dogen",
@@ -615,7 +615,7 @@
       "Neutral"
     ],
     "partnerSkill": "Homeward Prayer",
-    "shortEffect": "Uses Homeward Prayer."
+    "shortEffect": "When activated, teleports to the nearest base. Cannot be used inside dungeons or similar areas."
   },
   {
     "slug": "dualith",
@@ -626,7 +626,7 @@
       "Grass"
     ],
     "partnerSkill": "Forest Laser",
-    "shortEffect": "Uses Forest Laser."
+    "shortEffect": "Can be ridden. When activated, Dualith fires a powerful Grass laser from its right hand."
   },
   {
     "slug": "dualith-noct",
@@ -637,7 +637,7 @@
       "Dark"
     ],
     "partnerSkill": "Corruption Laser",
-    "shortEffect": "Uses Corruption Laser."
+    "shortEffect": "Can be ridden. When activated, Dualith Noct fires a powerful Dark laser from its right hand."
   },
   {
     "slug": "dumud",
@@ -648,7 +648,7 @@
       "Water"
     ],
     "partnerSkill": "Soil Improver",
-    "shortEffect": "Uses Soil Improver."
+    "shortEffect": "While in party, increases Attack of Ground Pals by (15~30)%. (Does not stack) Sometimes drops High Quality Pal Oil when assigned to Ranch."
   },
   {
     "slug": "dumud-gild",
@@ -659,7 +659,7 @@
       "Water"
     ],
     "partnerSkill": "Golden Harvest",
-    "shortEffect": "Uses Golden Harvest."
+    "shortEffect": "While in party, increases amount of Gold Coin dropped by enemies by +(100~200)%. Sometimes drops High Quality Pal Oil when assigned to Ranch, with a small chance to drop Gold Coin. (Does not stack)"
   },
   {
     "slug": "dupin",
@@ -669,7 +669,7 @@
       "Fire"
     ],
     "partnerSkill": "Trick-Loving Fluffle",
-    "shortEffect": "Uses Trick-Loving Fluffle."
+    "shortEffect": "While in party, when the player's Health falls below 50%, Dupin generates an explosion around the player ( Fire / Power: (100~200) / Burn buildup: 777 ). Additionally, while the player's Health is below 50%, the player's Attack is increased by (30~50)%. (Does not stack)"
   },
   {
     "slug": "dynamoff",
@@ -679,7 +679,7 @@
       "Electric"
     ],
     "partnerSkill": "Electro-Massage Incubation",
-    "shortEffect": "Uses Electro-Massage Incubation."
+    "shortEffect": "Can be ridden as a flying mount. While at a base, shortens the time it takes to incubate eggs by (20~40)%. (Does not stack)"
   },
   {
     "slug": "eidrolon",
@@ -690,7 +690,7 @@
       "Dark"
     ],
     "partnerSkill": "Liberated Pterosaur",
-    "shortEffect": "Uses Liberated Pterosaur."
+    "shortEffect": "Can be ridden as a flying mount. This Pal's Attack and Movement Speed increase by (2~6)% for each other Dragon or Dark Pal in your party."
   },
   {
     "slug": "eidrolon-ignis",
@@ -701,7 +701,7 @@
       "Fire"
     ],
     "partnerSkill": "Resentful Pterosaur",
-    "shortEffect": "Uses Resentful Pterosaur."
+    "shortEffect": "Can be ridden as a flying mount. This Pal's Attack and Movement Speed increase by (2~6)% or each other Dragon or Fire Pal in your party. (Excluding Eidrolon Ignis )"
   },
   {
     "slug": "eikthyrdeer",
@@ -711,7 +711,7 @@
       "Neutral"
     ],
     "partnerSkill": "Guardian of the Forest",
-    "shortEffect": "Uses Guardian of the Forest."
+    "shortEffect": "Can be ridden. Can perform a double jump while mounted and increases lumbering efficiency by (220~500)%."
   },
   {
     "slug": "eikthyrdeer-terra",
@@ -721,7 +721,7 @@
       "Ground"
     ],
     "partnerSkill": "Guardian of the Golden Forest",
-    "shortEffect": "Uses Guardian of the Golden Forest."
+    "shortEffect": "Can be ridden. Can perform a double jump while mounted. While at a base, increases the Lumbering Work Suitability Level for all other Base Pals by +1 (Does not stack)"
   },
   {
     "slug": "elgrove",
@@ -731,7 +731,7 @@
       "Grass"
     ],
     "partnerSkill": "Mother Nature's Menace",
-    "shortEffect": "Uses Mother Nature's Menace."
+    "shortEffect": "When activated, Elgrove changes the player's attack type to Grass and increases Attack by (30~50)%."
   },
   {
     "slug": "elgrove-cryst",
@@ -741,7 +741,7 @@
       "Ice"
     ],
     "partnerSkill": "Father Winter's Threat",
-    "shortEffect": "Uses Father Winter's Threat."
+    "shortEffect": "While in party, grants the player the ability to Freeze enemies afflicted with Soak in one strike."
   },
   {
     "slug": "elizabee",
@@ -751,7 +751,7 @@
       "Grass"
     ],
     "partnerSkill": "Queen Bee Command",
-    "shortEffect": "Uses Queen Bee Command."
+    "shortEffect": "This Pal's Attack increases by (12~24)% for each Beegarde in party."
   },
   {
     "slug": "elphidran",
@@ -761,7 +761,7 @@
       "Dragon"
     ],
     "partnerSkill": "Amicable Holy Dragon",
-    "shortEffect": "Uses Amicable Holy Dragon."
+    "shortEffect": "Can be ridden as a flying mount. While flying, Movement Speed is increased. While in party, Dark Pals drop (40~80)% more items when defeated. (Does not stack)"
   },
   {
     "slug": "elphidran-aqua",
@@ -772,7 +772,7 @@
       "Water"
     ],
     "partnerSkill": "Amicable Water Dragon",
-    "shortEffect": "Uses Amicable Water Dragon."
+    "shortEffect": "Can be ridden as a flying mount. While flying, Movement Speed is increased. While in party, player and party Pals take (15~30)% less Fire damage and are immune to Burn. (Does not stack)"
   },
   {
     "slug": "enchanted-sword",
@@ -782,7 +782,7 @@
       "Neutral"
     ],
     "partnerSkill": "Enchant",
-    "shortEffect": "Uses Enchant."
+    "shortEffect": "While in party, Dark Pals drop (40~80)% more items when defeated. (Does not stack)"
   },
   {
     "slug": "eye-of-cthulhu",
@@ -792,7 +792,7 @@
       "Dark"
     ],
     "partnerSkill": "Mad Eye Lunge",
-    "shortEffect": "Uses Mad Eye Lunge."
+    "shortEffect": "When activated, Eye of Cthulhu charges and attacks targeted enemy."
   },
   {
     "slug": "faleris",
@@ -802,7 +802,7 @@
       "Fire"
     ],
     "partnerSkill": "Scorching Predator",
-    "shortEffect": "Uses Scorching Predator."
+    "shortEffect": "Can be ridden as a flying mount. While in party, Ice Pals drop (40~80)% more items when defeated. (Does not stack)"
   },
   {
     "slug": "faleris-aqua",
@@ -812,7 +812,7 @@
       "Water"
     ],
     "partnerSkill": "Tidal Predator",
-    "shortEffect": "Uses Tidal Predator."
+    "shortEffect": "Can be ridden as a flying mount. While in party, Fire Pals drop (40~80)% more items when defeated. (Does not stack)"
   },
   {
     "slug": "felbat",
@@ -822,7 +822,7 @@
       "Dark"
     ],
     "partnerSkill": "Life Steal",
-    "shortEffect": "Uses Life Steal."
+    "shortEffect": "While fighting together, grants the player and Felbat a life steal effect that restores (5~9)% of damage dealt as Health."
   },
   {
     "slug": "fenglope",
@@ -832,7 +832,7 @@
       "Neutral"
     ],
     "partnerSkill": "Wind and Clouds",
-    "shortEffect": "Uses Wind and Clouds."
+    "shortEffect": "Can be ridden. Can double jump while mounted."
   },
   {
     "slug": "fenglope-lux",
@@ -842,7 +842,7 @@
       "Electric"
     ],
     "partnerSkill": "Stormcloud",
-    "shortEffect": "Uses Stormcloud."
+    "shortEffect": "Can be ridden. Can double jump while mounted. While in party, Water Pals drop (40~80)% more items when defeated. (Does not stack)"
   },
   {
     "slug": "finsider",
@@ -852,7 +852,7 @@
       "Water"
     ],
     "partnerSkill": "Water Gun",
-    "shortEffect": "Uses Water Gun."
+    "shortEffect": "When activated, Finsider changes the player's attack type to Water and increases Attack by (30~50)%."
   },
   {
     "slug": "finsider-ignis",
@@ -863,7 +863,7 @@
       "Fire"
     ],
     "partnerSkill": "Ember Chamber",
-    "shortEffect": "Uses Ember Chamber."
+    "shortEffect": "While in party, Finsider Ignis helps carry supplies, reducing the weight of weapons in your inventory by (60~100)%. Also improves player's and Pals' Fire damage to enemy weak points by (25~40)%. (Does not stack)"
   },
   {
     "slug": "flambelle",
@@ -873,7 +873,7 @@
       "Fire"
     ],
     "partnerSkill": "Magma Tears",
-    "shortEffect": "Uses Magma Tears."
+    "shortEffect": "While in party, recovers Health of the player and Party Pals by (0.1~0.5)% per second outside of combat. (Does not stack) Sometimes drops Flame Organ when assigned to Ranch."
   },
   {
     "slug": "flaracle",
@@ -883,7 +883,7 @@
       "Fire"
     ],
     "partnerSkill": "Burning Future",
-    "shortEffect": "Uses Burning Future."
+    "shortEffect": "While in party, when the player attacks an enemy afflicted with Burn, the enemy explodes, dealing damage equal to (40~60)% of the player's attack damage to nearby enemies. (Does not stack.)"
   },
   {
     "slug": "flopie",
@@ -893,7 +893,7 @@
       "Grass"
     ],
     "partnerSkill": "Helper Bunny",
-    "shortEffect": "Uses Helper Bunny."
+    "shortEffect": "While in party, appears near the player. Automatically picks up nearby items."
   },
   {
     "slug": "foxcicle",
@@ -903,7 +903,7 @@
       "Ice"
     ],
     "partnerSkill": "Aurora Guide",
-    "shortEffect": "Uses Aurora Guide."
+    "shortEffect": "While in party, increases Attack of Ice Pals by (15~30)%. (Does not stack) Sometimes drops Ice Organ when assigned to Ranch."
   },
   {
     "slug": "foxparks",
@@ -913,7 +913,7 @@
       "Fire"
     ],
     "partnerSkill": "Huggy Fire",
-    "shortEffect": "Uses Huggy Fire."
+    "shortEffect": "When activated, equips to the player and transforms into a flamethrower."
   },
   {
     "slug": "foxparks-cryst",
@@ -923,7 +923,7 @@
       "Ice"
     ],
     "partnerSkill": "Huggy Frost",
-    "shortEffect": "Uses Huggy Frost."
+    "shortEffect": "When activated, equips to the player and attacks using frigid air."
   },
   {
     "slug": "frostallion",
@@ -933,7 +933,7 @@
       "Ice"
     ],
     "partnerSkill": "Icy Steed",
-    "shortEffect": "Uses Icy Steed."
+    "shortEffect": "Can be ridden as a flying mount. While mounted, changes the player's attack type to Ice, inflict Freeze (2~6), increases Attack by (10~40)%."
   },
   {
     "slug": "frostallion-noct",
@@ -943,7 +943,7 @@
       "Dark"
     ],
     "partnerSkill": "Black Steed",
-    "shortEffect": "Uses Black Steed."
+    "shortEffect": "Can be ridden as a flying mount. While mounted, changes the player's attack type to Dark, inflict Blind (2~6), increases Attack by (10~40)%."
   },
   {
     "slug": "frostplume",
@@ -953,7 +953,7 @@
       "Ice"
     ],
     "partnerSkill": "Peacock Pounce",
-    "shortEffect": "Uses Peacock Pounce."
+    "shortEffect": "While in party, Frostplume's icy aura sharpens focus, increasing the player's reload speeds by (20~50)%. (Does not stack)"
   },
   {
     "slug": "fuack",
@@ -963,7 +963,7 @@
       "Water"
     ],
     "partnerSkill": "Surfing Slam",
-    "shortEffect": "Uses Surfing Slam."
+    "shortEffect": "When activated, Fuack body surfs towards an enemy and slams into them."
   },
   {
     "slug": "fuack-ignis",
@@ -974,7 +974,7 @@
       "Fire"
     ],
     "partnerSkill": "Fire Tackle",
-    "shortEffect": "Uses Fire Tackle."
+    "shortEffect": "When activated, Fuack Ignis fire surfs towards an enemy and slams into them."
   },
   {
     "slug": "fuddler",
@@ -984,7 +984,7 @@
       "Ground"
     ],
     "partnerSkill": "Mining Assistance",
-    "shortEffect": "Uses Mining Assistance."
+    "shortEffect": "While in party, improves player mining efficiency by (30~60)% and reduces Stone weight by (80~100)%. (Does not stack)"
   },
   {
     "slug": "galeclaw",
@@ -994,7 +994,7 @@
       "Neutral"
     ],
     "partnerSkill": "Galeclaw Glider",
-    "shortEffect": "Uses Galeclaw Glider."
+    "shortEffect": "While in party, modifies the performance of the equipped glider. Enables high-speed gliding and allows shooting with the right hand."
   },
   {
     "slug": "ghangler",
@@ -1005,7 +1005,7 @@
       "Water"
     ],
     "partnerSkill": "Master of Darkness",
-    "shortEffect": "Uses Master of Darkness."
+    "shortEffect": "Can be ridden to travel on water. This Pal’s Movement Speed increases by (5~25)% for each other Dark or Water Pal in your party. (Excluding Ghangler )"
   },
   {
     "slug": "ghangler-ignis",
@@ -1016,7 +1016,7 @@
       "Water"
     ],
     "partnerSkill": "Abyssal Celebrity Chef",
-    "shortEffect": "Uses Abyssal Celebrity Chef."
+    "shortEffect": "Can be ridden to travel on water. This Pal’s Movement Speed increases by (5~25)% for each other Fire or Water Pal in your party. (Excluding Ghangler Ignis )"
   },
   {
     "slug": "gildane",
@@ -1026,7 +1026,7 @@
       "Ground"
     ],
     "partnerSkill": "Sandstorm's Blessing",
-    "shortEffect": "Uses Sandstorm's Blessing."
+    "shortEffect": "Can be ridden. While mounted, changes the player’s attack type to Ground and increases Attack by (5~20)%."
   },
   {
     "slug": "gildra",
@@ -1037,7 +1037,7 @@
       "Ground"
     ],
     "partnerSkill": "Resurrection",
-    "shortEffect": "Uses Resurrection."
+    "shortEffect": "While fighting together, when Gildra is incapacitated, it revives with its Hunger reduced to 0."
   },
   {
     "slug": "gloopie",
@@ -1048,7 +1048,7 @@
       "Dark"
     ],
     "partnerSkill": "Sticky Princess",
-    "shortEffect": "Uses Sticky Princess."
+    "shortEffect": "While in party, the capture gauge decreases (12~35)% more slowly while the bars are not overlapping during the fishing minigame. (Does not stack)"
   },
   {
     "slug": "gloopie-primo",
@@ -1059,7 +1059,7 @@
       "Neutral"
     ],
     "partnerSkill": "Cephalo-Princess",
-    "shortEffect": "Uses Cephalo-Princess."
+    "shortEffect": "While in party, increases Defense of Water Pals by (15~30)%. (Does not stack)"
   },
   {
     "slug": "gobfin",
@@ -1069,7 +1069,7 @@
       "Water"
     ],
     "partnerSkill": "Angry Shark",
-    "shortEffect": "Uses Angry Shark."
+    "shortEffect": "When activated, attacks targeted enemy with Aqua Gun. When this Pal uses Aqua Gun, it has a x(1.1~2.5) damage multiplier. While in party, increases the player's Attack by (10~20)%."
   },
   {
     "slug": "gobfin-ignis",
@@ -1079,7 +1079,7 @@
       "Fire"
     ],
     "partnerSkill": "Angry Shark",
-    "shortEffect": "Uses Angry Shark."
+    "shortEffect": "When activated, attacks targeted enemy with Spirit Fire. When this Pal uses Spirit Fire, it has a x(1.1~2.5) damage multiplier. While in party, increases the player's Attack by (10~20)%."
   },
   {
     "slug": "gorirat",
@@ -1089,7 +1089,7 @@
       "Neutral"
     ],
     "partnerSkill": "Full-Power Gorilla Mode",
-    "shortEffect": "Uses Full-Power Gorilla Mode."
+    "shortEffect": "When activated, unleashes a primal fury that increases Gorirat's Attack by (75~300)% for a limited time."
   },
   {
     "slug": "gorirat-terra",
@@ -1099,7 +1099,7 @@
       "Ground"
     ],
     "partnerSkill": "Full-Power Gorilla Pound",
-    "shortEffect": "Uses Full-Power Gorilla Pound."
+    "shortEffect": "While in party, increases the player's climbing speed by (50~100)%. (Does not stack)"
   },
   {
     "slug": "green-slime",
@@ -1109,7 +1109,7 @@
       "Grass"
     ],
     "partnerSkill": "Slime Body",
-    "shortEffect": "Uses Slime Body."
+    "shortEffect": "Can be ridden. Can jump high into the air while mounted."
   },
   {
     "slug": "grintale",
@@ -1119,7 +1119,7 @@
       "Neutral"
     ],
     "partnerSkill": "Glaring Cat's Eye",
-    "shortEffect": "Uses Glaring Cat's Eye."
+    "shortEffect": "Can be ridden. While in party, picking up a Pal Egg has a (50~75)% chance of receiving one extra. (Does not stack)"
   },
   {
     "slug": "grizzbolt",
@@ -1129,7 +1129,7 @@
       "Electric"
     ],
     "partnerSkill": "Yellow Tank",
-    "shortEffect": "Uses Yellow Tank."
+    "shortEffect": "Can be ridden. Can rapidly fire a minigun while mounted."
   },
   {
     "slug": "gumoss",
@@ -1140,7 +1140,7 @@
       "Ground"
     ],
     "partnerSkill": "Logging Assistance",
-    "shortEffect": "Uses Logging Assistance."
+    "shortEffect": "While in party, improves logging efficiency by (30~50)% and reduces weight of all types of wood by (40~60)%. (Does not stack)"
   },
   {
     "slug": "hangyu",
@@ -1150,7 +1150,7 @@
       "Ground"
     ],
     "partnerSkill": "Flying Trapeze",
-    "shortEffect": "Uses Flying Trapeze."
+    "shortEffect": "While in party, modifies the performance of the equipped glider. Enables slow ascension while gliding."
   },
   {
     "slug": "hangyu-cryst",
@@ -1160,7 +1160,7 @@
       "Ice"
     ],
     "partnerSkill": "Winter Trapeze",
-    "shortEffect": "Uses Winter Trapeze."
+    "shortEffect": "While in party, modifies the performance of the equipped glider. Enables slow ascension while gliding."
   },
   {
     "slug": "hartalis",
@@ -1170,7 +1170,7 @@
       "Neutral"
     ],
     "partnerSkill": "Sacred Barrier",
-    "shortEffect": "Uses Sacred Barrier."
+    "shortEffect": "Can be ridden. While mounted, it generates a barrier that blocks all attacks. Can triple jump while mounted."
   },
   {
     "slug": "helzephyr",
@@ -1180,7 +1180,7 @@
       "Dark"
     ],
     "partnerSkill": "Wings of Death",
-    "shortEffect": "Uses Wings of Death."
+    "shortEffect": "Can be ridden as a flying mount. While mounted, changes the player’s attack type to Dark and increases Attack by (5~20)%."
   },
   {
     "slug": "helzephyr-lux",
@@ -1191,7 +1191,7 @@
       "Electric"
     ],
     "partnerSkill": "Wings of Thunder",
-    "shortEffect": "Uses Wings of Thunder."
+    "shortEffect": "Can be ridden as a flying mount. While mounted, changes the player’s attack type to Electric and increases Attack by (5~20)%."
   },
   {
     "slug": "herbil",
@@ -1202,7 +1202,7 @@
       "Neutral"
     ],
     "partnerSkill": "Herbil Pulse",
-    "shortEffect": "Uses Herbil Pulse."
+    "shortEffect": "While in party, Herbil uses its healing powers to restore (30~60)% of the player's Max Health when incapacitated."
   },
   {
     "slug": "hoocrates",
@@ -1212,7 +1212,7 @@
       "Dark"
     ],
     "partnerSkill": "Dark Knowledge",
-    "shortEffect": "Uses Dark Knowledge."
+    "shortEffect": "While in party, increases Attack of Dark Pals by (15~30)%. (Does not stack)"
   },
   {
     "slug": "hoodle",
@@ -1222,7 +1222,7 @@
       "Dark"
     ],
     "partnerSkill": "Void-Dweller",
-    "shortEffect": "Uses Void-Dweller."
+    "shortEffect": "While in party, increases the player's damage dealt to enemies that are not in combat by (50~100)%. (Does not stack)"
   },
   {
     "slug": "icelyn",
@@ -1232,7 +1232,7 @@
       "Ice"
     ],
     "partnerSkill": "Witch's Icy Veil",
-    "shortEffect": "Uses Witch's Icy Veil."
+    "shortEffect": "When activated, Icelyn changes the player's attack type to Ice and increases Attack by (30~50)%."
   },
   {
     "slug": "illuminant-bat",
@@ -1242,7 +1242,7 @@
       "Neutral"
     ],
     "partnerSkill": "Bat Backup",
-    "shortEffect": "Uses Bat Backup."
+    "shortEffect": "While in party, appears near the player. Automatically picks up nearby items."
   },
   {
     "slug": "illuminant-slime",
@@ -1252,7 +1252,7 @@
       "Neutral"
     ],
     "partnerSkill": "Slime Body",
-    "shortEffect": "Uses Slime Body."
+    "shortEffect": "Can be ridden. Can jump high into the air while mounted."
   },
   {
     "slug": "incineram",
@@ -1263,7 +1263,7 @@
       "Dark"
     ],
     "partnerSkill": "Flameclaw Hunter",
-    "shortEffect": "Uses Flameclaw Hunter."
+    "shortEffect": "When activated, attacks the targeted enemy with Hellfire Claw. When this Pal uses Hellfire Claw, it has a x(1.1~2.5) damage multiplier."
   },
   {
     "slug": "incineram-noct",
@@ -1273,7 +1273,7 @@
       "Dark"
     ],
     "partnerSkill": "Darkclaw Hunter",
-    "shortEffect": "Uses Darkclaw Hunter."
+    "shortEffect": "When activated, attacks the targeted enemy with Nightmare Claw. When this Pal uses Nightmare Claw, it has a x(1.1~2.5) damage multiplier."
   },
   {
     "slug": "jelliette",
@@ -1283,7 +1283,7 @@
       "Water"
     ],
     "partnerSkill": "Jelliette Drop",
-    "shortEffect": "Uses Jelliette Drop."
+    "shortEffect": "While in party, increases items obtained from fishing by (55~95)%. While Jelliette and Jellroy are in your base, Jelliette's watering speed increases by (50~120)%. (Does not stack)"
   },
   {
     "slug": "jellroy",
@@ -1294,7 +1294,7 @@
       "Dark"
     ],
     "partnerSkill": "Jellroy Drop",
-    "shortEffect": "Uses Jellroy Drop."
+    "shortEffect": "While in party, increases items obtained from salvaging by (55~95)%. While Jelliette and Jellroy are in your base, Jellroy's watering speed increases by (50~120)%. (Does not stack)"
   },
   {
     "slug": "jetragon",
@@ -1304,7 +1304,7 @@
       "Dragon"
     ],
     "partnerSkill": "Aerial Missile",
-    "shortEffect": "Uses Aerial Missile."
+    "shortEffect": "Can be ridden as a flying mount. Can rapidly fire a missile launcher while mounted."
   },
   {
     "slug": "jolthog",
@@ -1314,7 +1314,7 @@
       "Electric"
     ],
     "partnerSkill": "Jolt Bomb",
-    "shortEffect": "Uses Jolt Bomb."
+    "shortEffect": "When activated, equips Jolthog to the player to be thrown at an enemy, causing an Electric explosion upon impact."
   },
   {
     "slug": "jolthog-cryst",
@@ -1324,7 +1324,7 @@
       "Ice"
     ],
     "partnerSkill": "Cold Bomb",
-    "shortEffect": "Uses Cold Bomb."
+    "shortEffect": "When activated, equips Jolthog Cryst to the player to be thrown at an enemy, causing an Ice explosion upon impact."
   },
   {
     "slug": "jormuntide",
@@ -1335,7 +1335,7 @@
       "Water"
     ],
     "partnerSkill": "Stormbringer Sea Dragon",
-    "shortEffect": "Uses Stormbringer Sea Dragon."
+    "shortEffect": "Can be ridden to travel on water. While in party, increases player's and Pals' damage to enemies afflicted with Soak by (50~65)%. (Does not stack)"
   },
   {
     "slug": "jormuntide-ignis",
@@ -1346,7 +1346,7 @@
       "Fire"
     ],
     "partnerSkill": "Stormbringer Lava Dragon",
-    "shortEffect": "Uses Stormbringer Lava Dragon."
+    "shortEffect": "Can be ridden. While in party, nullifies lava damage and increases player's and Pals' damage to enemies afflicted with Burn by (50~65)%. (Does not stack)"
   },
   {
     "slug": "katress",
@@ -1356,7 +1356,7 @@
       "Dark"
     ],
     "partnerSkill": "Mystical Black Magic",
-    "shortEffect": "Uses Mystical Black Magic."
+    "shortEffect": "While in party, Neutral Pals drop (40~80)% more items when defeated. Also has a (10~50)% chance to prevent Pal Sphere consumption when thrown. (Does not stack)"
   },
   {
     "slug": "katress-ignis",
@@ -1367,7 +1367,7 @@
       "Fire"
     ],
     "partnerSkill": "Blazing Black Magic",
-    "shortEffect": "Uses Blazing Black Magic."
+    "shortEffect": "While at a base, increases the Kindling Work Suitability Level for all other Base Pals by +1. (Does not stack)"
   },
   {
     "slug": "kelpsea",
@@ -1377,7 +1377,7 @@
       "Water"
     ],
     "partnerSkill": "Aqua Spout",
-    "shortEffect": "Uses Aqua Spout."
+    "shortEffect": "While in party, increases Attack of Water Pals by (15~30)%. (Does not stack) Sometimes drops Aquatic Pal Fluids when assigned to Ranch."
   },
   {
     "slug": "kelpsea-ignis",
@@ -1387,7 +1387,7 @@
       "Fire"
     ],
     "partnerSkill": "Lava Spout",
-    "shortEffect": "Uses Lava Spout."
+    "shortEffect": "While in party, increases Attack of Fire Pals by (15~30)%. (Does not stack) Sometimes drops Flame Organ when assigned to Ranch."
   },
   {
     "slug": "kikit",
@@ -1397,7 +1397,7 @@
       "Ground"
     ],
     "partnerSkill": "Sandball Soccer",
-    "shortEffect": "Uses Sandball Soccer."
+    "shortEffect": "While in party, increases Defense of Ground Pals by (15~30)%. (Does not stack)"
   },
   {
     "slug": "killamari",
@@ -1408,7 +1408,7 @@
       "Water"
     ],
     "partnerSkill": "Fried Squid",
-    "shortEffect": "Uses Fried Squid."
+    "shortEffect": "While in party, modifies the performance of the equipped glider. Enables gentle floating while gliding for an extended time."
   },
   {
     "slug": "killamari-primo",
@@ -1419,7 +1419,7 @@
       "Water"
     ],
     "partnerSkill": "Fried Killamari",
-    "shortEffect": "Uses Fried Killamari."
+    "shortEffect": "While in party, modifies the performance of the equipped glider. Enables gentle floating while gliding for an extended time."
   },
   {
     "slug": "kingpaca",
@@ -1429,7 +1429,7 @@
       "Neutral"
     ],
     "partnerSkill": "King of Muscles",
-    "shortEffect": "Uses King of Muscles."
+    "shortEffect": "Can be ridden. This Pal's Defense and Movement Speed increase by (5~14)% for each Melpaca in party."
   },
   {
     "slug": "kingpaca-cryst",
@@ -1439,7 +1439,7 @@
       "Ice"
     ],
     "partnerSkill": "Coldhearted King",
-    "shortEffect": "Uses Coldhearted King."
+    "shortEffect": "Can be ridden. This Pal's Defense and Movement Speed increase by (5~14)% for each Melpaca in party."
   },
   {
     "slug": "kitsun",
@@ -1449,7 +1449,7 @@
       "Fire"
     ],
     "partnerSkill": "Wolf of the Sun",
-    "shortEffect": "Uses Wolf of the Sun."
+    "shortEffect": "Can be ridden. While in party, player and party Pals take (15~30)% less Ice damage and are immune to Freeze. (Does not stack)"
   },
   {
     "slug": "kitsun-noct",
@@ -1459,7 +1459,7 @@
       "Dark"
     ],
     "partnerSkill": "Gloomhowl",
-    "shortEffect": "Uses Gloomhowl."
+    "shortEffect": "Can be ridden. While in party, player and party Pals take (15~30)% less Dark damage and are immune to Blind. (Does not stack)"
   },
   {
     "slug": "knocklem",
@@ -1469,7 +1469,7 @@
       "Ground"
     ],
     "partnerSkill": "Steel Guardian Mode",
-    "shortEffect": "Uses Steel Guardian Mode."
+    "shortEffect": "When activated, a steel resolve increases Knocklem's Attack by (50~200)% and Defense by (50~200)% for a limited time."
   },
   {
     "slug": "knocklem-ignis",
@@ -1479,7 +1479,7 @@
       "Fire"
     ],
     "partnerSkill": "Iron Guardian Mode",
-    "shortEffect": "Uses Iron Guardian Mode."
+    "shortEffect": "When activated, a steel resolve increases Knocklem Ignis's Attack by (60~210)% and Defense by (60~210)% for a limited time."
   },
   {
     "slug": "lamball",
@@ -1489,7 +1489,7 @@
       "Neutral"
     ],
     "partnerSkill": "Fluffy Shield",
-    "shortEffect": "Uses Fluffy Shield."
+    "shortEffect": "When activated, equips to the player and becomes a shield. Sometimes drops Wool when assigned to Ranch."
   },
   {
     "slug": "lapiron",
@@ -1499,7 +1499,7 @@
       "Ground"
     ],
     "partnerSkill": "Friend of Earth",
-    "shortEffect": "Uses Friend of Earth."
+    "shortEffect": "While in party, increases the player's Defense by (50~65)% while sprinting. (Does not stack)"
   },
   {
     "slug": "lapure",
@@ -1509,7 +1509,7 @@
       "Neutral"
     ],
     "partnerSkill": "Long-Sleeved Hurray",
-    "shortEffect": "Uses Long-Sleeved Hurray."
+    "shortEffect": "While in party, reduces the Partner Skill cooldowns for other party Pals by (10~50)%. (Does not stack)"
   },
   {
     "slug": "leafan",
@@ -1519,7 +1519,7 @@
       "Grass"
     ],
     "partnerSkill": "Selfless Discipline",
-    "shortEffect": "Uses Selfless Discipline."
+    "shortEffect": "This Pal's Attack and Defense increase by (2~6)% for each other Grass Pal in your party."
   },
   {
     "slug": "leezpunk",
@@ -1529,7 +1529,7 @@
       "Dark"
     ],
     "partnerSkill": "Too Cool to be Seen",
-    "shortEffect": "Uses Too Cool to be Seen."
+    "shortEffect": "When activated, Leezpunk and the player become invisible, making them undetectable to enemies for (10~20) seconds."
   },
   {
     "slug": "leezpunk-ignis",
@@ -1539,7 +1539,7 @@
       "Fire"
     ],
     "partnerSkill": "Too Cool to be Seen",
-    "shortEffect": "Uses Too Cool to be Seen."
+    "shortEffect": "When activated, Leezpunk Ignis and the player become invisible, making them undetectable to enemies for (10~20) seconds."
   },
   {
     "slug": "lifmunk",
@@ -1549,7 +1549,7 @@
       "Grass"
     ],
     "partnerSkill": "Lifmunk Recoil",
-    "shortEffect": "Uses Lifmunk Recoil."
+    "shortEffect": "When activated, leaps onto the player's head and uses a submachine gun to follows up player attacks."
   },
   {
     "slug": "loomen",
@@ -1560,7 +1560,7 @@
       "Fire"
     ],
     "partnerSkill": "Lantern Enchantment",
-    "shortEffect": "Uses Lantern Enchantment."
+    "shortEffect": "While in party, the player's arrows explode on contact, dealing additional damage equal to (15~30)% of the player's attack damage. (Does not stack)"
   },
   {
     "slug": "loupmoon",
@@ -1570,7 +1570,7 @@
       "Dark"
     ],
     "partnerSkill": "Dark Gleam Strike",
-    "shortEffect": "Uses Dark Gleam Strike."
+    "shortEffect": "When activated, attacks targeted enemy with Jumping Claw. When this Pal uses Jumping Claw, it has a x(1.1~2.5) damage multiplier. While in party, increases the player's melee weapon attack speed by (15~30)%. (Does not stack)"
   },
   {
     "slug": "loupmoon-cryst",
@@ -1580,7 +1580,7 @@
       "Ice"
     ],
     "partnerSkill": "Frozen Gleam Strike",
-    "shortEffect": "Uses Frozen Gleam Strike."
+    "shortEffect": "When activated, attacks targeted enemy with Snow Claw. When this Pal uses Snow Claw, it has a x(1.1~2.5) damage multiplier. While in party, increases the player's melee weapon attack speed by (15~30)%. (Does not stack)"
   },
   {
     "slug": "lovander",
@@ -1590,7 +1590,7 @@
       "Dark"
     ],
     "partnerSkill": "Heart Drain",
-    "shortEffect": "Uses Heart Drain."
+    "shortEffect": "While fighting together, grants the player and Lovander a life steal effect that restores (5~9)% of damage dealt as Health."
   },
   {
     "slug": "lullu",
@@ -1600,7 +1600,7 @@
       "Grass"
     ],
     "partnerSkill": "Floral Boost",
-    "shortEffect": "Uses Floral Boost."
+    "shortEffect": "While at a base, Lullu fills farms with good spirits, increasing the growth rate of the crops by (50~70)%."
   },
   {
     "slug": "lunaris",
@@ -1610,7 +1610,7 @@
       "Neutral"
     ],
     "partnerSkill": "Antigravity",
-    "shortEffect": "Uses Antigravity."
+    "shortEffect": "While in party, spheres home in on Pals, and carrying capacity increases by (300~600). (Does not stack)"
   },
   {
     "slug": "lyleen",
@@ -1620,7 +1620,7 @@
       "Grass"
     ],
     "partnerSkill": "Harvest Goddess",
-    "shortEffect": "Uses Harvest Goddess."
+    "shortEffect": "When activated, the queen's soothing graces restore the Health of the player and Party Pals by (80~90)%."
   },
   {
     "slug": "lyleen-noct",
@@ -1630,7 +1630,7 @@
       "Dark"
     ],
     "partnerSkill": "Goddess of the Tranquil Light",
-    "shortEffect": "Uses Goddess of the Tranquil Light."
+    "shortEffect": "When activated, the queen's soothing graces restore the Health of the player and Party Pals by (85~95)%."
   },
   {
     "slug": "majex",
@@ -1641,7 +1641,7 @@
       "Fire"
     ],
     "partnerSkill": "Phantasmal Arcana",
-    "shortEffect": "Uses Phantasmal Arcana."
+    "shortEffect": "While in party, when the player attacks an enemy afflicted with Burn, the enemy creates flames around itself, dealing continuous damage equal to (15~30)% of the player's attack damage to enemies that come into contact with them. (Does not stack.)"
   },
   {
     "slug": "mammorest",
@@ -1652,7 +1652,7 @@
       "Ground"
     ],
     "partnerSkill": "Gaia Crusher",
-    "shortEffect": "Uses Gaia Crusher."
+    "shortEffect": "Can be ridden. While mounted, increases logging efficiency by (220~500)% and mining efficiency by (500~2000)%."
   },
   {
     "slug": "mammorest-cryst",
@@ -1663,7 +1663,7 @@
       "Ground"
     ],
     "partnerSkill": "Ice Crusher",
-    "shortEffect": "Uses Ice Crusher."
+    "shortEffect": "Can be ridden. While mounted, increases logging efficiency by (220~500)% and mining efficiency by (500~2000)%."
   },
   {
     "slug": "maraith",
@@ -1673,7 +1673,7 @@
       "Dark"
     ],
     "partnerSkill": "Messenger of Death",
-    "shortEffect": "Uses Messenger of Death."
+    "shortEffect": "Can be ridden. While in party, all Party Pals' Active Skill cooldowns are reduced by (30~60)% whenever you defeat an enemy. (Does not stack)"
   },
   {
     "slug": "mau",
@@ -1683,7 +1683,7 @@
       "Dark"
     ],
     "partnerSkill": "Gold Digger",
-    "shortEffect": "Uses Gold Digger."
+    "shortEffect": "Sometimes digs up Gold Coin when assigned to Ranch."
   },
   {
     "slug": "mau-cryst",
@@ -1693,7 +1693,7 @@
       "Ice"
     ],
     "partnerSkill": "Icy Whispers",
-    "shortEffect": "Uses Icy Whispers."
+    "shortEffect": "Sometimes drops Ice Organ when assigned to Ranch."
   },
   {
     "slug": "melpaca",
@@ -1703,7 +1703,7 @@
       "Neutral"
     ],
     "partnerSkill": "Pacapaca Wool",
-    "shortEffect": "Uses Pacapaca Wool."
+    "shortEffect": "Can be ridden. While in party, increases Kingpaca's Defense and Movement Speed. Sometimes drops Wool when assigned to Ranch."
   },
   {
     "slug": "menasting",
@@ -1714,7 +1714,7 @@
       "Ground"
     ],
     "partnerSkill": "Steel Scorpion",
-    "shortEffect": "Uses Steel Scorpion."
+    "shortEffect": "While in party, player's Defense increases by (5~10)%, and Electric Pals drop (40~80)% more items when defeated. (Does not stack)"
   },
   {
     "slug": "menasting-terra",
@@ -1724,7 +1724,7 @@
       "Ground"
     ],
     "partnerSkill": "Golden Scorpion",
-    "shortEffect": "Uses Golden Scorpion."
+    "shortEffect": "While in party, player's Defense increases by (5~10)%, and Electric Pals drop (40~80)% more items when defeated. (Does not stack)"
   },
   {
     "slug": "mimog",
@@ -1734,7 +1734,7 @@
       "Neutral"
     ],
     "partnerSkill": "Master of Unlocking",
-    "shortEffect": "Uses Master of Unlocking."
+    "shortEffect": "While fighting together, Mimog can open treasure chests without using a key."
   },
   {
     "slug": "moldron",
@@ -1745,7 +1745,7 @@
       "Ground"
     ],
     "partnerSkill": "Magma Overload",
-    "shortEffect": "Uses Magma Overload."
+    "shortEffect": "Can be ridden as a mount. This Pal's Attack increases by (4~8)% for each other Fire or Ground Pal in your party."
   },
   {
     "slug": "moldron-cryst",
@@ -1756,7 +1756,7 @@
       "Ground"
     ],
     "partnerSkill": "Ice Overload",
-    "shortEffect": "Uses Ice Overload."
+    "shortEffect": "Can be ridden. While in party, improves player's and Pals' Ice damage to enemy weak points by (25~40)%. (Does not stack)"
   },
   {
     "slug": "mossanda",
@@ -1766,7 +1766,7 @@
       "Grass"
     ],
     "partnerSkill": "Grenadier Panda",
-    "shortEffect": "Uses Grenadier Panda."
+    "shortEffect": "Can be ridden. Can rapidly fire a grenade launcher while mounted."
   },
   {
     "slug": "mossanda-lux",
@@ -1776,7 +1776,7 @@
       "Electric"
     ],
     "partnerSkill": "Grenadier Panda",
-    "shortEffect": "Uses Grenadier Panda."
+    "shortEffect": "Can be ridden. Can rapidly fire a grenade launcher while mounted."
   },
   {
     "slug": "mozzarina",
@@ -1786,7 +1786,7 @@
       "Neutral"
     ],
     "partnerSkill": "Milk Maker",
-    "shortEffect": "Uses Milk Maker."
+    "shortEffect": "Sometimes drops Milk when assigned to Ranch."
   },
   {
     "slug": "muffly",
@@ -1796,7 +1796,7 @@
       "Ice"
     ],
     "partnerSkill": "Fluffy Flutterer",
-    "shortEffect": "Uses Fluffy Flutterer."
+    "shortEffect": "While in party, increases the capture rate of Pals afflicted with Freeze. (Does not stack)"
   },
   {
     "slug": "munchill",
@@ -1807,7 +1807,7 @@
       "Water"
     ],
     "partnerSkill": "Icy Maw",
-    "shortEffect": "Uses Icy Maw."
+    "shortEffect": "While in party, reduces the weight of ingredient and food by (30~60)%. When paired with another Ice Pal, their Rot Speed also reduces by (-30~-80)%. (Does not stack)"
   },
   {
     "slug": "mycora",
@@ -1817,7 +1817,7 @@
       "Grass"
     ],
     "partnerSkill": "Charming Spore",
-    "shortEffect": "Uses Charming Spore."
+    "shortEffect": "While at a base, increases the Medicine Production Work Suitability Level for all other Base Pals by +1. (Does not stack)"
   },
   {
     "slug": "necromus",
@@ -1827,7 +1827,7 @@
       "Dark"
     ],
     "partnerSkill": "Dark Knight of the Abyss",
-    "shortEffect": "Uses Dark Knight of the Abyss."
+    "shortEffect": "Can be ridden. Can double jump while mounted. When Twin Spears skill is activated, a Paladius in your party will appear and attack alongside you."
   },
   {
     "slug": "needoll",
@@ -1837,7 +1837,7 @@
       "Grass"
     ],
     "partnerSkill": "Hug Me Please",
-    "shortEffect": "Uses Hug Me Please."
+    "shortEffect": "While in party, increases player's and Pals' damage to enemies afflicted with Ivy-Covered by (50~65)%. (Does not stack)"
   },
   {
     "slug": "needoll-noct",
@@ -1848,7 +1848,7 @@
       "Grass"
     ],
     "partnerSkill": "Hug You So Much",
-    "shortEffect": "Uses Hug You So Much."
+    "shortEffect": "While in party, the player's attacks inflict Ivy-Covered (2~6). (Does not stack)"
   },
   {
     "slug": "neptilius",
@@ -1858,7 +1858,7 @@
       "Water"
     ],
     "partnerSkill": "Sentinel of the Great Sea",
-    "shortEffect": "Uses Sentinel of the Great Sea."
+    "shortEffect": "While in party, it follows up the player's attacks with Water spear strikes. Can be ridden to travel on water. While mounted, it can leap high into the air over water."
   },
   {
     "slug": "nitemary",
@@ -1868,7 +1868,7 @@
       "Dark"
     ],
     "partnerSkill": "Soul Collector",
-    "shortEffect": "Uses Soul Collector."
+    "shortEffect": "While fighting together, Pals drop +(100~200)% more Pal Souls when defeated. (Does not stack)"
   },
   {
     "slug": "nitemary-botan",
@@ -1878,7 +1878,7 @@
       "Grass"
     ],
     "partnerSkill": "Soul Binder",
-    "shortEffect": "Uses Soul Binder."
+    "shortEffect": "While in party, increases Defense of Grass Pals by (15~30)%. (Does not stack)"
   },
   {
     "slug": "nitewing",
@@ -1888,7 +1888,7 @@
       "Neutral"
     ],
     "partnerSkill": "Travel Companion",
-    "shortEffect": "Uses Travel Companion."
+    "shortEffect": "Can be ridden as a flying mount."
   },
   {
     "slug": "nox",
@@ -1898,7 +1898,7 @@
       "Dark"
     ],
     "partnerSkill": "Kuudere",
-    "shortEffect": "Uses Kuudere."
+    "shortEffect": "When activated, detects the location of nearby Pal Effigies."
   },
   {
     "slug": "nyafia",
@@ -1908,7 +1908,7 @@
       "Dark"
     ],
     "partnerSkill": "Shot-Nyan Mode",
-    "shortEffect": "Uses Shot-Nyan Mode."
+    "shortEffect": "When activated, Nyafia will fire a shotgun at nearby enemies for a limited time. While in party, increases the player's shotgun damage by (10~35)%. (Does not stack)"
   },
   {
     "slug": "omascul",
@@ -1918,7 +1918,7 @@
       "Dark"
     ],
     "partnerSkill": "Masquerade Dance",
-    "shortEffect": "Uses Masquerade Dance."
+    "shortEffect": "While in party, increases Party Pals' EXP gained by (40~80)%. (Does not stack)"
   },
   {
     "slug": "ophydia",
@@ -1929,7 +1929,7 @@
       "Water"
     ],
     "partnerSkill": "Glorious Mist",
-    "shortEffect": "Uses Glorious Mist."
+    "shortEffect": "Can be ridden. While in party, the player's attacks inflict Soak (2~6). (Does not stack)"
   },
   {
     "slug": "orserk",
@@ -1940,7 +1940,7 @@
       "Electric"
     ],
     "partnerSkill": "Ferocious Thunder Dragon",
-    "shortEffect": "Uses Ferocious Thunder Dragon."
+    "shortEffect": "While in party, hitting an enemy with a bullet increases the Attack and Defense of the Pal fighting alongside you by (1~5)% for 5 seconds. This effect stacks up to 30 times. (Does not stack.)"
   },
   {
     "slug": "paladius",
@@ -1950,7 +1950,7 @@
       "Neutral"
     ],
     "partnerSkill": "Holy Knight of the Firmament",
-    "shortEffect": "Uses Holy Knight of the Firmament."
+    "shortEffect": "Can be ridden. Can triple jump while mounted. Activate Spear Thrust to have Necromus stay by your side and attack enemies in tandem."
   },
   {
     "slug": "palumba",
@@ -1960,7 +1960,7 @@
       "Grass"
     ],
     "partnerSkill": "Samba Step",
-    "shortEffect": "Uses Samba Step."
+    "shortEffect": "Can be ridden. Movement Speed is increased by (155~240)% while mounted on grass."
   },
   {
     "slug": "panthalus",
@@ -1970,7 +1970,7 @@
       "Water"
     ],
     "partnerSkill": "Resonant Guardian",
-    "shortEffect": "Uses Resonant Guardian."
+    "shortEffect": "Can be ridden as a flying mount. Only 1 can be summoned to a base. While at a base, it constantly patrols the skies and bombards intruders from high above."
   },
   {
     "slug": "pengullet",
@@ -1981,7 +1981,7 @@
       "Ice"
     ],
     "partnerSkill": "Pengullet Launcher",
-    "shortEffect": "Uses Pengullet Launcher."
+    "shortEffect": "When activated, the player equips a Rocket Launcher to fire Pengullet as ammunition. Pengullet explodes on impact and is incapacitated."
   },
   {
     "slug": "pengullet-lux",
@@ -1992,7 +1992,7 @@
       "Electric"
     ],
     "partnerSkill": "Pengullet Lux Launcher",
-    "shortEffect": "Uses Pengullet Lux Launcher."
+    "shortEffect": "When activated, the player equips Pengullet Lux to fire Rocket Launcher as ammunition. Pengullet Lux explodes on impact and is incapacitated."
   },
   {
     "slug": "penking",
@@ -2003,7 +2003,7 @@
       "Ice"
     ],
     "partnerSkill": "Brave Sailor",
-    "shortEffect": "Uses Brave Sailor."
+    "shortEffect": "While in party, Fire Pals drop (40~80)% more items when defeated. (Does not stack)"
   },
   {
     "slug": "penking-lux",
@@ -2014,7 +2014,7 @@
       "Electric"
     ],
     "partnerSkill": "Unyielding Storm Commander",
-    "shortEffect": "Uses Unyielding Storm Commander."
+    "shortEffect": "While in party, improves player's and Pals' Water damage to enemy weak points by (25~40)%. (Does not stack)"
   },
   {
     "slug": "petallia",
@@ -2024,7 +2024,7 @@
       "Grass"
     ],
     "partnerSkill": "Blessing of the Flower Spirit",
-    "shortEffect": "Uses Blessing of the Flower Spirit."
+    "shortEffect": "When activated, soothing blossoms restore the player's Health by (75~85)%. While at a base, increases the Planting Work Suitability Level for all other Base Pals by +1. (Does not stack)"
   },
   {
     "slug": "petallia-ignis",
@@ -2035,7 +2035,7 @@
       "Fire"
     ],
     "partnerSkill": "Passion of the Flower Spirit",
-    "shortEffect": "Uses Passion of the Flower Spirit."
+    "shortEffect": "When activated, soothing blossoms restore the player's Health by (80~90)%. While in party, player and party Pals take (15~30)% less Grass damage, and are immune to Ivy-Covered. (Does not stack)"
   },
   {
     "slug": "pierdon",
@@ -2045,7 +2045,7 @@
       "Ground"
     ],
     "partnerSkill": "Power Stone",
-    "shortEffect": "Uses Power Stone."
+    "shortEffect": "While in party, increases player's and Pals' damage to enemies afflicted with Muddy by (50~65)%. (Does not stack)"
   },
   {
     "slug": "pierdon-cryst",
@@ -2055,7 +2055,7 @@
       "Ice"
     ],
     "partnerSkill": "Power Crystal",
-    "shortEffect": "Uses Power Crystal."
+    "shortEffect": "While in party, player and party Pals take (15~30)% less Dragon damage. (Does not stack)"
   },
   {
     "slug": "polapup",
@@ -2066,7 +2066,7 @@
       "Water"
     ],
     "partnerSkill": "Rider of the Snowy Mountain",
-    "shortEffect": "Uses Rider of the Snowy Mountain."
+    "shortEffect": "Can be ridden. Movement Speed is increased by (80~160)% while mounted on snow. Can also slide quickly down slopes."
   },
   {
     "slug": "polapup-terra",
@@ -2077,7 +2077,7 @@
       "Ground"
     ],
     "partnerSkill": "Snowy Mountain Slider",
-    "shortEffect": "Uses Snowy Mountain Slider."
+    "shortEffect": "Can be ridden. Movement Speed is increased by (80~160)% while mounted on snow. Can also slide quickly down slopes. While it starts out slow, the top speed it can hit while sliding is no joke."
   },
   {
     "slug": "prixter",
@@ -2088,7 +2088,7 @@
       "Ground"
     ],
     "partnerSkill": "Phantom Venom",
-    "shortEffect": "Uses Phantom Venom."
+    "shortEffect": "While in party, increases player's and Pals' damage to enemies afflicted with Poison by (50~65)%. (Does not stack)"
   },
   {
     "slug": "prixter-lux",
@@ -2099,7 +2099,7 @@
       "Ground"
     ],
     "partnerSkill": "Scorpion Longwave",
-    "shortEffect": "Uses Scorpion Longwave."
+    "shortEffect": "When activated, Prixter Lux changes the player's attack type to Electric and increases Attack by (30~50)%."
   },
   {
     "slug": "prunelia",
@@ -2110,7 +2110,7 @@
       "Dark"
     ],
     "partnerSkill": "Prayer for Abundant Harvest",
-    "shortEffect": "Uses Prayer for Abundant Harvest."
+    "shortEffect": "While at a base, Prunelia's prayers bless the crops, increasing their harvest by (18~35)%."
   },
   {
     "slug": "puffolt",
@@ -2120,7 +2120,7 @@
       "Electric"
     ],
     "partnerSkill": "Crackle Booster",
-    "shortEffect": "Uses Crackle Booster."
+    "shortEffect": "While at a base, increases the Generating Electricity Work Suitability Level for all other Base Pals by +1. (Does not stack)"
   },
   {
     "slug": "pupperai",
@@ -2130,7 +2130,7 @@
       "Ground"
     ],
     "partnerSkill": "Best Boy",
-    "shortEffect": "Uses Best Boy."
+    "shortEffect": "While in party, increases the player's melee weapon damage by (10~35)%. (Does not stack)"
   },
   {
     "slug": "purple-slime",
@@ -2140,7 +2140,7 @@
       "Dark"
     ],
     "partnerSkill": "Slime Body",
-    "shortEffect": "Uses Slime Body."
+    "shortEffect": "Can be ridden. Can jump high into the air while mounted."
   },
   {
     "slug": "pyrin",
@@ -2150,7 +2150,7 @@
       "Fire"
     ],
     "partnerSkill": "Red Hare",
-    "shortEffect": "Uses Red Hare."
+    "shortEffect": "Can be ridden. While mounted, changes the player’s attack type to Fire and increases Attack by (5~20)%."
   },
   {
     "slug": "pyrin-noct",
@@ -2161,7 +2161,7 @@
       "Dark"
     ],
     "partnerSkill": "Black Hare",
-    "shortEffect": "Uses Black Hare."
+    "shortEffect": "Can be ridden. While mounted, changes the player’s attack type to Dark and increases Attack by (5~20)%."
   },
   {
     "slug": "quivern",
@@ -2171,7 +2171,7 @@
       "Dragon"
     ],
     "partnerSkill": "Sky Dragon Affection",
-    "shortEffect": "Uses Sky Dragon Affection."
+    "shortEffect": "Can be ridden as a flying mount. While in party, increases Attack of Dragon Pals by (15~30)%. (Does not stack)"
   },
   {
     "slug": "quivern-botan",
@@ -2182,7 +2182,7 @@
       "Grass"
     ],
     "partnerSkill": "Grass Dragon Affection",
-    "shortEffect": "Uses Grass Dragon Affection."
+    "shortEffect": "Can be ridden as a flying mount. While mounted, changes the player’s attack type to Grass and increases Attack by (5~20)%."
   },
   {
     "slug": "ragnahawk",
@@ -2192,7 +2192,7 @@
       "Fire"
     ],
     "partnerSkill": "Flame Wing",
-    "shortEffect": "Uses Flame Wing."
+    "shortEffect": "Can be ridden as a flying mount. While mounted, changes the player’s attack type to Fire and increases Attack by (5~20)%."
   },
   {
     "slug": "rainbow-slime",
@@ -2202,7 +2202,7 @@
       "Neutral"
     ],
     "partnerSkill": "Slime Body",
-    "shortEffect": "Uses Slime Body."
+    "shortEffect": "Can be ridden. Can jump high into the air while mounted."
   },
   {
     "slug": "rayhound",
@@ -2212,7 +2212,7 @@
       "Electric"
     ],
     "partnerSkill": "Lightning Shepherd",
-    "shortEffect": "Uses Lightning Shepherd."
+    "shortEffect": "Can be ridden. Can perform a double jump while mounted. This Pal’s Movement Speed increases by (5~25)% for each other Electric Pal in your party. (Excluding Rayhound )"
   },
   {
     "slug": "rayhound-cryst",
@@ -2222,7 +2222,7 @@
       "Ice"
     ],
     "partnerSkill": "Snow Shepherd",
-    "shortEffect": "Uses Snow Shepherd."
+    "shortEffect": "Can be ridden. Can perform a double jump while mounted. While in party, increases Defense of Ice Pals by (15~30)%. (Does not stack)"
   },
   {
     "slug": "red-slime",
@@ -2232,7 +2232,7 @@
       "Fire"
     ],
     "partnerSkill": "Slime Body",
-    "shortEffect": "Uses Slime Body."
+    "shortEffect": "Can be ridden. Can jump high into the air while mounted."
   },
   {
     "slug": "reindrix",
@@ -2242,7 +2242,7 @@
       "Ice"
     ],
     "partnerSkill": "Cool Body",
-    "shortEffect": "Uses Cool Body."
+    "shortEffect": "Can be ridden. While in party, the player gains Heat Resistance +2. (Does not stack)"
   },
   {
     "slug": "relaxaurus",
@@ -2253,7 +2253,7 @@
       "Water"
     ],
     "partnerSkill": "Hungry Missile",
-    "shortEffect": "Uses Hungry Missile."
+    "shortEffect": "Can be ridden. Can rapidly fire a missile launcher while mounted."
   },
   {
     "slug": "relaxaurus-lux",
@@ -2264,7 +2264,7 @@
       "Electric"
     ],
     "partnerSkill": "Missile Party",
-    "shortEffect": "Uses Missile Party."
+    "shortEffect": "Can be ridden. Can rapidly fire a missile launcher while mounted."
   },
   {
     "slug": "renjishi",
@@ -2274,7 +2274,7 @@
       "Fire"
     ],
     "partnerSkill": "Stage Combat",
-    "shortEffect": "Uses Stage Combat."
+    "shortEffect": "While in party, the player's attacks inflict Burn (2~6). (Does not stack)"
   },
   {
     "slug": "reptyro",
@@ -2285,7 +2285,7 @@
       "Ground"
     ],
     "partnerSkill": "Ore-Loving Beast",
-    "shortEffect": "Uses Ore-Loving Beast."
+    "shortEffect": "Can be ridden. While in party, reduces weight of all types of ore by (30~60)%. (Does not stack)"
   },
   {
     "slug": "reptyro-cryst",
@@ -2296,7 +2296,7 @@
       "Ground"
     ],
     "partnerSkill": "Ice-Loving Beast",
-    "shortEffect": "Uses Ice-Loving Beast."
+    "shortEffect": "Can be ridden. While in party, reduces weight of all types of ore by (35~65)%. (Does not stack)"
   },
   {
     "slug": "ribbuny",
@@ -2306,7 +2306,7 @@
       "Neutral"
     ],
     "partnerSkill": "Happy-Go-Lucky Bunny",
-    "shortEffect": "Uses Happy-Go-Lucky Bunny."
+    "shortEffect": "While in party, increases Attack of Neutral Pals by (15~30)%. (Does not stack) While at a base, increases the Handiwork Work Suitability Level for all other Base Pals by +1. (Does not stack)"
   },
   {
     "slug": "ribbuny-botan",
@@ -2316,7 +2316,7 @@
       "Grass"
     ],
     "partnerSkill": "Ground 'n' Pound",
-    "shortEffect": "Uses Ground 'n' Pound."
+    "shortEffect": "While in party, improves player's and Pals' Grass damage to enemy weak points by (25~40)%. (Does not stack) Increases efficiency by (200~400)% when working at a Weapon Workbench, Weapon Assembly Line, or other related facilities."
   },
   {
     "slug": "robinquill",
@@ -2326,7 +2326,7 @@
       "Grass"
     ],
     "partnerSkill": "Grounded Archer",
-    "shortEffect": "Uses Grounded Archer."
+    "shortEffect": "While in party, increases the player's bow damage by (10~35)%. (Does not stack)"
   },
   {
     "slug": "robinquill-terra",
@@ -2337,7 +2337,7 @@
       "Ground"
     ],
     "partnerSkill": "Master Archer",
-    "shortEffect": "Uses Master Archer."
+    "shortEffect": "While in party, increases the player's bow charge speed by (15~30)%. (Does not stack)"
   },
   {
     "slug": "rooby",
@@ -2347,7 +2347,7 @@
       "Fire"
     ],
     "partnerSkill": "Tiny Spark",
-    "shortEffect": "Uses Tiny Spark."
+    "shortEffect": "While in party, increases Defense of Fire Pals by (15~30)%. (Does not stack) Sometimes drops Flame Organ when assigned to Ranch."
   },
   {
     "slug": "roujay",
@@ -2357,7 +2357,7 @@
       "Dark"
     ],
     "partnerSkill": "Dark-Nester",
-    "shortEffect": "Uses Dark-Nester."
+    "shortEffect": "Can be ridden as a flying mount. While in party, increases player's and Pals' damage to enemies afflicted with Blind by (50~65)%. (Does not stack)"
   },
   {
     "slug": "rushoar",
@@ -2367,7 +2367,7 @@
       "Ground"
     ],
     "partnerSkill": "Hard Head",
-    "shortEffect": "Uses Hard Head."
+    "shortEffect": "Can be ridden. While mounted, increases efficiency of destroying Stone by (500~2000)%."
   },
   {
     "slug": "sekhmet",
@@ -2377,7 +2377,7 @@
       "Ground"
     ],
     "partnerSkill": "Desert Empress",
-    "shortEffect": "Uses Desert Empress."
+    "shortEffect": "While at base, boosts Anubis's work speed by (20~40)%. Increases efficiency by (30~60)% if Sekhmet is also working at a Workbench, Workshop, or other related facilities. (Does not stack)"
   },
   {
     "slug": "selyne",
@@ -2388,7 +2388,7 @@
       "Neutral"
     ],
     "partnerSkill": "Celestial Darkness",
-    "shortEffect": "Uses Celestial Darkness."
+    "shortEffect": "Can be ridden as a flying mount. While mounted, enhances Neutral and Dark attacks by (15~30)%."
   },
   {
     "slug": "shadowbeak",
@@ -2398,7 +2398,7 @@
       "Dark"
     ],
     "partnerSkill": "Modified DNA",
-    "shortEffect": "Uses Modified DNA."
+    "shortEffect": "Can be ridden as a flying mount. While flying, Movement Speed is increased. Enhances Dark attacks by (15~30)% while mounted."
   },
   {
     "slug": "shaolong",
@@ -2409,7 +2409,7 @@
       "Water"
     ],
     "partnerSkill": "Azure Sovereign",
-    "shortEffect": "Uses Azure Sovereign."
+    "shortEffect": "Can be ridden as a flying mount. This Pal's Attack increases by (4~8)% for each other Dragon Pal in your party."
   },
   {
     "slug": "shroomer",
@@ -2419,7 +2419,7 @@
       "Grass"
     ],
     "partnerSkill": "Rampant Spores",
-    "shortEffect": "Uses Rampant Spores."
+    "shortEffect": "Can be ridden. Sometimes drops Mushroom or Cavern Mushroom when assigned to Ranch."
   },
   {
     "slug": "shroomer-noct",
@@ -2430,7 +2430,7 @@
       "Dark"
     ],
     "partnerSkill": "Roiling Spores",
-    "shortEffect": "Uses Roiling Spores."
+    "shortEffect": "Can be ridden. While at a base, its mysterious spores slow the rate at which the SAN value of allies at the base decreases by (10~15)%."
   },
   {
     "slug": "sibelyx",
@@ -2440,7 +2440,7 @@
       "Ice"
     ],
     "partnerSkill": "Silk Shroud",
-    "shortEffect": "Uses Silk Shroud."
+    "shortEffect": "When activated, attacks targeted enemy with Blizzard Spike. When this Pal uses Blizzard Spike, it has a x(1.1~2.5) damage multiplier. Sometimes makes High Quality Cloth when assigned to Ranch."
   },
   {
     "slug": "sibelyx-primo",
@@ -2450,7 +2450,7 @@
       "Neutral"
     ],
     "partnerSkill": "Gilded Shroud",
-    "shortEffect": "Uses Gilded Shroud."
+    "shortEffect": "While in party, increases Defense of Neutral Pals by (15~30)%. (Does not stack) Sometimes makes High Quality Cloth when assigned to Ranch."
   },
   {
     "slug": "silvance",
@@ -2460,7 +2460,7 @@
       "Grass"
     ],
     "partnerSkill": "Spore Stalwart",
-    "shortEffect": "Uses Spore Stalwart."
+    "shortEffect": "While in party, when the player attacks an enemy afflicted with Ivy-Covered, the enemy explodes, dealing additional damage equal to (40~60)% of the player's attack damage. (Does not stack) Also grants immunity to the World Tree's Explosive Spores to both the player and their Pals."
   },
   {
     "slug": "silvegis",
@@ -2470,7 +2470,7 @@
       "Dragon"
     ],
     "partnerSkill": "Aegis Shield",
-    "shortEffect": "Uses Aegis Shield."
+    "shortEffect": "Can be ridden. While in party, reduces shield regeneration delay by (30~60)% and reduces damage taken by your shield by (65~80)%. (Does not stack)"
   },
   {
     "slug": "skutlass",
@@ -2480,7 +2480,7 @@
       "Water"
     ],
     "partnerSkill": "Fish Fillet",
-    "shortEffect": "Uses Fish Fillet."
+    "shortEffect": "When activated, Skutlass becomes the player's katana (Attack: (2600~3900) ). If it does not revert to its normal form quickly, Skutlass will become incapacitated. It will also become incapacitated if Iaigiri is used."
   },
   {
     "slug": "skutlass-ignis",
@@ -2491,7 +2491,7 @@
       "Fire"
     ],
     "partnerSkill": "Seared Fish Fillet",
-    "shortEffect": "Uses Seared Fish Fillet."
+    "shortEffect": "When activated, Skutlass Ignis becomes the player's katana (Attack: (2900~4200) ). If it does not revert to its normal form quickly, Skutlass Ignis will become incapacitated. It will also become incapacitated if Iaigiri is used."
   },
   {
     "slug": "slowatt",
@@ -2501,7 +2501,7 @@
       "Electric"
     ],
     "partnerSkill": "Chillswitch",
-    "shortEffect": "Uses Chillswitch."
+    "shortEffect": "While in party, when the player attacks an enemy afflicted with Electrify, the enemy discharges electricity, dealing damage equal to (40~60)% of the player's attack damage to nearby enemies. (Does not stack.)"
   },
   {
     "slug": "smokie",
@@ -2511,7 +2511,7 @@
       "Dark"
     ],
     "partnerSkill": "Dig, Smokie! Dig!",
-    "shortEffect": "Uses Dig, Smokie! Dig!."
+    "shortEffect": "When activated, uses its sharp sense of smell to detect nearby Chromite. While fighting together, Chromite acquisition increases by +(100~200)%."
   },
   {
     "slug": "smokie-cryst",
@@ -2522,7 +2522,7 @@
       "Ice"
     ],
     "partnerSkill": "Cryo Instincts",
-    "shortEffect": "Uses Cryo Instincts."
+    "shortEffect": "While at a base, increases the Cooling Work Suitability Level for all other Base Pals by +1. (Does not stack)"
   },
   {
     "slug": "snock",
@@ -2532,7 +2532,7 @@
       "Electric"
     ],
     "partnerSkill": "Charging Shell",
-    "shortEffect": "Uses Charging Shell."
+    "shortEffect": "While in party, the player's attacks inflict Electrify (2~6). (Does not stack)"
   },
   {
     "slug": "snock-lux",
@@ -2543,7 +2543,7 @@
       "Ground"
     ],
     "partnerSkill": "Grounding Shell",
-    "shortEffect": "Uses Grounding Shell."
+    "shortEffect": "While in party, player and party Pals take (15~30)% less Water damage, and are immune to Soak. (Does not stack)"
   },
   {
     "slug": "snugloo",
@@ -2553,7 +2553,7 @@
       "Ice"
     ],
     "partnerSkill": "Invisible Eye",
-    "shortEffect": "Uses Invisible Eye."
+    "shortEffect": "While in party, reduces the chance of being detected by enemies. (Does not stack)"
   },
   {
     "slug": "solenne",
@@ -2564,7 +2564,7 @@
       "Neutral"
     ],
     "partnerSkill": "Untainted Maiden",
-    "shortEffect": "Uses Untainted Maiden."
+    "shortEffect": "While in party, increases the player's Attack by (30~80)% if all Pals in party are different species. (Does not stack)"
   },
   {
     "slug": "solmora",
@@ -2574,7 +2574,7 @@
       "Water"
     ],
     "partnerSkill": "Charming Fish",
-    "shortEffect": "Uses Charming Fish."
+    "shortEffect": "Can be ridden to travel on water. While in party, makes it easier to fish up talented Pals. (Does not stack)"
   },
   {
     "slug": "solmora-lux",
@@ -2585,7 +2585,7 @@
       "Electric"
     ],
     "partnerSkill": "Shocking Fish",
-    "shortEffect": "Uses Shocking Fish."
+    "shortEffect": "Can be ridden to travel on water. While mounted, changes the player's attack type to Electric and increases Attack by (5~20)%. While in party, makes it easier to fish up talented Pals. (Does not stack)"
   },
   {
     "slug": "sootseer",
@@ -2596,7 +2596,7 @@
       "Fire"
     ],
     "partnerSkill": "Grave Robber",
-    "shortEffect": "Uses Grave Robber."
+    "shortEffect": "While in party, player and party Pals take (15~30)% less Neutral damage. (Does not stack) Sometimes digs up Bone when assigned to Ranch."
   },
   {
     "slug": "souffline",
@@ -2606,7 +2606,7 @@
       "Grass"
     ],
     "partnerSkill": "Fuzzy Fairy",
-    "shortEffect": "Uses Fuzzy Fairy."
+    "shortEffect": "While in party, increases the capture rate of Pals afflicted with Ivy-Covered. (Does not stack)"
   },
   {
     "slug": "sparkit",
@@ -2616,7 +2616,7 @@
       "Electric"
     ],
     "partnerSkill": "Static Electricity",
-    "shortEffect": "Uses Static Electricity."
+    "shortEffect": "While in party, increases Attack of Electric Pals by (15~30)%. (Does not stack) Sometimes drops Electric Organ when assigned to Ranch."
   },
   {
     "slug": "splatterina",
@@ -2626,7 +2626,7 @@
       "Dark"
     ],
     "partnerSkill": "Blade of Uncontrolled Passion",
-    "shortEffect": "Uses Blade of Uncontrolled Passion."
+    "shortEffect": "While in party, the amount of items obtained from using the Meat Cleaver increases by (100~200)%. (Does not stack)"
   },
   {
     "slug": "starryon",
@@ -2636,7 +2636,7 @@
       "Dark"
     ],
     "partnerSkill": "Night Dancer",
-    "shortEffect": "Uses Night Dancer."
+    "shortEffect": "Can be ridden. Boosts jumping ability while mounted. This Pal's movement speed increases by +(50~100)% at night."
   },
   {
     "slug": "starryon-primo",
@@ -2646,7 +2646,7 @@
       "Neutral"
     ],
     "partnerSkill": "Light Dancer",
-    "shortEffect": "Uses Light Dancer."
+    "shortEffect": "Can be ridden. Boosts Jump Power while mounted. This Pal’s Movement Speed increases by (5~25)% for each other Neutral Pal in your party. (Excluding Starryon Primo )"
   },
   {
     "slug": "surfent",
@@ -2656,7 +2656,7 @@
       "Water"
     ],
     "partnerSkill": "Swift Swimmer",
-    "shortEffect": "Uses Swift Swimmer."
+    "shortEffect": "Can be ridden to travel on water. Sometimes drops Leather when assigned to Ranch."
   },
   {
     "slug": "surfent-terra",
@@ -2666,7 +2666,7 @@
       "Ground"
     ],
     "partnerSkill": "Sand Swimmer",
-    "shortEffect": "Uses Sand Swimmer."
+    "shortEffect": "Can be ridden. While in party, the player's attacks inflict Muddy (2~6). (Does not stack)"
   },
   {
     "slug": "suzaku",
@@ -2676,7 +2676,7 @@
       "Fire"
     ],
     "partnerSkill": "Wings of Flame",
-    "shortEffect": "Uses Wings of Flame."
+    "shortEffect": "Can be ridden as a flying mount. This Pal’s Movement Speed increases by (5~25)% for each other Fire Pal in your party. (Excluding Suzaku )"
   },
   {
     "slug": "suzaku-aqua",
@@ -2686,7 +2686,7 @@
       "Water"
     ],
     "partnerSkill": "Wings of Water",
-    "shortEffect": "Uses Wings of Water."
+    "shortEffect": "Can be ridden as a flying mount. This Pal’s Movement Speed increases by (5~25)% for each other Water Pal in your party. (Excluding Suzaku Aqua )"
   },
   {
     "slug": "swee",
@@ -2696,7 +2696,7 @@
       "Ice"
     ],
     "partnerSkill": "Fluffy",
-    "shortEffect": "Uses Fluffy."
+    "shortEffect": "While in party, increases Attack and Defense of Sweepa."
   },
   {
     "slug": "sweepa",
@@ -2706,7 +2706,7 @@
       "Ice"
     ],
     "partnerSkill": "King of Fluff",
-    "shortEffect": "Uses King of Fluff."
+    "shortEffect": "Can be ridden. This Pal's Attack and Defense increase by (12~24)% for each Swee in party."
   },
   {
     "slug": "tanzee",
@@ -2716,7 +2716,7 @@
       "Grass"
     ],
     "partnerSkill": "Cheery Rifle",
-    "shortEffect": "Uses Cheery Rifle."
+    "shortEffect": "When activated, Tanzee will mercilessly fire an assault rifle at nearby enemies for a limited time."
   },
   {
     "slug": "tanzee-ignis",
@@ -2726,7 +2726,7 @@
       "Fire"
     ],
     "partnerSkill": "Chipper Chimp Gunfire",
-    "shortEffect": "Uses Chipper Chimp Gunfire."
+    "shortEffect": "When activated, Tanzee Ignis will mercilessly fire a Fire assault rifle at nearby enemies for a limited time."
   },
   {
     "slug": "tarantriss",
@@ -2736,7 +2736,7 @@
       "Dark"
     ],
     "partnerSkill": "Tarantriss’ Web",
-    "shortEffect": "Uses Tarantriss’ Web."
+    "shortEffect": "Can be ridden. Can double jump while mounted. Additionally, can shoot spider web to grapple and move at high speed."
   },
   {
     "slug": "teafant",
@@ -2746,7 +2746,7 @@
       "Water"
     ],
     "partnerSkill": "Soothing Shower",
-    "shortEffect": "Uses Soothing Shower."
+    "shortEffect": "While in party, restores (20~40)% of the player's Health when Health falls below 30%. (Does not stack) (120-second cooldown after activation)"
   },
   {
     "slug": "tetroise",
@@ -2756,7 +2756,7 @@
       "Ground"
     ],
     "partnerSkill": "Masonry Archelon",
-    "shortEffect": "Uses Masonry Archelon."
+    "shortEffect": "Can be ridden While at a base, increases the Mining Work Suitability Level for all other Base Pals by +1. (Does not stack)"
   },
   {
     "slug": "tetroise-primo",
@@ -2766,7 +2766,7 @@
       "Neutral"
     ],
     "partnerSkill": "Stone-Chaser Archelon",
-    "shortEffect": "Uses Stone-Chaser Archelon."
+    "shortEffect": "Can be ridden. While in party, increases the durability of all weapons and armor by (80~100)%. (Does not stack)"
   },
   {
     "slug": "tocotoco",
@@ -2776,7 +2776,7 @@
       "Neutral"
     ],
     "partnerSkill": "Eggbomb Launcher",
-    "shortEffect": "Uses Eggbomb Launcher."
+    "shortEffect": "When activated, equips to the player and transforms into an egg launcher."
   },
   {
     "slug": "tombat",
@@ -2786,7 +2786,7 @@
       "Dark"
     ],
     "partnerSkill": "Ultrasonic Sensor",
-    "shortEffect": "Uses Ultrasonic Sensor."
+    "shortEffect": "When activated, uses ultrasonic waves to detect nearby dungeons, treasure chests, and scrap."
   },
   {
     "slug": "tropicaw",
@@ -2796,7 +2796,7 @@
       "Grass"
     ],
     "partnerSkill": "Flower Dance",
-    "shortEffect": "Uses Flower Dance."
+    "shortEffect": "While in party, extends the invincibility period during dodge rolls and dodge steps by (15~30)%. (Does not stack)"
   },
   {
     "slug": "turtacle",
@@ -2806,7 +2806,7 @@
       "Water"
     ],
     "partnerSkill": "Spikey Carrier",
-    "shortEffect": "Uses Spikey Carrier."
+    "shortEffect": "While in party, reduces Ore weight by (80~100)%. (Does not stack)"
   },
   {
     "slug": "turtacle-terra",
@@ -2817,7 +2817,7 @@
       "Ground"
     ],
     "partnerSkill": "Shiny Hauler",
-    "shortEffect": "Uses Shiny Hauler."
+    "shortEffect": "While in party, reduces weight of Sulfur and Coal by (80~100)%. Also improves player's and Pals' Ground damage to enemy weak points by (80~100)%. (Does not stack)"
   },
   {
     "slug": "univolt",
@@ -2827,7 +2827,7 @@
       "Electric"
     ],
     "partnerSkill": "Swift Deity",
-    "shortEffect": "Uses Swift Deity."
+    "shortEffect": "Can be ridden. While in party, improves player's and Pals' Electric damage to weak points by (25~40)%. (Does not stack)"
   },
   {
     "slug": "univolt-cryst",
@@ -2837,7 +2837,7 @@
       "Ice"
     ],
     "partnerSkill": "Frigid Deity",
-    "shortEffect": "Uses Frigid Deity."
+    "shortEffect": "Can be ridden. While mounted, changes the player’s attack type to Ice and increases Attack by (5~20)%."
   },
   {
     "slug": "vaelet",
@@ -2847,7 +2847,7 @@
       "Grass"
     ],
     "partnerSkill": "Purification of Gaia",
-    "shortEffect": "Uses Purification of Gaia."
+    "shortEffect": "While in party, Ground Pals drop (40~80)% more items when defeated. (Does not stack) Sometimes drops various seeds when assigned to Ranch."
   },
   {
     "slug": "valentail",
@@ -2857,7 +2857,7 @@
       "Neutral"
     ],
     "partnerSkill": "Big Stretch",
-    "shortEffect": "Uses Big Stretch."
+    "shortEffect": "While in party, reduces the effects of gravity on the player, making them more floaty while jumping and falling. (Does not stack)"
   },
   {
     "slug": "vanwyrm",
@@ -2868,7 +2868,7 @@
       "Dark"
     ],
     "partnerSkill": "Aerial Marauder",
-    "shortEffect": "Uses Aerial Marauder."
+    "shortEffect": "Can be ridden as a flying mount. While in party, increases damage player deals to enemy weak points by (20~40)%. (Does not stack)"
   },
   {
     "slug": "vanwyrm-cryst",
@@ -2879,7 +2879,7 @@
       "Dark"
     ],
     "partnerSkill": "Aerial Marauder",
-    "shortEffect": "Uses Aerial Marauder."
+    "shortEffect": "Can be ridden as a flying mount. While in party, increases damage player deals to enemy weak points by (30~50)%. (Does not stack)"
   },
   {
     "slug": "venusa",
@@ -2889,7 +2889,7 @@
       "Dark"
     ],
     "partnerSkill": "Snake's Sagacity",
-    "shortEffect": "Uses Snake's Sagacity."
+    "shortEffect": "While in party, the player's attacks inflict Blind (2~6). (Does not stack)"
   },
   {
     "slug": "verdash",
@@ -2899,7 +2899,7 @@
       "Grass"
     ],
     "partnerSkill": "Grassland Gymnast",
-    "shortEffect": "Uses Grassland Gymnast."
+    "shortEffect": "While in party, grants 1 additional jump and 1 additional mid-air dash. (Does not stack)"
   },
   {
     "slug": "vixy",
@@ -2909,7 +2909,7 @@
       "Neutral"
     ],
     "partnerSkill": "Dig Here!",
-    "shortEffect": "Uses Dig Here!."
+    "shortEffect": "Sometimes digs up items from the ground when assigned to Ranch."
   },
   {
     "slug": "warsect",
@@ -2920,7 +2920,7 @@
       "Grass"
     ],
     "partnerSkill": "Cast-Iron Shell",
-    "shortEffect": "Uses Cast-Iron Shell."
+    "shortEffect": "While in your party, generates a barrier around the player after 5 melee hits are landed within (5~9) seconds. (Does not stack)"
   },
   {
     "slug": "warsect-terra",
@@ -2930,7 +2930,7 @@
       "Ground"
     ],
     "partnerSkill": "Fullmetal Shell",
-    "shortEffect": "Uses Fullmetal Shell."
+    "shortEffect": "While in your party, generates a barrier around the player after 5 melee hits are landed within (5~9) seconds. (Does not stack)"
   },
   {
     "slug": "whalaska",
@@ -2941,7 +2941,7 @@
       "Water"
     ],
     "partnerSkill": "Chilled Whale Cruiser",
-    "shortEffect": "Uses Chilled Whale Cruiser."
+    "shortEffect": "Can be ridden. While in party, fishing minigames start with the capture gauge increased by (5~14)%. Additionally, while the bars overlap, capture progress increases by (5~14)%. (Does not stack)"
   },
   {
     "slug": "whalaska-ignis",
@@ -2952,7 +2952,7 @@
       "Fire"
     ],
     "partnerSkill": "Cozy Whale Cruiser",
-    "shortEffect": "Uses Cozy Whale Cruiser."
+    "shortEffect": "Can be ridden. While in party, fishing minigame begins with the capture gauge (7~17)% higher than usual, and capture progress increases by (7~17)% while the bars overlap. (Does not stack)"
   },
   {
     "slug": "wispaw",
@@ -2962,7 +2962,7 @@
       "Dark"
     ],
     "partnerSkill": "Death-Cheating Feline",
-    "shortEffect": "Uses Death-Cheating Feline."
+    "shortEffect": "While in party, increases the capture rate when awarded a back bonus. (Does not stack)"
   },
   {
     "slug": "wistella",
@@ -2972,7 +2972,7 @@
       "Dark"
     ],
     "partnerSkill": "Hidden Dark Energy",
-    "shortEffect": "Uses Hidden Dark Energy."
+    "shortEffect": "While in party, increases Defense of Dark Pals by (15~30)%. (Does not stack)"
   },
   {
     "slug": "wixen",
@@ -2982,7 +2982,7 @@
       "Fire"
     ],
     "partnerSkill": "Lord Fox",
-    "shortEffect": "Uses Lord Fox."
+    "shortEffect": "When activated, Wixen changes the player's attack type to Fire and increases Attack by (30~50)%."
   },
   {
     "slug": "wixen-noct",
@@ -2993,7 +2993,7 @@
       "Dark"
     ],
     "partnerSkill": "Black Fox Lord",
-    "shortEffect": "Uses Black Fox Lord."
+    "shortEffect": "When activated, Wixen Noct changes the player's attack type to Dark and increases Attack by (30~50)%."
   },
   {
     "slug": "woolipop",
@@ -3003,7 +3003,7 @@
       "Neutral"
     ],
     "partnerSkill": "Candy Pop",
-    "shortEffect": "Uses Candy Pop."
+    "shortEffect": "Sometimes drops Cotton Candy when assigned to Ranch. While at a base, reduces Hunger depletion rate of Base Pals by (-10~-20)%. (Does not stack)"
   },
   {
     "slug": "woolipop-terra",
@@ -3013,7 +3013,7 @@
       "Ground"
     ],
     "partnerSkill": "Bitter Pop",
-    "shortEffect": "Uses Bitter Pop."
+    "shortEffect": "Sometimes drops Caramel Cotton Candy when assigned to Ranch. While at a base, reduces Hunger depletion rate of Base Pals by (-15~-25)%. (Does not stack)"
   },
   {
     "slug": "wumpo",
@@ -3023,7 +3023,7 @@
       "Ice"
     ],
     "partnerSkill": "Guardian of the Snowy Mountain",
-    "shortEffect": "Uses Guardian of the Snowy Mountain."
+    "shortEffect": "Can be ridden. While at a base, increases the Transporting Work Suitability Level for all other Base Pals by +1. (Does not stack)"
   },
   {
     "slug": "wumpo-botan",
@@ -3033,7 +3033,7 @@
       "Grass"
     ],
     "partnerSkill": "Guardian of the South",
-    "shortEffect": "Uses Guardian of the South."
+    "shortEffect": "Can be ridden. While in party, player and party Pals take (15~30)% less Ground damage and are immune to Muddy status. (Does not stack)"
   },
   {
     "slug": "xenogard",
@@ -3043,7 +3043,7 @@
       "Dragon"
     ],
     "partnerSkill": "Unknown Intruder",
-    "shortEffect": "Uses Unknown Intruder."
+    "shortEffect": "Can be ridden. While in party, increases the player's energy weapon damage by (10~35)%. (Does not stack)"
   },
   {
     "slug": "xenolord",
@@ -3054,7 +3054,7 @@
       "Dragon"
     ],
     "partnerSkill": "Meteor Wings",
-    "shortEffect": "Uses Meteor Wings."
+    "shortEffect": "Can be ridden as a flying mount. While in party, damage done by Partner Skills of weapon-wielding Pals increases by (20~50)%. (Does not stack)"
   },
   {
     "slug": "xenovader",
@@ -3064,7 +3064,7 @@
       "Dark"
     ],
     "partnerSkill": "Unknown Invader",
-    "shortEffect": "Uses Unknown Invader."
+    "shortEffect": "While in party, increases the damage of the last bullet fired from a full-auto weapon by (100~160)%. (Does not stack)"
   },
   {
     "slug": "yakumo",
@@ -3074,6 +3074,6 @@
       "Neutral"
     ],
     "partnerSkill": "Birds of a Feather",
-    "shortEffect": "Uses Birds of a Feather."
+    "shortEffect": "Can be ridden. While fighting together, (15~30)% increased chance of encountering pals with the same Passive Skill as this Pal. (Excludes certain Passive Skills)"
   }
 ]

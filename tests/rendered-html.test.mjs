@@ -42,9 +42,25 @@ test("Pal library contains the full sourced catalog", async () => {
   assert.equal(catalog.length, 299);
   assert.equal(new Set(catalog.map((pal) => pal.slug)).size, catalog.length);
   assert.ok(catalog.every((pal) => pal.name && pal.imageUrl && pal.elements.length && pal.partnerSkill));
+  assert.ok(catalog.every((pal) => pal.shortEffect && !/^Uses .+\.$/.test(pal.shortEffect)));
+  assert.match(catalog.find((pal) => pal.name === "Gobfin").shortEffect, /1\.1~2\.5/);
+  assert.match(catalog.find((pal) => pal.name === "Gobfin").shortEffect, /10~20/);
+  assert.match(catalog.find((pal) => pal.name === "Cattiva").shortEffect, /100~200/);
   for (const name of ["Lamball", "Anubis", "Jetragon", "Aegidron"]) {
     assert.ok(catalog.some((pal) => pal.name === name), `${name} should be available`);
   }
+});
+
+test("exact Partner Skill mechanics are visible in the builder and build detail", async () => {
+  const [composer, detail, repository] = await Promise.all([
+    readFile(new URL("../app/build/new/BuildComposer.tsx", import.meta.url), "utf8"),
+    readFile(new URL("../app/build/[slug]/page.tsx", import.meta.url), "utf8"),
+    readFile(new URL("../lib/build-repository.ts", import.meta.url), "utf8"),
+  ]);
+  assert.match(composer, /SkillEffect/);
+  assert.match(detail, /Lv\.1 → Lv\.5/);
+  assert.match(repository, /canonical\?\.shortEffect/);
+  assert.doesNotMatch(composer, /role: pal\?\.shortEffect/);
 });
 
 test("build discussion is backed by D1 comments", async () => {

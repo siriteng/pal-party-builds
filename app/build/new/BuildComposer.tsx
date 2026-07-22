@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import { DiscordIcon, PlusIcon, SearchIcon } from "@/components/icons";
+import { SkillEffect } from "@/components/SkillEffect";
 import { categories, type Category } from "@/lib/types";
 import { pals, palBySlug, palElements } from "@/lib/pals";
 import { withBasePath } from "@/lib/paths";
@@ -63,8 +64,7 @@ export function BuildComposer() {
 
   function addPal(slug: string) {
     if (draft.pals.length >= 5) return;
-    const pal = palBySlug.get(slug);
-    update("pals", [...draft.pals, { slug, role: pal?.shortEffect ?? "", stackNote: "" }]);
+    update("pals", [...draft.pals, { slug, role: "", stackNote: "" }]);
   }
 
   function updatePal(index: number, field: "role" | "stackNote", value: string) {
@@ -129,7 +129,7 @@ export function BuildComposer() {
                 if (!pal) return null;
                 return <article className="selected-pal" key={`${selection.slug}-${index}`}>
                   <div className={`selected-pal-art pal-tone-${pal.elements[0].toLowerCase()}`}><span className="slot-number">{index + 1}</span><img src={pal.imageUrl} alt={pal.name} /></div>
-                  <div><div className="selected-pal-name"><h3>{pal.name}</h3><button type="button" onClick={() => removePal(index)} aria-label={`Remove ${pal.name}`}>Remove</button></div><label><span>Job in this party</span><input value={selection.role} onChange={(event) => updatePal(index, "role", event.target.value)} placeholder="e.g. Fishing drop bonus" /></label><label><span>Stacking note <i>optional</i></span><input value={selection.stackNote} onChange={(event) => updatePal(index, "stackNote", event.target.value)} placeholder="e.g. Stacks with the Ignis variant" /></label></div>
+                  <div><div className="selected-pal-name"><h3>{pal.name}</h3><button type="button" onClick={() => removePal(index)} aria-label={`Remove ${pal.name}`}>Remove</button></div><div className="selected-pal-skill"><div><span>Partner Skill</span><strong>{pal.partnerSkill}</strong><em>Lv.1 → Lv.5</em></div><SkillEffect text={pal.shortEffect} /></div><label><span>Job in this party <i>optional</i></span><input value={selection.role} onChange={(event) => updatePal(index, "role", event.target.value)} placeholder="Your note, not the skill description" /></label><label><span>Stacking note <i>optional</i></span><input value={selection.stackNote} onChange={(event) => updatePal(index, "stackNote", event.target.value)} placeholder="e.g. Stacks with the Ignis variant" /></label></div>
                 </article>;
               })}
               {!draft.pals.length && <div className="party-placeholder"><strong>No Pals selected</strong><span>Choose up to five from the library.</span></div>}
@@ -138,7 +138,7 @@ export function BuildComposer() {
             <div className="pal-library">
               <div className="library-heading"><div><h3>Choose Pals <span className="library-count">{pals.length}</span></h3><span>Search by name or Partner Skill. Duplicates are allowed.</span></div><div className="library-controls"><label className="search-field"><SearchIcon size={17} /><span className="sr-only">Search Pals</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search Pals" /></label><label className="element-filter"><span className="sr-only">Filter by element</span><select value={element} onChange={(event) => setElement(event.target.value)}><option value="All">All elements</option>{palElements.map((item) => <option value={item} key={item}>{item}</option>)}</select></label></div></div>
               <div className="library-results"><span>{filteredPals.length} {filteredPals.length === 1 ? "Pal" : "Pals"}</span>{(query || element !== "All") && <button type="button" onClick={() => { setQuery(""); setElement("All"); }}>Clear filters</button>}</div>
-              <div className="library-grid">{filteredPals.map((pal) => <button type="button" key={pal.slug} onClick={() => addPal(pal.slug)} disabled={draft.pals.length >= 5}><span className={`library-pal-art pal-tone-${pal.elements[0].toLowerCase()}`}><img src={pal.imageUrl} alt="" loading="lazy" decoding="async" /></span><strong>{pal.name}</strong><small>{pal.partnerSkill}</small><span className="add-pal-icon"><PlusIcon size={15} /></span></button>)}</div>
+              <div className="library-grid">{filteredPals.map((pal) => <button type="button" key={pal.slug} onClick={() => addPal(pal.slug)} disabled={draft.pals.length >= 5}><span className={`library-pal-art pal-tone-${pal.elements[0].toLowerCase()}`}><img src={pal.imageUrl} alt="" loading="lazy" decoding="async" /></span><strong>{pal.name}</strong><small>{pal.partnerSkill}</small><SkillEffect className="library-skill-effect" text={pal.shortEffect} /><span className="add-pal-icon"><PlusIcon size={15} /></span></button>)}</div>
             </div>
           </section>
 
