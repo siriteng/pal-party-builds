@@ -36,3 +36,13 @@ test("production is isolated under the shared /builds path", async () => {
   assert.match(paths, /https:\/\/palworld\.iterationx\.cloud\/builds/);
   assert.doesNotMatch(wranglerConfig, /palbuilds\.iterationx\.cloud/);
 });
+
+test("Pal library contains the full sourced catalog", async () => {
+  const catalog = JSON.parse(await readFile(new URL("../lib/pals.generated.json", import.meta.url), "utf8"));
+  assert.equal(catalog.length, 299);
+  assert.equal(new Set(catalog.map((pal) => pal.slug)).size, catalog.length);
+  assert.ok(catalog.every((pal) => pal.name && pal.imageUrl && pal.elements.length && pal.partnerSkill));
+  for (const name of ["Lamball", "Anubis", "Jetragon", "Aegidron"]) {
+    assert.ok(catalog.some((pal) => pal.name === name), `${name} should be available`);
+  }
+});

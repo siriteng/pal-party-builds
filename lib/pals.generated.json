@@ -1,0 +1,3079 @@
+[
+  {
+    "slug": "aegidron",
+    "name": "Aegidron",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_DomeArmorDragon_icon_normal.png",
+    "elements": [
+      "Dragon",
+      "Ground"
+    ],
+    "partnerSkill": "Indestructible Fortress",
+    "shortEffect": "Uses Indestructible Fortress."
+  },
+  {
+    "slug": "amione",
+    "name": "Amione",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_ClioneTwins_icon_normal.png",
+    "elements": [
+      "Water"
+    ],
+    "partnerSkill": "Magical Twin Powers",
+    "shortEffect": "Uses Magical Twin Powers."
+  },
+  {
+    "slug": "anubis",
+    "name": "Anubis",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_Anubis_icon_normal.png",
+    "elements": [
+      "Ground"
+    ],
+    "partnerSkill": "Guardian of the Desert",
+    "shortEffect": "Uses Guardian of the Desert."
+  },
+  {
+    "slug": "arsox",
+    "name": "Arsox",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_FlameBuffalo_icon_normal.png",
+    "elements": [
+      "Fire"
+    ],
+    "partnerSkill": "Warm Body",
+    "shortEffect": "Uses Warm Body."
+  },
+  {
+    "slug": "astegon",
+    "name": "Astegon",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_BlackMetalDragon_icon_normal.png",
+    "elements": [
+      "Dragon",
+      "Dark"
+    ],
+    "partnerSkill": "Black Ankylosaur",
+    "shortEffect": "Uses Black Ankylosaur."
+  },
+  {
+    "slug": "astralym",
+    "name": "Astralym",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_WorldTreeDragon_icon_normal.png",
+    "elements": [
+      "Unknown"
+    ],
+    "partnerSkill": "-",
+    "shortEffect": "Uses -."
+  },
+  {
+    "slug": "azurmane",
+    "name": "Azurmane",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_BlueThunderHorse_icon_normal.png",
+    "elements": [
+      "Electric"
+    ],
+    "partnerSkill": "Plasma Dash",
+    "shortEffect": "Uses Plasma Dash."
+  },
+  {
+    "slug": "azurobe",
+    "name": "Azurobe",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_BlueDragon_icon_normal.png",
+    "elements": [
+      "Water",
+      "Dragon"
+    ],
+    "partnerSkill": "Waterwing Dance",
+    "shortEffect": "Uses Waterwing Dance."
+  },
+  {
+    "slug": "azurobe-cryst",
+    "name": "Azurobe Cryst",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_BlueDragon_Ice_icon_normal.png",
+    "elements": [
+      "Ice",
+      "Dragon"
+    ],
+    "partnerSkill": "Icewing Dance",
+    "shortEffect": "Uses Icewing Dance."
+  },
+  {
+    "slug": "bakemi",
+    "name": "Bakemi",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_OniGhostGirl_icon_normal.png",
+    "elements": [
+      "Dark"
+    ],
+    "partnerSkill": "Grinning Death",
+    "shortEffect": "Uses Grinning Death."
+  },
+  {
+    "slug": "bastigor",
+    "name": "Bastigor",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_SnowTigerBeastman_icon_normal.png",
+    "elements": [
+      "Ice"
+    ],
+    "partnerSkill": "Blizzard Crash",
+    "shortEffect": "Uses Blizzard Crash."
+  },
+  {
+    "slug": "beakon",
+    "name": "Beakon",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_ThunderBird_icon_normal.png",
+    "elements": [
+      "Electric"
+    ],
+    "partnerSkill": "Thunderous",
+    "shortEffect": "Uses Thunderous."
+  },
+  {
+    "slug": "beakon-cryst",
+    "name": "Beakon Cryst",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_ThunderBird_Ice_icon_normal.png",
+    "elements": [
+      "Ice"
+    ],
+    "partnerSkill": "Coldsnap",
+    "shortEffect": "Uses Coldsnap."
+  },
+  {
+    "slug": "beegarde",
+    "name": "Beegarde",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_SoldierBee_icon_normal.png",
+    "elements": [
+      "Grass"
+    ],
+    "partnerSkill": "Worker Bee",
+    "shortEffect": "Uses Worker Bee."
+  },
+  {
+    "slug": "bellanoir",
+    "name": "Bellanoir",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_NightLady_icon_normal.png",
+    "elements": [
+      "Dark"
+    ],
+    "partnerSkill": "Nightmare Iris",
+    "shortEffect": "Uses Nightmare Iris."
+  },
+  {
+    "slug": "bellanoir-libero",
+    "name": "Bellanoir Libero",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_NightLady_Dark_icon_normal.png",
+    "elements": [
+      "Dark"
+    ],
+    "partnerSkill": "Nightmare Stare",
+    "shortEffect": "Uses Nightmare Stare."
+  },
+  {
+    "slug": "blazamut",
+    "name": "Blazamut",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_KingBahamut_icon_normal.png",
+    "elements": [
+      "Fire"
+    ],
+    "partnerSkill": "Magma Kaiser",
+    "shortEffect": "Uses Magma Kaiser."
+  },
+  {
+    "slug": "blazamut-ryu",
+    "name": "Blazamut Ryu",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_KingBahamut_Dragon_icon_normal.png",
+    "elements": [
+      "Dragon",
+      "Fire"
+    ],
+    "partnerSkill": "Dragon Kaiser",
+    "shortEffect": "Uses Dragon Kaiser."
+  },
+  {
+    "slug": "blazehowl",
+    "name": "Blazehowl",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_Manticore_icon_normal.png",
+    "elements": [
+      "Fire"
+    ],
+    "partnerSkill": "Hellflame Lion",
+    "shortEffect": "Uses Hellflame Lion."
+  },
+  {
+    "slug": "blazehowl-noct",
+    "name": "Blazehowl Noct",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_Manticore_Dark_icon_normal.png",
+    "elements": [
+      "Fire",
+      "Dark"
+    ],
+    "partnerSkill": "Darkflame Lion",
+    "shortEffect": "Uses Darkflame Lion."
+  },
+  {
+    "slug": "blue-slime",
+    "name": "Blue Slime",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_YakushimaMonster001_Blue_icon_normal.png",
+    "elements": [
+      "Water"
+    ],
+    "partnerSkill": "Slime Body",
+    "shortEffect": "Uses Slime Body."
+  },
+  {
+    "slug": "braloha",
+    "name": "Braloha",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_Plesiosaur_icon_normal.png",
+    "elements": [
+      "Grass",
+      "Ground"
+    ],
+    "partnerSkill": "Balmy Weather",
+    "shortEffect": "Uses Balmy Weather."
+  },
+  {
+    "slug": "bristla",
+    "name": "Bristla",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_LittleBriarRose_icon_normal.png",
+    "elements": [
+      "Grass"
+    ],
+    "partnerSkill": "Princess Gaze",
+    "shortEffect": "Uses Princess Gaze."
+  },
+  {
+    "slug": "broncherry",
+    "name": "Broncherry",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_SakuraSaurus_icon_normal.png",
+    "elements": [
+      "Grass"
+    ],
+    "partnerSkill": "Love's First Blossom",
+    "shortEffect": "Uses Love's First Blossom."
+  },
+  {
+    "slug": "broncherry-aqua",
+    "name": "Broncherry Aqua",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_SakuraSaurus_Water_icon_normal.png",
+    "elements": [
+      "Grass",
+      "Water"
+    ],
+    "partnerSkill": "Purity's Full Bloom",
+    "shortEffect": "Uses Purity's Full Bloom."
+  },
+  {
+    "slug": "bulldosu",
+    "name": "Bulldosu",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_SumoDog_icon_normal.png",
+    "elements": [
+      "Ground"
+    ],
+    "partnerSkill": "Yokozuna's Presence",
+    "shortEffect": "Uses Yokozuna's Presence."
+  },
+  {
+    "slug": "bushi",
+    "name": "Bushi",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_Ronin_icon_normal.png",
+    "elements": [
+      "Fire"
+    ],
+    "partnerSkill": "Brandish Blade",
+    "shortEffect": "Uses Brandish Blade."
+  },
+  {
+    "slug": "bushi-noct",
+    "name": "Bushi Noct",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_Ronin_Dark_icon_normal.png",
+    "elements": [
+      "Fire",
+      "Dark"
+    ],
+    "partnerSkill": "Void Blade",
+    "shortEffect": "Uses Void Blade."
+  },
+  {
+    "slug": "caprity",
+    "name": "Caprity",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_BerryGoat_icon_normal.png",
+    "elements": [
+      "Grass"
+    ],
+    "partnerSkill": "Berry Picker",
+    "shortEffect": "Uses Berry Picker."
+  },
+  {
+    "slug": "caprity-noct",
+    "name": "Caprity Noct",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_BerryGoat_Dark_icon_normal.png",
+    "elements": [
+      "Dark"
+    ],
+    "partnerSkill": "Venom Picker",
+    "shortEffect": "Uses Venom Picker."
+  },
+  {
+    "slug": "carnibora",
+    "name": "Carnibora",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_VenusFlytrap_icon_normal.png",
+    "elements": [
+      "Grass"
+    ],
+    "partnerSkill": "Entangling Tongue",
+    "shortEffect": "Uses Entangling Tongue."
+  },
+  {
+    "slug": "cattiva",
+    "name": "Cattiva",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_PinkCat_icon_normal.png",
+    "elements": [
+      "Neutral"
+    ],
+    "partnerSkill": "Cat Helper",
+    "shortEffect": "Uses Cat Helper."
+  },
+  {
+    "slug": "cave-bat",
+    "name": "Cave Bat",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_YakushimaMonster003_icon_normal.png",
+    "elements": [
+      "Neutral"
+    ],
+    "partnerSkill": "Bat Backup",
+    "shortEffect": "Uses Bat Backup."
+  },
+  {
+    "slug": "cawgnito",
+    "name": "Cawgnito",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_DarkCrow_icon_normal.png",
+    "elements": [
+      "Dark"
+    ],
+    "partnerSkill": "Eerie Nightstreaker",
+    "shortEffect": "Uses Eerie Nightstreaker."
+  },
+  {
+    "slug": "celaray",
+    "name": "Celaray",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_FlyingManta_icon_normal.png",
+    "elements": [
+      "Water"
+    ],
+    "partnerSkill": "Zephyr Glider",
+    "shortEffect": "Uses Zephyr Glider."
+  },
+  {
+    "slug": "celaray-lux",
+    "name": "Celaray Lux",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_FlyingManta_Thunder_icon_normal.png",
+    "elements": [
+      "Water",
+      "Electric"
+    ],
+    "partnerSkill": "Jolt Glider",
+    "shortEffect": "Uses Jolt Glider."
+  },
+  {
+    "slug": "celesdir",
+    "name": "Celesdir",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_WhiteDeer_icon_normal.png",
+    "elements": [
+      "Neutral"
+    ],
+    "partnerSkill": "Blessing of Purification",
+    "shortEffect": "Uses Blessing of Purification."
+  },
+  {
+    "slug": "celesdir-noct",
+    "name": "Celesdir Noct",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_WhiteDeer_Dark_icon_normal.png",
+    "elements": [
+      "Dark"
+    ],
+    "partnerSkill": "Blessing of Chaos",
+    "shortEffect": "Uses Blessing of Chaos."
+  },
+  {
+    "slug": "chikipi",
+    "name": "Chikipi",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_ChickenPal_icon_normal.png",
+    "elements": [
+      "Neutral"
+    ],
+    "partnerSkill": "Egg Layer",
+    "shortEffect": "Uses Egg Layer."
+  },
+  {
+    "slug": "chillet",
+    "name": "Chillet",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_WeaselDragon_icon_normal.png",
+    "elements": [
+      "Ice",
+      "Dragon"
+    ],
+    "partnerSkill": "Wriggling Weasel",
+    "shortEffect": "Uses Wriggling Weasel."
+  },
+  {
+    "slug": "chillet-ignis",
+    "name": "Chillet Ignis",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_WeaselDragon_Fire_icon_normal.png",
+    "elements": [
+      "Fire",
+      "Dragon"
+    ],
+    "partnerSkill": "Sparkling Weasel",
+    "shortEffect": "Uses Sparkling Weasel."
+  },
+  {
+    "slug": "cinnamoth",
+    "name": "Cinnamoth",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_CuteButterfly_icon_normal.png",
+    "elements": [
+      "Grass"
+    ],
+    "partnerSkill": "Mysterious Scales",
+    "shortEffect": "Uses Mysterious Scales."
+  },
+  {
+    "slug": "clovee",
+    "name": "Clovee",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_CloverFairy_icon_normal.png",
+    "elements": [
+      "Grass",
+      "Neutral"
+    ],
+    "partnerSkill": "Happy Clover",
+    "shortEffect": "Uses Happy Clover."
+  },
+  {
+    "slug": "cremis",
+    "name": "Cremis",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_WoolFox_icon_normal.png",
+    "elements": [
+      "Neutral"
+    ],
+    "partnerSkill": "Fluffy Wool",
+    "shortEffect": "Uses Fluffy Wool."
+  },
+  {
+    "slug": "croajiro",
+    "name": "Croajiro",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_KendoFrog_icon_normal.png",
+    "elements": [
+      "Water"
+    ],
+    "partnerSkill": "Leap Stance",
+    "shortEffect": "Uses Leap Stance."
+  },
+  {
+    "slug": "croajiro-noct",
+    "name": "Croajiro Noct",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_KendoFrog_Dark_icon_normal.png",
+    "elements": [
+      "Water",
+      "Dark"
+    ],
+    "partnerSkill": "Shadow Stance",
+    "shortEffect": "Uses Shadow Stance."
+  },
+  {
+    "slug": "cryolinx",
+    "name": "Cryolinx",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_WhiteTiger_icon_normal.png",
+    "elements": [
+      "Ice"
+    ],
+    "partnerSkill": "Dragon Hunter",
+    "shortEffect": "Uses Dragon Hunter."
+  },
+  {
+    "slug": "cryolinx-terra",
+    "name": "Cryolinx Terra",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_WhiteTiger_Ground_icon_normal.png",
+    "elements": [
+      "Ground"
+    ],
+    "partnerSkill": "Explosive Strength",
+    "shortEffect": "Uses Explosive Strength."
+  },
+  {
+    "slug": "daedream",
+    "name": "Daedream",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_DreamDemon_icon_normal.png",
+    "elements": [
+      "Dark"
+    ],
+    "partnerSkill": "Dream Chaser",
+    "shortEffect": "Uses Dream Chaser."
+  },
+  {
+    "slug": "dandilord",
+    "name": "Dandilord",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_FlowerPrince_icon_normal.png",
+    "elements": [
+      "Grass",
+      "Dark"
+    ],
+    "partnerSkill": "Mist Stalwart",
+    "shortEffect": "Uses Mist Stalwart."
+  },
+  {
+    "slug": "dazemu",
+    "name": "Dazemu",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_FeatherOstrich_icon_normal.png",
+    "elements": [
+      "Ground"
+    ],
+    "partnerSkill": "Sand Sprint",
+    "shortEffect": "Uses Sand Sprint."
+  },
+  {
+    "slug": "dazzi",
+    "name": "Dazzi",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_RaijinDaughter_icon_normal.png",
+    "elements": [
+      "Electric"
+    ],
+    "partnerSkill": "Lady of Lightning",
+    "shortEffect": "Uses Lady of Lightning."
+  },
+  {
+    "slug": "dazzi-noct",
+    "name": "Dazzi Noct",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_RaijinDaughter_Water_icon_normal.png",
+    "elements": [
+      "Dark",
+      "Electric"
+    ],
+    "partnerSkill": "Lady of Dark Lightning",
+    "shortEffect": "Uses Lady of Dark Lightning."
+  },
+  {
+    "slug": "demon-eye",
+    "name": "Demon Eye",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_YakushimaBoss001_Small_icon_normal.png",
+    "elements": [
+      "Dark"
+    ],
+    "partnerSkill": "Demonic Sight",
+    "shortEffect": "Uses Demonic Sight."
+  },
+  {
+    "slug": "depresso",
+    "name": "Depresso",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_NegativeKoala_icon_normal.png",
+    "elements": [
+      "Dark"
+    ],
+    "partnerSkill": "Caffeine Inoculation",
+    "shortEffect": "Uses Caffeine Inoculation."
+  },
+  {
+    "slug": "digtoise",
+    "name": "Digtoise",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_DrillGame_icon_normal.png",
+    "elements": [
+      "Ground"
+    ],
+    "partnerSkill": "Drill Crusher",
+    "shortEffect": "Uses Drill Crusher."
+  },
+  {
+    "slug": "dinossom",
+    "name": "Dinossom",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_FlowerDinosaur_icon_normal.png",
+    "elements": [
+      "Grass",
+      "Dragon"
+    ],
+    "partnerSkill": "Fragrant Dragon",
+    "shortEffect": "Uses Fragrant Dragon."
+  },
+  {
+    "slug": "dinossom-lux",
+    "name": "Dinossom Lux",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_FlowerDinosaur_Electric_icon_normal.png",
+    "elements": [
+      "Electric",
+      "Dragon"
+    ],
+    "partnerSkill": "Thunder Dragon",
+    "shortEffect": "Uses Thunder Dragon."
+  },
+  {
+    "slug": "direhowl",
+    "name": "Direhowl",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_Garm_icon_normal.png",
+    "elements": [
+      "Neutral"
+    ],
+    "partnerSkill": "Direhowl Rider",
+    "shortEffect": "Uses Direhowl Rider."
+  },
+  {
+    "slug": "dogen",
+    "name": "Dogen",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_SifuDog_icon_normal.png",
+    "elements": [
+      "Neutral"
+    ],
+    "partnerSkill": "Homeward Prayer",
+    "shortEffect": "Uses Homeward Prayer."
+  },
+  {
+    "slug": "dualith",
+    "name": "Dualith",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_GrassGolem_icon_normal.png",
+    "elements": [
+      "Ground",
+      "Grass"
+    ],
+    "partnerSkill": "Forest Laser",
+    "shortEffect": "Uses Forest Laser."
+  },
+  {
+    "slug": "dualith-noct",
+    "name": "Dualith Noct",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_GrassGolem_Dark_icon_normal.png",
+    "elements": [
+      "Ground",
+      "Dark"
+    ],
+    "partnerSkill": "Corruption Laser",
+    "shortEffect": "Uses Corruption Laser."
+  },
+  {
+    "slug": "dumud",
+    "name": "Dumud",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_LazyCatfish_icon_normal.png",
+    "elements": [
+      "Ground",
+      "Water"
+    ],
+    "partnerSkill": "Soil Improver",
+    "shortEffect": "Uses Soil Improver."
+  },
+  {
+    "slug": "dumud-gild",
+    "name": "Dumud Gild",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_LazyCatfish_Gold_icon_normal.png",
+    "elements": [
+      "Ground",
+      "Water"
+    ],
+    "partnerSkill": "Golden Harvest",
+    "shortEffect": "Uses Golden Harvest."
+  },
+  {
+    "slug": "dupin",
+    "name": "Dupin",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_ClownRabbit_icon_normal.png",
+    "elements": [
+      "Fire"
+    ],
+    "partnerSkill": "Trick-Loving Fluffle",
+    "shortEffect": "Uses Trick-Loving Fluffle."
+  },
+  {
+    "slug": "dynamoff",
+    "name": "Dynamoff",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_ThunderFluffyBird_icon_normal.png",
+    "elements": [
+      "Electric"
+    ],
+    "partnerSkill": "Electro-Massage Incubation",
+    "shortEffect": "Uses Electro-Massage Incubation."
+  },
+  {
+    "slug": "eidrolon",
+    "name": "Eidrolon",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_GhostDragon_icon_normal.png",
+    "elements": [
+      "Dragon",
+      "Dark"
+    ],
+    "partnerSkill": "Liberated Pterosaur",
+    "shortEffect": "Uses Liberated Pterosaur."
+  },
+  {
+    "slug": "eidrolon-ignis",
+    "name": "Eidrolon Ignis",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_GhostDragon_Fire_icon_normal.png",
+    "elements": [
+      "Dragon",
+      "Fire"
+    ],
+    "partnerSkill": "Resentful Pterosaur",
+    "shortEffect": "Uses Resentful Pterosaur."
+  },
+  {
+    "slug": "eikthyrdeer",
+    "name": "Eikthyrdeer",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_Deer_icon_normal.png",
+    "elements": [
+      "Neutral"
+    ],
+    "partnerSkill": "Guardian of the Forest",
+    "shortEffect": "Uses Guardian of the Forest."
+  },
+  {
+    "slug": "eikthyrdeer-terra",
+    "name": "Eikthyrdeer Terra",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_Deer_Ground_icon_normal.png",
+    "elements": [
+      "Ground"
+    ],
+    "partnerSkill": "Guardian of the Golden Forest",
+    "shortEffect": "Uses Guardian of the Golden Forest."
+  },
+  {
+    "slug": "elgrove",
+    "name": "Elgrove",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_GrassMinotaur_icon_normal.png",
+    "elements": [
+      "Grass"
+    ],
+    "partnerSkill": "Mother Nature's Menace",
+    "shortEffect": "Uses Mother Nature's Menace."
+  },
+  {
+    "slug": "elgrove-cryst",
+    "name": "Elgrove Cryst",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_GrassMinotaur_Ice_icon_normal.png",
+    "elements": [
+      "Ice"
+    ],
+    "partnerSkill": "Father Winter's Threat",
+    "shortEffect": "Uses Father Winter's Threat."
+  },
+  {
+    "slug": "elizabee",
+    "name": "Elizabee",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_QueenBee_icon_normal.png",
+    "elements": [
+      "Grass"
+    ],
+    "partnerSkill": "Queen Bee Command",
+    "shortEffect": "Uses Queen Bee Command."
+  },
+  {
+    "slug": "elphidran",
+    "name": "Elphidran",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_FairyDragon_icon_normal.png",
+    "elements": [
+      "Dragon"
+    ],
+    "partnerSkill": "Amicable Holy Dragon",
+    "shortEffect": "Uses Amicable Holy Dragon."
+  },
+  {
+    "slug": "elphidran-aqua",
+    "name": "Elphidran Aqua",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_FairyDragon_Water_icon_normal.png",
+    "elements": [
+      "Dragon",
+      "Water"
+    ],
+    "partnerSkill": "Amicable Water Dragon",
+    "shortEffect": "Uses Amicable Water Dragon."
+  },
+  {
+    "slug": "enchanted-sword",
+    "name": "Enchanted Sword",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_YakushimaMonster002_icon_normal.png",
+    "elements": [
+      "Neutral"
+    ],
+    "partnerSkill": "Enchant",
+    "shortEffect": "Uses Enchant."
+  },
+  {
+    "slug": "eye-of-cthulhu",
+    "name": "Eye of Cthulhu",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_YakushimaBoss001_icon_normal.png",
+    "elements": [
+      "Dark"
+    ],
+    "partnerSkill": "Mad Eye Lunge",
+    "shortEffect": "Uses Mad Eye Lunge."
+  },
+  {
+    "slug": "faleris",
+    "name": "Faleris",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_Horus_icon_normal.png",
+    "elements": [
+      "Fire"
+    ],
+    "partnerSkill": "Scorching Predator",
+    "shortEffect": "Uses Scorching Predator."
+  },
+  {
+    "slug": "faleris-aqua",
+    "name": "Faleris Aqua",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_Horus_Water_icon_normal.png",
+    "elements": [
+      "Water"
+    ],
+    "partnerSkill": "Tidal Predator",
+    "shortEffect": "Uses Tidal Predator."
+  },
+  {
+    "slug": "felbat",
+    "name": "Felbat",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_CatVampire_icon_normal.png",
+    "elements": [
+      "Dark"
+    ],
+    "partnerSkill": "Life Steal",
+    "shortEffect": "Uses Life Steal."
+  },
+  {
+    "slug": "fenglope",
+    "name": "Fenglope",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_FengyunDeeper_icon_normal.png",
+    "elements": [
+      "Neutral"
+    ],
+    "partnerSkill": "Wind and Clouds",
+    "shortEffect": "Uses Wind and Clouds."
+  },
+  {
+    "slug": "fenglope-lux",
+    "name": "Fenglope Lux",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_FengyunDeeper_Electric_icon_normal.png",
+    "elements": [
+      "Electric"
+    ],
+    "partnerSkill": "Stormcloud",
+    "shortEffect": "Uses Stormcloud."
+  },
+  {
+    "slug": "finsider",
+    "name": "Finsider",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_StuffedShark_icon_normal.png",
+    "elements": [
+      "Water"
+    ],
+    "partnerSkill": "Water Gun",
+    "shortEffect": "Uses Water Gun."
+  },
+  {
+    "slug": "finsider-ignis",
+    "name": "Finsider Ignis",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_StuffedShark_Fire_icon_normal.png",
+    "elements": [
+      "Water",
+      "Fire"
+    ],
+    "partnerSkill": "Ember Chamber",
+    "shortEffect": "Uses Ember Chamber."
+  },
+  {
+    "slug": "flambelle",
+    "name": "Flambelle",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_LavaGirl_icon_normal.png",
+    "elements": [
+      "Fire"
+    ],
+    "partnerSkill": "Magma Tears",
+    "shortEffect": "Uses Magma Tears."
+  },
+  {
+    "slug": "flaracle",
+    "name": "Flaracle",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_FoxExorcist_icon_normal.png",
+    "elements": [
+      "Fire"
+    ],
+    "partnerSkill": "Burning Future",
+    "shortEffect": "Uses Burning Future."
+  },
+  {
+    "slug": "flopie",
+    "name": "Flopie",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_FlowerRabbit_icon_normal.png",
+    "elements": [
+      "Grass"
+    ],
+    "partnerSkill": "Helper Bunny",
+    "shortEffect": "Uses Helper Bunny."
+  },
+  {
+    "slug": "foxcicle",
+    "name": "Foxcicle",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_IceFox_icon_normal.png",
+    "elements": [
+      "Ice"
+    ],
+    "partnerSkill": "Aurora Guide",
+    "shortEffect": "Uses Aurora Guide."
+  },
+  {
+    "slug": "foxparks",
+    "name": "Foxparks",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_Kitsunebi_icon_normal.png",
+    "elements": [
+      "Fire"
+    ],
+    "partnerSkill": "Huggy Fire",
+    "shortEffect": "Uses Huggy Fire."
+  },
+  {
+    "slug": "foxparks-cryst",
+    "name": "Foxparks Cryst",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_Kitsunebi_Ice_icon_normal.png",
+    "elements": [
+      "Ice"
+    ],
+    "partnerSkill": "Huggy Frost",
+    "shortEffect": "Uses Huggy Frost."
+  },
+  {
+    "slug": "frostallion",
+    "name": "Frostallion",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_IceHorse_icon_normal.png",
+    "elements": [
+      "Ice"
+    ],
+    "partnerSkill": "Icy Steed",
+    "shortEffect": "Uses Icy Steed."
+  },
+  {
+    "slug": "frostallion-noct",
+    "name": "Frostallion Noct",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_IceHorse_Dark_icon_normal.png",
+    "elements": [
+      "Dark"
+    ],
+    "partnerSkill": "Black Steed",
+    "shortEffect": "Uses Black Steed."
+  },
+  {
+    "slug": "frostplume",
+    "name": "Frostplume",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_SnowPeafowl_icon_normal.png",
+    "elements": [
+      "Ice"
+    ],
+    "partnerSkill": "Peacock Pounce",
+    "shortEffect": "Uses Peacock Pounce."
+  },
+  {
+    "slug": "fuack",
+    "name": "Fuack",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_BluePlatypus_icon_normal.png",
+    "elements": [
+      "Water"
+    ],
+    "partnerSkill": "Surfing Slam",
+    "shortEffect": "Uses Surfing Slam."
+  },
+  {
+    "slug": "fuack-ignis",
+    "name": "Fuack Ignis",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_BluePlatypus_Fire_icon_normal.png",
+    "elements": [
+      "Water",
+      "Fire"
+    ],
+    "partnerSkill": "Fire Tackle",
+    "shortEffect": "Uses Fire Tackle."
+  },
+  {
+    "slug": "fuddler",
+    "name": "Fuddler",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_CuteMole_icon_normal.png",
+    "elements": [
+      "Ground"
+    ],
+    "partnerSkill": "Mining Assistance",
+    "shortEffect": "Uses Mining Assistance."
+  },
+  {
+    "slug": "galeclaw",
+    "name": "Galeclaw",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_Eagle_icon_normal.png",
+    "elements": [
+      "Neutral"
+    ],
+    "partnerSkill": "Galeclaw Glider",
+    "shortEffect": "Uses Galeclaw Glider."
+  },
+  {
+    "slug": "ghangler",
+    "name": "Ghangler",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_GhostAnglerfish_icon_normal.png",
+    "elements": [
+      "Dark",
+      "Water"
+    ],
+    "partnerSkill": "Master of Darkness",
+    "shortEffect": "Uses Master of Darkness."
+  },
+  {
+    "slug": "ghangler-ignis",
+    "name": "Ghangler Ignis",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_GhostAnglerfish_Fire_icon_normal.png",
+    "elements": [
+      "Fire",
+      "Water"
+    ],
+    "partnerSkill": "Abyssal Celebrity Chef",
+    "shortEffect": "Uses Abyssal Celebrity Chef."
+  },
+  {
+    "slug": "gildane",
+    "name": "Gildane",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_GoldenHorse_icon_normal.png",
+    "elements": [
+      "Ground"
+    ],
+    "partnerSkill": "Sandstorm's Blessing",
+    "shortEffect": "Uses Sandstorm's Blessing."
+  },
+  {
+    "slug": "gildra",
+    "name": "Gildra",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_MummyPal_icon_normal.png",
+    "elements": [
+      "Dark",
+      "Ground"
+    ],
+    "partnerSkill": "Resurrection",
+    "shortEffect": "Uses Resurrection."
+  },
+  {
+    "slug": "gloopie",
+    "name": "Gloopie",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_OctopusGirl_icon_normal.png",
+    "elements": [
+      "Water",
+      "Dark"
+    ],
+    "partnerSkill": "Sticky Princess",
+    "shortEffect": "Uses Sticky Princess."
+  },
+  {
+    "slug": "gloopie-primo",
+    "name": "Gloopie Primo",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_OctopusGirl_Neutral_icon_normal.png",
+    "elements": [
+      "Water",
+      "Neutral"
+    ],
+    "partnerSkill": "Cephalo-Princess",
+    "shortEffect": "Uses Cephalo-Princess."
+  },
+  {
+    "slug": "gobfin",
+    "name": "Gobfin",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_SharkKid_icon_normal.png",
+    "elements": [
+      "Water"
+    ],
+    "partnerSkill": "Angry Shark",
+    "shortEffect": "Uses Angry Shark."
+  },
+  {
+    "slug": "gobfin-ignis",
+    "name": "Gobfin Ignis",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_SharkKid_Fire_icon_normal.png",
+    "elements": [
+      "Fire"
+    ],
+    "partnerSkill": "Angry Shark",
+    "shortEffect": "Uses Angry Shark."
+  },
+  {
+    "slug": "gorirat",
+    "name": "Gorirat",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_Gorilla_icon_normal.png",
+    "elements": [
+      "Neutral"
+    ],
+    "partnerSkill": "Full-Power Gorilla Mode",
+    "shortEffect": "Uses Full-Power Gorilla Mode."
+  },
+  {
+    "slug": "gorirat-terra",
+    "name": "Gorirat Terra",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_Gorilla_Ground_icon_normal.png",
+    "elements": [
+      "Ground"
+    ],
+    "partnerSkill": "Full-Power Gorilla Pound",
+    "shortEffect": "Uses Full-Power Gorilla Pound."
+  },
+  {
+    "slug": "green-slime",
+    "name": "Green Slime",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_YakushimaMonster001_icon_normal.png",
+    "elements": [
+      "Grass"
+    ],
+    "partnerSkill": "Slime Body",
+    "shortEffect": "Uses Slime Body."
+  },
+  {
+    "slug": "grintale",
+    "name": "Grintale",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_NaughtyCat_icon_normal.png",
+    "elements": [
+      "Neutral"
+    ],
+    "partnerSkill": "Glaring Cat's Eye",
+    "shortEffect": "Uses Glaring Cat's Eye."
+  },
+  {
+    "slug": "grizzbolt",
+    "name": "Grizzbolt",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_ElecPanda_icon_normal.png",
+    "elements": [
+      "Electric"
+    ],
+    "partnerSkill": "Yellow Tank",
+    "shortEffect": "Uses Yellow Tank."
+  },
+  {
+    "slug": "gumoss",
+    "name": "Gumoss",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_PlantSlime_icon_normal.png",
+    "elements": [
+      "Grass",
+      "Ground"
+    ],
+    "partnerSkill": "Logging Assistance",
+    "shortEffect": "Uses Logging Assistance."
+  },
+  {
+    "slug": "hangyu",
+    "name": "Hangyu",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_WindChimes_icon_normal.png",
+    "elements": [
+      "Ground"
+    ],
+    "partnerSkill": "Flying Trapeze",
+    "shortEffect": "Uses Flying Trapeze."
+  },
+  {
+    "slug": "hangyu-cryst",
+    "name": "Hangyu Cryst",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_WindChimes_Ice_icon_normal.png",
+    "elements": [
+      "Ice"
+    ],
+    "partnerSkill": "Winter Trapeze",
+    "shortEffect": "Uses Winter Trapeze."
+  },
+  {
+    "slug": "hartalis",
+    "name": "Hartalis",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_LegendDeer_icon_normal.png",
+    "elements": [
+      "Neutral"
+    ],
+    "partnerSkill": "Sacred Barrier",
+    "shortEffect": "Uses Sacred Barrier."
+  },
+  {
+    "slug": "helzephyr",
+    "name": "Helzephyr",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_HadesBird_icon_normal.png",
+    "elements": [
+      "Dark"
+    ],
+    "partnerSkill": "Wings of Death",
+    "shortEffect": "Uses Wings of Death."
+  },
+  {
+    "slug": "helzephyr-lux",
+    "name": "Helzephyr Lux",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_HadesBird_Electric_icon_normal.png",
+    "elements": [
+      "Dark",
+      "Electric"
+    ],
+    "partnerSkill": "Wings of Thunder",
+    "shortEffect": "Uses Wings of Thunder."
+  },
+  {
+    "slug": "herbil",
+    "name": "Herbil",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_LeafMomonga_icon_normal.png",
+    "elements": [
+      "Grass",
+      "Neutral"
+    ],
+    "partnerSkill": "Herbil Pulse",
+    "shortEffect": "Uses Herbil Pulse."
+  },
+  {
+    "slug": "hoocrates",
+    "name": "Hoocrates",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_WizardOwl_icon_normal.png",
+    "elements": [
+      "Dark"
+    ],
+    "partnerSkill": "Dark Knowledge",
+    "shortEffect": "Uses Dark Knowledge."
+  },
+  {
+    "slug": "hoodle",
+    "name": "Hoodle",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_HoodGhost_icon_normal.png",
+    "elements": [
+      "Dark"
+    ],
+    "partnerSkill": "Void-Dweller",
+    "shortEffect": "Uses Void-Dweller."
+  },
+  {
+    "slug": "icelyn",
+    "name": "Icelyn",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_IceWitch_icon_normal.png",
+    "elements": [
+      "Ice"
+    ],
+    "partnerSkill": "Witch's Icy Veil",
+    "shortEffect": "Uses Witch's Icy Veil."
+  },
+  {
+    "slug": "illuminant-bat",
+    "name": "Illuminant Bat",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_YakushimaMonster003_Purple_icon_normal.png",
+    "elements": [
+      "Neutral"
+    ],
+    "partnerSkill": "Bat Backup",
+    "shortEffect": "Uses Bat Backup."
+  },
+  {
+    "slug": "illuminant-slime",
+    "name": "Illuminant Slime",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_YakushimaMonster001_Pink_icon_normal.png",
+    "elements": [
+      "Neutral"
+    ],
+    "partnerSkill": "Slime Body",
+    "shortEffect": "Uses Slime Body."
+  },
+  {
+    "slug": "incineram",
+    "name": "Incineram",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_Baphomet_icon_normal.png",
+    "elements": [
+      "Fire",
+      "Dark"
+    ],
+    "partnerSkill": "Flameclaw Hunter",
+    "shortEffect": "Uses Flameclaw Hunter."
+  },
+  {
+    "slug": "incineram-noct",
+    "name": "Incineram Noct",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_Baphomet_Dark_icon_normal.png",
+    "elements": [
+      "Dark"
+    ],
+    "partnerSkill": "Darkclaw Hunter",
+    "shortEffect": "Uses Darkclaw Hunter."
+  },
+  {
+    "slug": "jelliette",
+    "name": "Jelliette",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_JellyfishFairy_icon_normal.png",
+    "elements": [
+      "Water"
+    ],
+    "partnerSkill": "Jelliette Drop",
+    "shortEffect": "Uses Jelliette Drop."
+  },
+  {
+    "slug": "jellroy",
+    "name": "Jellroy",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_JellyfishGhost_icon_normal.png",
+    "elements": [
+      "Water",
+      "Dark"
+    ],
+    "partnerSkill": "Jellroy Drop",
+    "shortEffect": "Uses Jellroy Drop."
+  },
+  {
+    "slug": "jetragon",
+    "name": "Jetragon",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_JetDragon_icon_normal.png",
+    "elements": [
+      "Dragon"
+    ],
+    "partnerSkill": "Aerial Missile",
+    "shortEffect": "Uses Aerial Missile."
+  },
+  {
+    "slug": "jolthog",
+    "name": "Jolthog",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_Hedgehog_icon_normal.png",
+    "elements": [
+      "Electric"
+    ],
+    "partnerSkill": "Jolt Bomb",
+    "shortEffect": "Uses Jolt Bomb."
+  },
+  {
+    "slug": "jolthog-cryst",
+    "name": "Jolthog Cryst",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_Hedgehog_Ice_icon_normal.png",
+    "elements": [
+      "Ice"
+    ],
+    "partnerSkill": "Cold Bomb",
+    "shortEffect": "Uses Cold Bomb."
+  },
+  {
+    "slug": "jormuntide",
+    "name": "Jormuntide",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_Umihebi_icon_normal.png",
+    "elements": [
+      "Dragon",
+      "Water"
+    ],
+    "partnerSkill": "Stormbringer Sea Dragon",
+    "shortEffect": "Uses Stormbringer Sea Dragon."
+  },
+  {
+    "slug": "jormuntide-ignis",
+    "name": "Jormuntide Ignis",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_Umihebi_Fire_icon_normal.png",
+    "elements": [
+      "Dragon",
+      "Fire"
+    ],
+    "partnerSkill": "Stormbringer Lava Dragon",
+    "shortEffect": "Uses Stormbringer Lava Dragon."
+  },
+  {
+    "slug": "katress",
+    "name": "Katress",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_CatMage_icon_normal.png",
+    "elements": [
+      "Dark"
+    ],
+    "partnerSkill": "Mystical Black Magic",
+    "shortEffect": "Uses Mystical Black Magic."
+  },
+  {
+    "slug": "katress-ignis",
+    "name": "Katress Ignis",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_CatMage_Fire_icon_normal.png",
+    "elements": [
+      "Dark",
+      "Fire"
+    ],
+    "partnerSkill": "Blazing Black Magic",
+    "shortEffect": "Uses Blazing Black Magic."
+  },
+  {
+    "slug": "kelpsea",
+    "name": "Kelpsea",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_Kelpie_icon_normal.png",
+    "elements": [
+      "Water"
+    ],
+    "partnerSkill": "Aqua Spout",
+    "shortEffect": "Uses Aqua Spout."
+  },
+  {
+    "slug": "kelpsea-ignis",
+    "name": "Kelpsea Ignis",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_Kelpie_Fire_icon_normal.png",
+    "elements": [
+      "Fire"
+    ],
+    "partnerSkill": "Lava Spout",
+    "shortEffect": "Uses Lava Spout."
+  },
+  {
+    "slug": "kikit",
+    "name": "Kikit",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_SmallArmadillo_icon_normal.png",
+    "elements": [
+      "Ground"
+    ],
+    "partnerSkill": "Sandball Soccer",
+    "shortEffect": "Uses Sandball Soccer."
+  },
+  {
+    "slug": "killamari",
+    "name": "Killamari",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_NegativeOctopus_icon_normal.png",
+    "elements": [
+      "Dark",
+      "Water"
+    ],
+    "partnerSkill": "Fried Squid",
+    "shortEffect": "Uses Fried Squid."
+  },
+  {
+    "slug": "killamari-primo",
+    "name": "Killamari Primo",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_NegativeOctopus_Neutral_icon_normal.png",
+    "elements": [
+      "Neutral",
+      "Water"
+    ],
+    "partnerSkill": "Fried Killamari",
+    "shortEffect": "Uses Fried Killamari."
+  },
+  {
+    "slug": "kingpaca",
+    "name": "Kingpaca",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_KingAlpaca_icon_normal.png",
+    "elements": [
+      "Neutral"
+    ],
+    "partnerSkill": "King of Muscles",
+    "shortEffect": "Uses King of Muscles."
+  },
+  {
+    "slug": "kingpaca-cryst",
+    "name": "Kingpaca Cryst",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_KingAlpaca_Ice_icon_normal.png",
+    "elements": [
+      "Ice"
+    ],
+    "partnerSkill": "Coldhearted King",
+    "shortEffect": "Uses Coldhearted King."
+  },
+  {
+    "slug": "kitsun",
+    "name": "Kitsun",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_AmaterasuWolf_icon_normal.png",
+    "elements": [
+      "Fire"
+    ],
+    "partnerSkill": "Wolf of the Sun",
+    "shortEffect": "Uses Wolf of the Sun."
+  },
+  {
+    "slug": "kitsun-noct",
+    "name": "Kitsun Noct",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_AmaterasuWolf_Dark_icon_normal.png",
+    "elements": [
+      "Dark"
+    ],
+    "partnerSkill": "Gloomhowl",
+    "shortEffect": "Uses Gloomhowl."
+  },
+  {
+    "slug": "knocklem",
+    "name": "Knocklem",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_WingGolem_icon_normal.png",
+    "elements": [
+      "Ground"
+    ],
+    "partnerSkill": "Steel Guardian Mode",
+    "shortEffect": "Uses Steel Guardian Mode."
+  },
+  {
+    "slug": "knocklem-ignis",
+    "name": "Knocklem Ignis",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_WingGolem_Fire_icon_normal.png",
+    "elements": [
+      "Fire"
+    ],
+    "partnerSkill": "Iron Guardian Mode",
+    "shortEffect": "Uses Iron Guardian Mode."
+  },
+  {
+    "slug": "lamball",
+    "name": "Lamball",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_SheepBall_icon_normal.png",
+    "elements": [
+      "Neutral"
+    ],
+    "partnerSkill": "Fluffy Shield",
+    "shortEffect": "Uses Fluffy Shield."
+  },
+  {
+    "slug": "lapiron",
+    "name": "Lapiron",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_BrownRabbit_icon_normal.png",
+    "elements": [
+      "Ground"
+    ],
+    "partnerSkill": "Friend of Earth",
+    "shortEffect": "Uses Friend of Earth."
+  },
+  {
+    "slug": "lapure",
+    "name": "Lapure",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_SleeveRabbit_icon_normal.png",
+    "elements": [
+      "Neutral"
+    ],
+    "partnerSkill": "Long-Sleeved Hurray",
+    "shortEffect": "Uses Long-Sleeved Hurray."
+  },
+  {
+    "slug": "leafan",
+    "name": "Leafan",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_PandaGirl_icon_normal.png",
+    "elements": [
+      "Grass"
+    ],
+    "partnerSkill": "Selfless Discipline",
+    "shortEffect": "Uses Selfless Discipline."
+  },
+  {
+    "slug": "leezpunk",
+    "name": "Leezpunk",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_LizardMan_icon_normal.png",
+    "elements": [
+      "Dark"
+    ],
+    "partnerSkill": "Too Cool to be Seen",
+    "shortEffect": "Uses Too Cool to be Seen."
+  },
+  {
+    "slug": "leezpunk-ignis",
+    "name": "Leezpunk Ignis",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_LizardMan_Fire_icon_normal.png",
+    "elements": [
+      "Fire"
+    ],
+    "partnerSkill": "Too Cool to be Seen",
+    "shortEffect": "Uses Too Cool to be Seen."
+  },
+  {
+    "slug": "lifmunk",
+    "name": "Lifmunk",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_Carbunclo_icon_normal.png",
+    "elements": [
+      "Grass"
+    ],
+    "partnerSkill": "Lifmunk Recoil",
+    "shortEffect": "Uses Lifmunk Recoil."
+  },
+  {
+    "slug": "loomen",
+    "name": "Loomen",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_LanternButler_icon_normal.png",
+    "elements": [
+      "Dark",
+      "Fire"
+    ],
+    "partnerSkill": "Lantern Enchantment",
+    "shortEffect": "Uses Lantern Enchantment."
+  },
+  {
+    "slug": "loupmoon",
+    "name": "Loupmoon",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_Werewolf_icon_normal.png",
+    "elements": [
+      "Dark"
+    ],
+    "partnerSkill": "Dark Gleam Strike",
+    "shortEffect": "Uses Dark Gleam Strike."
+  },
+  {
+    "slug": "loupmoon-cryst",
+    "name": "Loupmoon Cryst",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_Werewolf_Ice_icon_normal.png",
+    "elements": [
+      "Ice"
+    ],
+    "partnerSkill": "Frozen Gleam Strike",
+    "shortEffect": "Uses Frozen Gleam Strike."
+  },
+  {
+    "slug": "lovander",
+    "name": "Lovander",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_PinkLizard_icon_normal.png",
+    "elements": [
+      "Dark"
+    ],
+    "partnerSkill": "Heart Drain",
+    "shortEffect": "Uses Heart Drain."
+  },
+  {
+    "slug": "lullu",
+    "name": "Lullu",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_LeafPrincess_icon_normal.png",
+    "elements": [
+      "Grass"
+    ],
+    "partnerSkill": "Floral Boost",
+    "shortEffect": "Uses Floral Boost."
+  },
+  {
+    "slug": "lunaris",
+    "name": "Lunaris",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_Mutant_icon_normal.png",
+    "elements": [
+      "Neutral"
+    ],
+    "partnerSkill": "Antigravity",
+    "shortEffect": "Uses Antigravity."
+  },
+  {
+    "slug": "lyleen",
+    "name": "Lyleen",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_LilyQueen_icon_normal.png",
+    "elements": [
+      "Grass"
+    ],
+    "partnerSkill": "Harvest Goddess",
+    "shortEffect": "Uses Harvest Goddess."
+  },
+  {
+    "slug": "lyleen-noct",
+    "name": "Lyleen Noct",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_LilyQueen_Dark_icon_normal.png",
+    "elements": [
+      "Dark"
+    ],
+    "partnerSkill": "Goddess of the Tranquil Light",
+    "shortEffect": "Uses Goddess of the Tranquil Light."
+  },
+  {
+    "slug": "majex",
+    "name": "Majex",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_DarkFlameFox_icon_normal.png",
+    "elements": [
+      "Dark",
+      "Fire"
+    ],
+    "partnerSkill": "Phantasmal Arcana",
+    "shortEffect": "Uses Phantasmal Arcana."
+  },
+  {
+    "slug": "mammorest",
+    "name": "Mammorest",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_GrassMammoth_icon_normal.png",
+    "elements": [
+      "Grass",
+      "Ground"
+    ],
+    "partnerSkill": "Gaia Crusher",
+    "shortEffect": "Uses Gaia Crusher."
+  },
+  {
+    "slug": "mammorest-cryst",
+    "name": "Mammorest Cryst",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_GrassMammoth_Ice_icon_normal.png",
+    "elements": [
+      "Ice",
+      "Ground"
+    ],
+    "partnerSkill": "Ice Crusher",
+    "shortEffect": "Uses Ice Crusher."
+  },
+  {
+    "slug": "maraith",
+    "name": "Maraith",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_GhostBeast_icon_normal.png",
+    "elements": [
+      "Dark"
+    ],
+    "partnerSkill": "Messenger of Death",
+    "shortEffect": "Uses Messenger of Death."
+  },
+  {
+    "slug": "mau",
+    "name": "Mau",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_Bastet_icon_normal.png",
+    "elements": [
+      "Dark"
+    ],
+    "partnerSkill": "Gold Digger",
+    "shortEffect": "Uses Gold Digger."
+  },
+  {
+    "slug": "mau-cryst",
+    "name": "Mau Cryst",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_Bastet_Ice_icon_normal.png",
+    "elements": [
+      "Ice"
+    ],
+    "partnerSkill": "Icy Whispers",
+    "shortEffect": "Uses Icy Whispers."
+  },
+  {
+    "slug": "melpaca",
+    "name": "Melpaca",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_Alpaca_icon_normal.png",
+    "elements": [
+      "Neutral"
+    ],
+    "partnerSkill": "Pacapaca Wool",
+    "shortEffect": "Uses Pacapaca Wool."
+  },
+  {
+    "slug": "menasting",
+    "name": "Menasting",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_DarkScorpion_icon_normal.png",
+    "elements": [
+      "Dark",
+      "Ground"
+    ],
+    "partnerSkill": "Steel Scorpion",
+    "shortEffect": "Uses Steel Scorpion."
+  },
+  {
+    "slug": "menasting-terra",
+    "name": "Menasting Terra",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_DarkScorpion_Ground_icon_normal.png",
+    "elements": [
+      "Ground"
+    ],
+    "partnerSkill": "Golden Scorpion",
+    "shortEffect": "Uses Golden Scorpion."
+  },
+  {
+    "slug": "mimog",
+    "name": "Mimog",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_MimicDog_icon_normal.png",
+    "elements": [
+      "Neutral"
+    ],
+    "partnerSkill": "Master of Unlocking",
+    "shortEffect": "Uses Master of Unlocking."
+  },
+  {
+    "slug": "moldron",
+    "name": "Moldron",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_VolcanoDragon_icon_normal.png",
+    "elements": [
+      "Fire",
+      "Ground"
+    ],
+    "partnerSkill": "Magma Overload",
+    "shortEffect": "Uses Magma Overload."
+  },
+  {
+    "slug": "moldron-cryst",
+    "name": "Moldron Cryst",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_VolcanoDragon_Ice_icon_normal.png",
+    "elements": [
+      "Ice",
+      "Ground"
+    ],
+    "partnerSkill": "Ice Overload",
+    "shortEffect": "Uses Ice Overload."
+  },
+  {
+    "slug": "mossanda",
+    "name": "Mossanda",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_GrassPanda_icon_normal.png",
+    "elements": [
+      "Grass"
+    ],
+    "partnerSkill": "Grenadier Panda",
+    "shortEffect": "Uses Grenadier Panda."
+  },
+  {
+    "slug": "mossanda-lux",
+    "name": "Mossanda Lux",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_GrassPanda_Electric_icon_normal.png",
+    "elements": [
+      "Electric"
+    ],
+    "partnerSkill": "Grenadier Panda",
+    "shortEffect": "Uses Grenadier Panda."
+  },
+  {
+    "slug": "mozzarina",
+    "name": "Mozzarina",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_CowPal_icon_normal.png",
+    "elements": [
+      "Neutral"
+    ],
+    "partnerSkill": "Milk Maker",
+    "shortEffect": "Uses Milk Maker."
+  },
+  {
+    "slug": "muffly",
+    "name": "Muffly",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_FluffyBird_icon_normal.png",
+    "elements": [
+      "Ice"
+    ],
+    "partnerSkill": "Fluffy Flutterer",
+    "shortEffect": "Uses Fluffy Flutterer."
+  },
+  {
+    "slug": "munchill",
+    "name": "Munchill",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_IceCrocodile_icon_normal.png",
+    "elements": [
+      "Ice",
+      "Water"
+    ],
+    "partnerSkill": "Icy Maw",
+    "shortEffect": "Uses Icy Maw."
+  },
+  {
+    "slug": "mycora",
+    "name": "Mycora",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_MushroomLady_icon_normal.png",
+    "elements": [
+      "Grass"
+    ],
+    "partnerSkill": "Charming Spore",
+    "shortEffect": "Uses Charming Spore."
+  },
+  {
+    "slug": "necromus",
+    "name": "Necromus",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_BlackCentaur_icon_normal.png",
+    "elements": [
+      "Dark"
+    ],
+    "partnerSkill": "Dark Knight of the Abyss",
+    "shortEffect": "Uses Dark Knight of the Abyss."
+  },
+  {
+    "slug": "needoll",
+    "name": "Needoll",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_CactusDoll_icon_normal.png",
+    "elements": [
+      "Grass"
+    ],
+    "partnerSkill": "Hug Me Please",
+    "shortEffect": "Uses Hug Me Please."
+  },
+  {
+    "slug": "needoll-noct",
+    "name": "Needoll Noct",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_CactusDoll_Dark_icon_normal.png",
+    "elements": [
+      "Dark",
+      "Grass"
+    ],
+    "partnerSkill": "Hug You So Much",
+    "shortEffect": "Uses Hug You So Much."
+  },
+  {
+    "slug": "neptilius",
+    "name": "Neptilius",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_PoseidonOrca_icon_normal.png",
+    "elements": [
+      "Water"
+    ],
+    "partnerSkill": "Sentinel of the Great Sea",
+    "shortEffect": "Uses Sentinel of the Great Sea."
+  },
+  {
+    "slug": "nitemary",
+    "name": "Nitemary",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_GhostRabbit_icon_normal.png",
+    "elements": [
+      "Dark"
+    ],
+    "partnerSkill": "Soul Collector",
+    "shortEffect": "Uses Soul Collector."
+  },
+  {
+    "slug": "nitemary-botan",
+    "name": "Nitemary Botan",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_GhostRabbit_Grass_icon_normal.png",
+    "elements": [
+      "Grass"
+    ],
+    "partnerSkill": "Soul Binder",
+    "shortEffect": "Uses Soul Binder."
+  },
+  {
+    "slug": "nitewing",
+    "name": "Nitewing",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_HawkBird_icon_normal.png",
+    "elements": [
+      "Neutral"
+    ],
+    "partnerSkill": "Travel Companion",
+    "shortEffect": "Uses Travel Companion."
+  },
+  {
+    "slug": "nox",
+    "name": "Nox",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_NightFox_icon_normal.png",
+    "elements": [
+      "Dark"
+    ],
+    "partnerSkill": "Kuudere",
+    "shortEffect": "Uses Kuudere."
+  },
+  {
+    "slug": "nyafia",
+    "name": "Nyafia",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_BadCatgirl_icon_normal.png",
+    "elements": [
+      "Dark"
+    ],
+    "partnerSkill": "Shot-Nyan Mode",
+    "shortEffect": "Uses Shot-Nyan Mode."
+  },
+  {
+    "slug": "omascul",
+    "name": "Omascul",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_MysteryMask_icon_normal.png",
+    "elements": [
+      "Dark"
+    ],
+    "partnerSkill": "Masquerade Dance",
+    "shortEffect": "Uses Masquerade Dance."
+  },
+  {
+    "slug": "ophydia",
+    "name": "Ophydia",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_LotusDragon_icon_normal.png",
+    "elements": [
+      "Grass",
+      "Water"
+    ],
+    "partnerSkill": "Glorious Mist",
+    "shortEffect": "Uses Glorious Mist."
+  },
+  {
+    "slug": "orserk",
+    "name": "Orserk",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_ThunderDragonMan_icon_normal.png",
+    "elements": [
+      "Dragon",
+      "Electric"
+    ],
+    "partnerSkill": "Ferocious Thunder Dragon",
+    "shortEffect": "Uses Ferocious Thunder Dragon."
+  },
+  {
+    "slug": "paladius",
+    "name": "Paladius",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_SaintCentaur_icon_normal.png",
+    "elements": [
+      "Neutral"
+    ],
+    "partnerSkill": "Holy Knight of the Firmament",
+    "shortEffect": "Uses Holy Knight of the Firmament."
+  },
+  {
+    "slug": "palumba",
+    "name": "Palumba",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_TropicalOstrich_icon_normal.png",
+    "elements": [
+      "Grass"
+    ],
+    "partnerSkill": "Samba Step",
+    "shortEffect": "Uses Samba Step."
+  },
+  {
+    "slug": "panthalus",
+    "name": "Panthalus",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_KingWhale_icon_normal.png",
+    "elements": [
+      "Water"
+    ],
+    "partnerSkill": "Resonant Guardian",
+    "shortEffect": "Uses Resonant Guardian."
+  },
+  {
+    "slug": "pengullet",
+    "name": "Pengullet",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_Penguin_icon_normal.png",
+    "elements": [
+      "Water",
+      "Ice"
+    ],
+    "partnerSkill": "Pengullet Launcher",
+    "shortEffect": "Uses Pengullet Launcher."
+  },
+  {
+    "slug": "pengullet-lux",
+    "name": "Pengullet Lux",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_Penguin_Electric_icon_normal.png",
+    "elements": [
+      "Water",
+      "Electric"
+    ],
+    "partnerSkill": "Pengullet Lux Launcher",
+    "shortEffect": "Uses Pengullet Lux Launcher."
+  },
+  {
+    "slug": "penking",
+    "name": "Penking",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_CaptainPenguin_icon_normal.png",
+    "elements": [
+      "Water",
+      "Ice"
+    ],
+    "partnerSkill": "Brave Sailor",
+    "shortEffect": "Uses Brave Sailor."
+  },
+  {
+    "slug": "penking-lux",
+    "name": "Penking Lux",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_CaptainPenguin_Black_icon_normal.png",
+    "elements": [
+      "Water",
+      "Electric"
+    ],
+    "partnerSkill": "Unyielding Storm Commander",
+    "shortEffect": "Uses Unyielding Storm Commander."
+  },
+  {
+    "slug": "petallia",
+    "name": "Petallia",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_FlowerDoll_icon_normal.png",
+    "elements": [
+      "Grass"
+    ],
+    "partnerSkill": "Blessing of the Flower Spirit",
+    "shortEffect": "Uses Blessing of the Flower Spirit."
+  },
+  {
+    "slug": "petallia-ignis",
+    "name": "Petallia Ignis",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_FlowerDoll_Fire_icon_normal.png",
+    "elements": [
+      "Grass",
+      "Fire"
+    ],
+    "partnerSkill": "Passion of the Flower Spirit",
+    "shortEffect": "Uses Passion of the Flower Spirit."
+  },
+  {
+    "slug": "pierdon",
+    "name": "Pierdon",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_RockBeast_icon_normal.png",
+    "elements": [
+      "Ground"
+    ],
+    "partnerSkill": "Power Stone",
+    "shortEffect": "Uses Power Stone."
+  },
+  {
+    "slug": "pierdon-cryst",
+    "name": "Pierdon Cryst",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_RockBeast_Ice_icon_normal.png",
+    "elements": [
+      "Ice"
+    ],
+    "partnerSkill": "Power Crystal",
+    "shortEffect": "Uses Power Crystal."
+  },
+  {
+    "slug": "polapup",
+    "name": "Polapup",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_IceSeal_icon_normal.png",
+    "elements": [
+      "Ice",
+      "Water"
+    ],
+    "partnerSkill": "Rider of the Snowy Mountain",
+    "shortEffect": "Uses Rider of the Snowy Mountain."
+  },
+  {
+    "slug": "polapup-terra",
+    "name": "Polapup Terra",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_IceSeal_Ground_icon_normal.png",
+    "elements": [
+      "Ice",
+      "Ground"
+    ],
+    "partnerSkill": "Snowy Mountain Slider",
+    "shortEffect": "Uses Snowy Mountain Slider."
+  },
+  {
+    "slug": "prixter",
+    "name": "Prixter",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_ScorpionMan_icon_normal.png",
+    "elements": [
+      "Dark",
+      "Ground"
+    ],
+    "partnerSkill": "Phantom Venom",
+    "shortEffect": "Uses Phantom Venom."
+  },
+  {
+    "slug": "prixter-lux",
+    "name": "Prixter Lux",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_ScorpionMan_Electric_icon_normal.png",
+    "elements": [
+      "Electric",
+      "Ground"
+    ],
+    "partnerSkill": "Scorpion Longwave",
+    "shortEffect": "Uses Scorpion Longwave."
+  },
+  {
+    "slug": "prunelia",
+    "name": "Prunelia",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_BlueberryFairy_icon_normal.png",
+    "elements": [
+      "Grass",
+      "Dark"
+    ],
+    "partnerSkill": "Prayer for Abundant Harvest",
+    "shortEffect": "Uses Prayer for Abundant Harvest."
+  },
+  {
+    "slug": "puffolt",
+    "name": "Puffolt",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_ElecPomeranian_icon_normal.png",
+    "elements": [
+      "Electric"
+    ],
+    "partnerSkill": "Crackle Booster",
+    "shortEffect": "Uses Crackle Booster."
+  },
+  {
+    "slug": "pupperai",
+    "name": "Pupperai",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_SamuraiDog_icon_normal.png",
+    "elements": [
+      "Ground"
+    ],
+    "partnerSkill": "Best Boy",
+    "shortEffect": "Uses Best Boy."
+  },
+  {
+    "slug": "purple-slime",
+    "name": "Purple Slime",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_YakushimaMonster001_Purple_icon_normal.png",
+    "elements": [
+      "Dark"
+    ],
+    "partnerSkill": "Slime Body",
+    "shortEffect": "Uses Slime Body."
+  },
+  {
+    "slug": "pyrin",
+    "name": "Pyrin",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_FireKirin_icon_normal.png",
+    "elements": [
+      "Fire"
+    ],
+    "partnerSkill": "Red Hare",
+    "shortEffect": "Uses Red Hare."
+  },
+  {
+    "slug": "pyrin-noct",
+    "name": "Pyrin Noct",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_FireKirin_Dark_icon_normal.png",
+    "elements": [
+      "Fire",
+      "Dark"
+    ],
+    "partnerSkill": "Black Hare",
+    "shortEffect": "Uses Black Hare."
+  },
+  {
+    "slug": "quivern",
+    "name": "Quivern",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_SkyDragon_icon_normal.png",
+    "elements": [
+      "Dragon"
+    ],
+    "partnerSkill": "Sky Dragon Affection",
+    "shortEffect": "Uses Sky Dragon Affection."
+  },
+  {
+    "slug": "quivern-botan",
+    "name": "Quivern Botan",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_SkyDragon_Grass_icon_normal.png",
+    "elements": [
+      "Dragon",
+      "Grass"
+    ],
+    "partnerSkill": "Grass Dragon Affection",
+    "shortEffect": "Uses Grass Dragon Affection."
+  },
+  {
+    "slug": "ragnahawk",
+    "name": "Ragnahawk",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_RedArmorBird_icon_normal.png",
+    "elements": [
+      "Fire"
+    ],
+    "partnerSkill": "Flame Wing",
+    "shortEffect": "Uses Flame Wing."
+  },
+  {
+    "slug": "rainbow-slime",
+    "name": "Rainbow Slime",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_YakushimaMonster001_Rainbow_icon_normal.png",
+    "elements": [
+      "Neutral"
+    ],
+    "partnerSkill": "Slime Body",
+    "shortEffect": "Uses Slime Body."
+  },
+  {
+    "slug": "rayhound",
+    "name": "Rayhound",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_ThunderDog_icon_normal.png",
+    "elements": [
+      "Electric"
+    ],
+    "partnerSkill": "Lightning Shepherd",
+    "shortEffect": "Uses Lightning Shepherd."
+  },
+  {
+    "slug": "rayhound-cryst",
+    "name": "Rayhound Cryst",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_ThunderDog_Ice_icon_normal.png",
+    "elements": [
+      "Ice"
+    ],
+    "partnerSkill": "Snow Shepherd",
+    "shortEffect": "Uses Snow Shepherd."
+  },
+  {
+    "slug": "red-slime",
+    "name": "Red Slime",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_YakushimaMonster001_Red_icon_normal.png",
+    "elements": [
+      "Fire"
+    ],
+    "partnerSkill": "Slime Body",
+    "shortEffect": "Uses Slime Body."
+  },
+  {
+    "slug": "reindrix",
+    "name": "Reindrix",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_IceDeer_icon_normal.png",
+    "elements": [
+      "Ice"
+    ],
+    "partnerSkill": "Cool Body",
+    "shortEffect": "Uses Cool Body."
+  },
+  {
+    "slug": "relaxaurus",
+    "name": "Relaxaurus",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_LazyDragon_icon_normal.png",
+    "elements": [
+      "Dragon",
+      "Water"
+    ],
+    "partnerSkill": "Hungry Missile",
+    "shortEffect": "Uses Hungry Missile."
+  },
+  {
+    "slug": "relaxaurus-lux",
+    "name": "Relaxaurus Lux",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_LazyDragon_Electric_icon_normal.png",
+    "elements": [
+      "Dragon",
+      "Electric"
+    ],
+    "partnerSkill": "Missile Party",
+    "shortEffect": "Uses Missile Party."
+  },
+  {
+    "slug": "renjishi",
+    "name": "Renjishi",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_KabukiMan_icon_normal.png",
+    "elements": [
+      "Fire"
+    ],
+    "partnerSkill": "Stage Combat",
+    "shortEffect": "Uses Stage Combat."
+  },
+  {
+    "slug": "reptyro",
+    "name": "Reptyro",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_VolcanicMonster_icon_normal.png",
+    "elements": [
+      "Fire",
+      "Ground"
+    ],
+    "partnerSkill": "Ore-Loving Beast",
+    "shortEffect": "Uses Ore-Loving Beast."
+  },
+  {
+    "slug": "reptyro-cryst",
+    "name": "Reptyro Cryst",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_VolcanicMonster_Ice_icon_normal.png",
+    "elements": [
+      "Ice",
+      "Ground"
+    ],
+    "partnerSkill": "Ice-Loving Beast",
+    "shortEffect": "Uses Ice-Loving Beast."
+  },
+  {
+    "slug": "ribbuny",
+    "name": "Ribbuny",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_PinkRabbit_icon_normal.png",
+    "elements": [
+      "Neutral"
+    ],
+    "partnerSkill": "Happy-Go-Lucky Bunny",
+    "shortEffect": "Uses Happy-Go-Lucky Bunny."
+  },
+  {
+    "slug": "ribbuny-botan",
+    "name": "Ribbuny Botan",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_PinkRabbit_Grass_icon_normal.png",
+    "elements": [
+      "Grass"
+    ],
+    "partnerSkill": "Ground 'n' Pound",
+    "shortEffect": "Uses Ground 'n' Pound."
+  },
+  {
+    "slug": "robinquill",
+    "name": "Robinquill",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_RobinHood_icon_normal.png",
+    "elements": [
+      "Grass"
+    ],
+    "partnerSkill": "Grounded Archer",
+    "shortEffect": "Uses Grounded Archer."
+  },
+  {
+    "slug": "robinquill-terra",
+    "name": "Robinquill Terra",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_RobinHood_Ground_icon_normal.png",
+    "elements": [
+      "Grass",
+      "Ground"
+    ],
+    "partnerSkill": "Master Archer",
+    "shortEffect": "Uses Master Archer."
+  },
+  {
+    "slug": "rooby",
+    "name": "Rooby",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_FlameBambi_icon_normal.png",
+    "elements": [
+      "Fire"
+    ],
+    "partnerSkill": "Tiny Spark",
+    "shortEffect": "Uses Tiny Spark."
+  },
+  {
+    "slug": "roujay",
+    "name": "Roujay",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_ThiefBird_icon_normal.png",
+    "elements": [
+      "Dark"
+    ],
+    "partnerSkill": "Dark-Nester",
+    "shortEffect": "Uses Dark-Nester."
+  },
+  {
+    "slug": "rushoar",
+    "name": "Rushoar",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_Boar_icon_normal.png",
+    "elements": [
+      "Ground"
+    ],
+    "partnerSkill": "Hard Head",
+    "shortEffect": "Uses Hard Head."
+  },
+  {
+    "slug": "sekhmet",
+    "name": "Sekhmet",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_Sekhmet_icon_normal.png",
+    "elements": [
+      "Ground"
+    ],
+    "partnerSkill": "Desert Empress",
+    "shortEffect": "Uses Desert Empress."
+  },
+  {
+    "slug": "selyne",
+    "name": "Selyne",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_MoonQueen_icon_normal.png",
+    "elements": [
+      "Dark",
+      "Neutral"
+    ],
+    "partnerSkill": "Celestial Darkness",
+    "shortEffect": "Uses Celestial Darkness."
+  },
+  {
+    "slug": "shadowbeak",
+    "name": "Shadowbeak",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_BlackGriffon_icon_normal.png",
+    "elements": [
+      "Dark"
+    ],
+    "partnerSkill": "Modified DNA",
+    "shortEffect": "Uses Modified DNA."
+  },
+  {
+    "slug": "shaolong",
+    "name": "Shaolong",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_BlueSkyDragon_icon_normal.png",
+    "elements": [
+      "Dragon",
+      "Water"
+    ],
+    "partnerSkill": "Azure Sovereign",
+    "shortEffect": "Uses Azure Sovereign."
+  },
+  {
+    "slug": "shroomer",
+    "name": "Shroomer",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_MushroomDragon_icon_normal.png",
+    "elements": [
+      "Grass"
+    ],
+    "partnerSkill": "Rampant Spores",
+    "shortEffect": "Uses Rampant Spores."
+  },
+  {
+    "slug": "shroomer-noct",
+    "name": "Shroomer Noct",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_MushroomDragon_Dark_icon_normal.png",
+    "elements": [
+      "Grass",
+      "Dark"
+    ],
+    "partnerSkill": "Roiling Spores",
+    "shortEffect": "Uses Roiling Spores."
+  },
+  {
+    "slug": "sibelyx",
+    "name": "Sibelyx",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_WhiteMoth_icon_normal.png",
+    "elements": [
+      "Ice"
+    ],
+    "partnerSkill": "Silk Shroud",
+    "shortEffect": "Uses Silk Shroud."
+  },
+  {
+    "slug": "sibelyx-primo",
+    "name": "Sibelyx Primo",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_WhiteMoth_Neutral_icon_normal.png",
+    "elements": [
+      "Neutral"
+    ],
+    "partnerSkill": "Gilded Shroud",
+    "shortEffect": "Uses Gilded Shroud."
+  },
+  {
+    "slug": "silvance",
+    "name": "Silvance",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_Mothman_icon_normal.png",
+    "elements": [
+      "Grass"
+    ],
+    "partnerSkill": "Spore Stalwart",
+    "shortEffect": "Uses Spore Stalwart."
+  },
+  {
+    "slug": "silvegis",
+    "name": "Silvegis",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_WhiteShieldDragon_icon_normal.png",
+    "elements": [
+      "Dragon"
+    ],
+    "partnerSkill": "Aegis Shield",
+    "shortEffect": "Uses Aegis Shield."
+  },
+  {
+    "slug": "skutlass",
+    "name": "Skutlass",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_SwordCutlassfish_icon_normal.png",
+    "elements": [
+      "Water"
+    ],
+    "partnerSkill": "Fish Fillet",
+    "shortEffect": "Uses Fish Fillet."
+  },
+  {
+    "slug": "skutlass-ignis",
+    "name": "Skutlass Ignis",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_SwordCutlassfish_Fire_icon_normal.png",
+    "elements": [
+      "Water",
+      "Fire"
+    ],
+    "partnerSkill": "Seared Fish Fillet",
+    "shortEffect": "Uses Seared Fish Fillet."
+  },
+  {
+    "slug": "slowatt",
+    "name": "Slowatt",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_ElecLizard_icon_normal.png",
+    "elements": [
+      "Electric"
+    ],
+    "partnerSkill": "Chillswitch",
+    "shortEffect": "Uses Chillswitch."
+  },
+  {
+    "slug": "smokie",
+    "name": "Smokie",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_BlackPuppy_icon_normal.png",
+    "elements": [
+      "Dark"
+    ],
+    "partnerSkill": "Dig, Smokie! Dig!",
+    "shortEffect": "Uses Dig, Smokie! Dig!."
+  },
+  {
+    "slug": "smokie-cryst",
+    "name": "Smokie Cryst",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_BlackPuppy_Ice_icon_normal.png",
+    "elements": [
+      "Dark",
+      "Ice"
+    ],
+    "partnerSkill": "Cryo Instincts",
+    "shortEffect": "Uses Cryo Instincts."
+  },
+  {
+    "slug": "snock",
+    "name": "Snock",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_ElecSnail_icon_normal.png",
+    "elements": [
+      "Electric"
+    ],
+    "partnerSkill": "Charging Shell",
+    "shortEffect": "Uses Charging Shell."
+  },
+  {
+    "slug": "snock-lux",
+    "name": "Snock Lux",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_ElecSnail_Ground_icon_normal.png",
+    "elements": [
+      "Electric",
+      "Ground"
+    ],
+    "partnerSkill": "Grounding Shell",
+    "shortEffect": "Uses Grounding Shell."
+  },
+  {
+    "slug": "snugloo",
+    "name": "Snugloo",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_SmallYeti_icon_normal.png",
+    "elements": [
+      "Ice"
+    ],
+    "partnerSkill": "Invisible Eye",
+    "shortEffect": "Uses Invisible Eye."
+  },
+  {
+    "slug": "solenne",
+    "name": "Solenne",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_MonochromeQueen_icon_normal.png",
+    "elements": [
+      "Dark",
+      "Neutral"
+    ],
+    "partnerSkill": "Untainted Maiden",
+    "shortEffect": "Uses Untainted Maiden."
+  },
+  {
+    "slug": "solmora",
+    "name": "Solmora",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_KingSunfish_icon_normal.png",
+    "elements": [
+      "Water"
+    ],
+    "partnerSkill": "Charming Fish",
+    "shortEffect": "Uses Charming Fish."
+  },
+  {
+    "slug": "solmora-lux",
+    "name": "Solmora Lux",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_KingSunfish_Thunder_icon_normal.png",
+    "elements": [
+      "Water",
+      "Electric"
+    ],
+    "partnerSkill": "Shocking Fish",
+    "shortEffect": "Uses Shocking Fish."
+  },
+  {
+    "slug": "sootseer",
+    "name": "Sootseer",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_CandleGhost_icon_normal.png",
+    "elements": [
+      "Dark",
+      "Fire"
+    ],
+    "partnerSkill": "Grave Robber",
+    "shortEffect": "Uses Grave Robber."
+  },
+  {
+    "slug": "souffline",
+    "name": "Souffline",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_DandelionGirl_icon_normal.png",
+    "elements": [
+      "Grass"
+    ],
+    "partnerSkill": "Fuzzy Fairy",
+    "shortEffect": "Uses Fuzzy Fairy."
+  },
+  {
+    "slug": "sparkit",
+    "name": "Sparkit",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_ElecCat_icon_normal.png",
+    "elements": [
+      "Electric"
+    ],
+    "partnerSkill": "Static Electricity",
+    "shortEffect": "Uses Static Electricity."
+  },
+  {
+    "slug": "splatterina",
+    "name": "Splatterina",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_GrimGirl_icon_normal.png",
+    "elements": [
+      "Dark"
+    ],
+    "partnerSkill": "Blade of Uncontrolled Passion",
+    "shortEffect": "Uses Blade of Uncontrolled Passion."
+  },
+  {
+    "slug": "starryon",
+    "name": "Starryon",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_NightBlueHorse_icon_normal.png",
+    "elements": [
+      "Dark"
+    ],
+    "partnerSkill": "Night Dancer",
+    "shortEffect": "Uses Night Dancer."
+  },
+  {
+    "slug": "starryon-primo",
+    "name": "Starryon Primo",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_NightBlueHorse_Neutral_icon_normal.png",
+    "elements": [
+      "Neutral"
+    ],
+    "partnerSkill": "Light Dancer",
+    "shortEffect": "Uses Light Dancer."
+  },
+  {
+    "slug": "surfent",
+    "name": "Surfent",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_Serpent_icon_normal.png",
+    "elements": [
+      "Water"
+    ],
+    "partnerSkill": "Swift Swimmer",
+    "shortEffect": "Uses Swift Swimmer."
+  },
+  {
+    "slug": "surfent-terra",
+    "name": "Surfent Terra",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_Serpent_Ground_icon_normal.png",
+    "elements": [
+      "Ground"
+    ],
+    "partnerSkill": "Sand Swimmer",
+    "shortEffect": "Uses Sand Swimmer."
+  },
+  {
+    "slug": "suzaku",
+    "name": "Suzaku",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_Suzaku_icon_normal.png",
+    "elements": [
+      "Fire"
+    ],
+    "partnerSkill": "Wings of Flame",
+    "shortEffect": "Uses Wings of Flame."
+  },
+  {
+    "slug": "suzaku-aqua",
+    "name": "Suzaku Aqua",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_Suzaku_Water_icon_normal.png",
+    "elements": [
+      "Water"
+    ],
+    "partnerSkill": "Wings of Water",
+    "shortEffect": "Uses Wings of Water."
+  },
+  {
+    "slug": "swee",
+    "name": "Swee",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_MopBaby_icon_normal.png",
+    "elements": [
+      "Ice"
+    ],
+    "partnerSkill": "Fluffy",
+    "shortEffect": "Uses Fluffy."
+  },
+  {
+    "slug": "sweepa",
+    "name": "Sweepa",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_MopKing_icon_normal.png",
+    "elements": [
+      "Ice"
+    ],
+    "partnerSkill": "King of Fluff",
+    "shortEffect": "Uses King of Fluff."
+  },
+  {
+    "slug": "tanzee",
+    "name": "Tanzee",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_Monkey_icon_normal.png",
+    "elements": [
+      "Grass"
+    ],
+    "partnerSkill": "Cheery Rifle",
+    "shortEffect": "Uses Cheery Rifle."
+  },
+  {
+    "slug": "tanzee-ignis",
+    "name": "Tanzee Ignis",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_Monkey_Fire_icon_normal.png",
+    "elements": [
+      "Fire"
+    ],
+    "partnerSkill": "Chipper Chimp Gunfire",
+    "shortEffect": "Uses Chipper Chimp Gunfire."
+  },
+  {
+    "slug": "tarantriss",
+    "name": "Tarantriss",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_PurpleSpider_icon_normal.png",
+    "elements": [
+      "Dark"
+    ],
+    "partnerSkill": "Tarantriss’ Web",
+    "shortEffect": "Uses Tarantriss’ Web."
+  },
+  {
+    "slug": "teafant",
+    "name": "Teafant",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_Ganesha_icon_normal.png",
+    "elements": [
+      "Water"
+    ],
+    "partnerSkill": "Soothing Shower",
+    "shortEffect": "Uses Soothing Shower."
+  },
+  {
+    "slug": "tetroise",
+    "name": "Tetroise ",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_CubeTurtle_icon_normal.png",
+    "elements": [
+      "Ground"
+    ],
+    "partnerSkill": "Masonry Archelon",
+    "shortEffect": "Uses Masonry Archelon."
+  },
+  {
+    "slug": "tetroise-primo",
+    "name": "Tetroise Primo",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_CubeTurtle_Neutral_icon_normal.png",
+    "elements": [
+      "Neutral"
+    ],
+    "partnerSkill": "Stone-Chaser Archelon",
+    "shortEffect": "Uses Stone-Chaser Archelon."
+  },
+  {
+    "slug": "tocotoco",
+    "name": "Tocotoco",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_ColorfulBird_icon_normal.png",
+    "elements": [
+      "Neutral"
+    ],
+    "partnerSkill": "Eggbomb Launcher",
+    "shortEffect": "Uses Eggbomb Launcher."
+  },
+  {
+    "slug": "tombat",
+    "name": "Tombat",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_CatBat_icon_normal.png",
+    "elements": [
+      "Dark"
+    ],
+    "partnerSkill": "Ultrasonic Sensor",
+    "shortEffect": "Uses Ultrasonic Sensor."
+  },
+  {
+    "slug": "tropicaw",
+    "name": "Tropicaw",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_RedFlowerBird_icon_normal.png",
+    "elements": [
+      "Grass"
+    ],
+    "partnerSkill": "Flower Dance",
+    "shortEffect": "Uses Flower Dance."
+  },
+  {
+    "slug": "turtacle",
+    "name": "Turtacle",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_TentacleTurtle_icon_normal.png",
+    "elements": [
+      "Water"
+    ],
+    "partnerSkill": "Spikey Carrier",
+    "shortEffect": "Uses Spikey Carrier."
+  },
+  {
+    "slug": "turtacle-terra",
+    "name": "Turtacle Terra",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_TentacleTurtle_Ground_icon_normal.png",
+    "elements": [
+      "Water",
+      "Ground"
+    ],
+    "partnerSkill": "Shiny Hauler",
+    "shortEffect": "Uses Shiny Hauler."
+  },
+  {
+    "slug": "univolt",
+    "name": "Univolt",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_Kirin_icon_normal.png",
+    "elements": [
+      "Electric"
+    ],
+    "partnerSkill": "Swift Deity",
+    "shortEffect": "Uses Swift Deity."
+  },
+  {
+    "slug": "univolt-cryst",
+    "name": "Univolt Cryst",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_Kirin_Ice_icon_normal.png",
+    "elements": [
+      "Ice"
+    ],
+    "partnerSkill": "Frigid Deity",
+    "shortEffect": "Uses Frigid Deity."
+  },
+  {
+    "slug": "vaelet",
+    "name": "Vaelet",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_VioletFairy_icon_normal.png",
+    "elements": [
+      "Grass"
+    ],
+    "partnerSkill": "Purification of Gaia",
+    "shortEffect": "Uses Purification of Gaia."
+  },
+  {
+    "slug": "valentail",
+    "name": "Valentail",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_LongCat_icon_normal.png",
+    "elements": [
+      "Neutral"
+    ],
+    "partnerSkill": "Big Stretch",
+    "shortEffect": "Uses Big Stretch."
+  },
+  {
+    "slug": "vanwyrm",
+    "name": "Vanwyrm",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_BirdDragon_icon_normal.png",
+    "elements": [
+      "Fire",
+      "Dark"
+    ],
+    "partnerSkill": "Aerial Marauder",
+    "shortEffect": "Uses Aerial Marauder."
+  },
+  {
+    "slug": "vanwyrm-cryst",
+    "name": "Vanwyrm Cryst",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_BirdDragon_Ice_icon_normal.png",
+    "elements": [
+      "Ice",
+      "Dark"
+    ],
+    "partnerSkill": "Aerial Marauder",
+    "shortEffect": "Uses Aerial Marauder."
+  },
+  {
+    "slug": "venusa",
+    "name": "Venusa",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_SnakeGirl_icon_normal.png",
+    "elements": [
+      "Dark"
+    ],
+    "partnerSkill": "Snake's Sagacity",
+    "shortEffect": "Uses Snake's Sagacity."
+  },
+  {
+    "slug": "verdash",
+    "name": "Verdash",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_GrassRabbitMan_icon_normal.png",
+    "elements": [
+      "Grass"
+    ],
+    "partnerSkill": "Grassland Gymnast",
+    "shortEffect": "Uses Grassland Gymnast."
+  },
+  {
+    "slug": "vixy",
+    "name": "Vixy",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_CuteFox_icon_normal.png",
+    "elements": [
+      "Neutral"
+    ],
+    "partnerSkill": "Dig Here!",
+    "shortEffect": "Uses Dig Here!."
+  },
+  {
+    "slug": "warsect",
+    "name": "Warsect",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_HerculesBeetle_icon_normal.png",
+    "elements": [
+      "Ground",
+      "Grass"
+    ],
+    "partnerSkill": "Cast-Iron Shell",
+    "shortEffect": "Uses Cast-Iron Shell."
+  },
+  {
+    "slug": "warsect-terra",
+    "name": "Warsect Terra",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_HerculesBeetle_Ground_icon_normal.png",
+    "elements": [
+      "Ground"
+    ],
+    "partnerSkill": "Fullmetal Shell",
+    "shortEffect": "Uses Fullmetal Shell."
+  },
+  {
+    "slug": "whalaska",
+    "name": "Whalaska",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_IceNarwhal_icon_normal.png",
+    "elements": [
+      "Ice",
+      "Water"
+    ],
+    "partnerSkill": "Chilled Whale Cruiser",
+    "shortEffect": "Uses Chilled Whale Cruiser."
+  },
+  {
+    "slug": "whalaska-ignis",
+    "name": "Whalaska Ignis",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_IceNarwhal_Fire_icon_normal.png",
+    "elements": [
+      "Ice",
+      "Fire"
+    ],
+    "partnerSkill": "Cozy Whale Cruiser",
+    "shortEffect": "Uses Cozy Whale Cruiser."
+  },
+  {
+    "slug": "wispaw",
+    "name": "Wispaw",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_GhostBlackCat_icon_normal.png",
+    "elements": [
+      "Dark"
+    ],
+    "partnerSkill": "Death-Cheating Feline",
+    "shortEffect": "Uses Death-Cheating Feline."
+  },
+  {
+    "slug": "wistella",
+    "name": "Wistella",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_MoonChild_icon_normal.png",
+    "elements": [
+      "Dark"
+    ],
+    "partnerSkill": "Hidden Dark Energy",
+    "shortEffect": "Uses Hidden Dark Energy."
+  },
+  {
+    "slug": "wixen",
+    "name": "Wixen",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_FoxMage_icon_normal.png",
+    "elements": [
+      "Fire"
+    ],
+    "partnerSkill": "Lord Fox",
+    "shortEffect": "Uses Lord Fox."
+  },
+  {
+    "slug": "wixen-noct",
+    "name": "Wixen Noct",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_FoxMage_Dark_icon_normal.png",
+    "elements": [
+      "Fire",
+      "Dark"
+    ],
+    "partnerSkill": "Black Fox Lord",
+    "shortEffect": "Uses Black Fox Lord."
+  },
+  {
+    "slug": "woolipop",
+    "name": "Woolipop",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_SweetsSheep_icon_normal.png",
+    "elements": [
+      "Neutral"
+    ],
+    "partnerSkill": "Candy Pop",
+    "shortEffect": "Uses Candy Pop."
+  },
+  {
+    "slug": "woolipop-terra",
+    "name": "Woolipop Terra",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_SweetsSheep_Ground_icon_normal.png",
+    "elements": [
+      "Ground"
+    ],
+    "partnerSkill": "Bitter Pop",
+    "shortEffect": "Uses Bitter Pop."
+  },
+  {
+    "slug": "wumpo",
+    "name": "Wumpo",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_Yeti_icon_normal.png",
+    "elements": [
+      "Ice"
+    ],
+    "partnerSkill": "Guardian of the Snowy Mountain",
+    "shortEffect": "Uses Guardian of the Snowy Mountain."
+  },
+  {
+    "slug": "wumpo-botan",
+    "name": "Wumpo Botan",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_Yeti_Grass_icon_normal.png",
+    "elements": [
+      "Grass"
+    ],
+    "partnerSkill": "Guardian of the South",
+    "shortEffect": "Uses Guardian of the South."
+  },
+  {
+    "slug": "xenogard",
+    "name": "Xenogard",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_WhiteAlienDragon_icon_normal.png",
+    "elements": [
+      "Dragon"
+    ],
+    "partnerSkill": "Unknown Intruder",
+    "shortEffect": "Uses Unknown Intruder."
+  },
+  {
+    "slug": "xenolord",
+    "name": "Xenolord",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_DarkMechaDragon_icon_normal.png",
+    "elements": [
+      "Dark",
+      "Dragon"
+    ],
+    "partnerSkill": "Meteor Wings",
+    "shortEffect": "Uses Meteor Wings."
+  },
+  {
+    "slug": "xenovader",
+    "name": "Xenovader",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_DarkAlien_icon_normal.png",
+    "elements": [
+      "Dark"
+    ],
+    "partnerSkill": "Unknown Invader",
+    "shortEffect": "Uses Unknown Invader."
+  },
+  {
+    "slug": "yakumo",
+    "name": "Yakumo",
+    "imageUrl": "https://palworld.gg/images/full_palicon/T_GuardianDog_icon_normal.png",
+    "elements": [
+      "Neutral"
+    ],
+    "partnerSkill": "Birds of a Feather",
+    "shortEffect": "Uses Birds of a Feather."
+  }
+]

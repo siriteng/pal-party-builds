@@ -1,9 +1,10 @@
 import type { Pal } from "./types";
+import generatedPals from "./pals.generated.json";
 
 const CDN = "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal";
 const image = (asset: string) => `${CDN}/T_${asset}_icon_normal.webp`;
 
-export const pals: Pal[] = [
+const curatedPals: Pal[] = [
   { slug: "jelliette", name: "Jelliette", imageUrl: image("JellyfishFairy"), elements: ["Water"], partnerSkill: "Jelliette Drop", shortEffect: "Increases items obtained from fishing." },
   { slug: "gloopie", name: "Gloopie", imageUrl: image("OctopusGirl"), elements: ["Water", "Dark"], partnerSkill: "Sticky Princess", shortEffect: "Slows fishing gauge loss when bars separate." },
   { slug: "whalaska", name: "Whalaska", imageUrl: image("IceNarwhal"), elements: ["Ice", "Water"], partnerSkill: "Chilled Whale Cruiser", shortEffect: "Starts fishing with more capture progress." },
@@ -25,5 +26,15 @@ export const pals: Pal[] = [
   { slug: "gumoss", name: "Gumoss", imageUrl: image("PlantSlime"), elements: ["Grass", "Ground"], partnerSkill: "Logging Assistance", shortEffect: "Reduces wood weight and improves logging." },
   { slug: "fuddler", name: "Fuddler", imageUrl: image("CuteMole"), elements: ["Ground"], partnerSkill: "Mining Assistance", shortEffect: "Reduces stone weight and improves mining." },
 ];
+
+const curatedBySlug = new Map(curatedPals.map((pal) => [pal.slug, pal]));
+
+export const pals: Pal[] = generatedPals.map((pal) => {
+  const curated = curatedBySlug.get(pal.slug);
+  if (!curated) return pal;
+  return { ...pal, partnerSkill: curated.partnerSkill, shortEffect: curated.shortEffect };
+});
+
+export const palElements = [...new Set(pals.flatMap((pal) => pal.elements))].sort();
 
 export const palBySlug = new Map(pals.map((pal) => [pal.slug, pal]));

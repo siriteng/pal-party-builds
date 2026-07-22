@@ -4,7 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import { DiscordIcon, PlusIcon, SearchIcon, SparkIcon } from "@/components/icons";
 import { categories, type Category } from "@/lib/types";
-import { pals, palBySlug } from "@/lib/pals";
+import { pals, palBySlug, palElements } from "@/lib/pals";
 import { withBasePath } from "@/lib/paths";
 
 type SelectedPal = { slug: string; role: string; stackNote: string };
@@ -26,6 +26,7 @@ const draftKey = "pal-party-build-draft";
 export function BuildComposer() {
   const [draft, setDraft] = useState<Draft>(emptyDraft);
   const [query, setQuery] = useState("");
+  const [element, setElement] = useState("All");
   const [ready, setReady] = useState(false);
   const [publishing, setPublishing] = useState(false);
   const [error, setError] = useState("");
@@ -49,9 +50,12 @@ export function BuildComposer() {
 
   const filteredPals = useMemo(() => {
     const needle = query.trim().toLowerCase();
-    if (!needle) return pals;
-    return pals.filter((pal) => `${pal.name} ${pal.elements.join(" ")} ${pal.partnerSkill}`.toLowerCase().includes(needle));
-  }, [query]);
+    return pals.filter((pal) => {
+      const matchesElement = element === "All" || pal.elements.includes(element);
+      const matchesQuery = !needle || `${pal.name} ${pal.elements.join(" ")} ${pal.partnerSkill} ${pal.shortEffect}`.toLowerCase().includes(needle);
+      return matchesElement && matchesQuery;
+    });
+  }, [element, query]);
 
   function update<K extends keyof Draft>(key: K, value: Draft[K]) {
     setDraft((current) => ({ ...current, [key]: value }));
@@ -132,8 +136,9 @@ export function BuildComposer() {
             </div>
 
             <div className="pal-library">
-              <div className="library-heading"><div><h3>Pal library</h3><span>Click a Pal more than once to add duplicates.</span></div><label className="search-field"><SearchIcon size={17} /><span className="sr-only">Search Pals</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search Pal" /></label></div>
-              <div className="library-grid">{filteredPals.map((pal) => <button type="button" key={pal.slug} onClick={() => addPal(pal.slug)} disabled={draft.pals.length >= 5}><span className={`library-pal-art pal-tone-${pal.elements[0].toLowerCase()}`}><img src={pal.imageUrl} alt="" /></span><strong>{pal.name}</strong><small>{pal.partnerSkill}</small><span className="add-pal-icon"><PlusIcon size={15} /></span></button>)}</div>
+              <div className="library-heading"><div><h3>Pal library <span className="library-count">{pals.length}</span></h3><span>Complete Palworld.gg library. Add variants or duplicates freely.</span></div><div className="library-controls"><label className="search-field"><SearchIcon size={17} /><span className="sr-only">Search Pals</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Name or Partner Skill" /></label><label className="element-filter"><span className="sr-only">Filter by element</span><select value={element} onChange={(event) => setElement(event.target.value)}><option value="All">All elements</option>{palElements.map((item) => <option value={item} key={item}>{item}</option>)}</select></label></div></div>
+              <div className="library-results"><span>{filteredPals.length} {filteredPals.length === 1 ? "Pal" : "Pals"}</span>{(query || element !== "All") && <button type="button" onClick={() => { setQuery(""); setElement("All"); }}>Clear filters</button>}</div>
+              <div className="library-grid">{filteredPals.map((pal) => <button type="button" key={pal.slug} onClick={() => addPal(pal.slug)} disabled={draft.pals.length >= 5}><span className={`library-pal-art pal-tone-${pal.elements[0].toLowerCase()}`}><img src={pal.imageUrl} alt="" loading="lazy" decoding="async" /></span><strong>{pal.name}</strong><small>{pal.partnerSkill}</small><span className="add-pal-icon"><PlusIcon size={15} /></span></button>)}</div>
             </div>
           </section>
 
