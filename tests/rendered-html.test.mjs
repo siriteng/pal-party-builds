@@ -12,8 +12,25 @@ test("home source contains the discovery experience", async () => {
   assert.match(page, /Palworld community builds/i);
   assert.match(page, /HomeFeed/);
   assert.match(seedData, /Jelliette/i);
-  assert.match(seedData, /Talented Pal Fishing Party/i);
+  assert.match(seedData, /\+55–95% Fishing Items/i);
   assert.doesNotMatch(page, /Your site is taking shape/i);
+});
+
+test("build titles lead with measured results and visible taglines are removed", async () => {
+  const [page, card, detail, composer, seedData] = await Promise.all([
+    readFile(new URL("../app/page.tsx", import.meta.url), "utf8"),
+    readFile(new URL("../components/BuildCard.tsx", import.meta.url), "utf8"),
+    readFile(new URL("../app/build/[slug]/page.tsx", import.meta.url), "utf8"),
+    readFile(new URL("../app/build/new/BuildComposer.tsx", import.meta.url), "utf8"),
+    readFile(new URL("../lib/seed-builds.ts", import.meta.url), "utf8"),
+  ]);
+  assert.doesNotMatch(page, /Find proven parties/);
+  assert.doesNotMatch(card, /build\.summary/);
+  assert.doesNotMatch(detail, /<p>\{build\.summary\}<\/p>/);
+  assert.doesNotMatch(composer, /One-line promise|draft\.summary/);
+  for (const numberTitle of ["55–95%", "35–45%", "40–80% Player Attack", "300–600 Carry", "40–80% Water Pal Drops"]) {
+    assert.match(seedData, new RegExp(numberTitle));
+  }
 });
 
 test("starter preview code and dependency are gone", async () => {

@@ -23,7 +23,7 @@ export function HomeFeed({ initialBuilds }: { initialBuilds: PartyBuild[] }) {
     const needle = query.trim().toLowerCase();
     return builds
       .filter((build) => category === "All" || build.category === category)
-      .filter((build) => !needle || `${build.title} ${build.summary} ${build.tags.join(" ")} ${build.pals.map((pal) => pal.name).join(" ")}`.toLowerCase().includes(needle))
+      .filter((build) => !needle || `${build.title} ${build.tags.join(" ")} ${build.pals.map((pal) => pal.name).join(" ")}`.toLowerCase().includes(needle))
       .sort((a, b) => sort === "Top" ? b.likes - a.likes : b.createdAt - a.createdAt);
   }, [builds, category, query, sort]);
 

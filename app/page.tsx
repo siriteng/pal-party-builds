@@ -10,7 +10,6 @@ export default function Home() {
         <div className="page-shell">
           <div className="hero-copy">
             <h1>Palworld community builds</h1>
-            <p>Find proven parties for combat, breeding, fishing, exploration, and farming.</p>
             <div className="hero-actions">
               <Link href="#builds" className="button button-primary">Browse builds <ArrowIcon size={18} /></Link>
               <Link href="/build/new" className="button button-ghost">Create a build</Link>

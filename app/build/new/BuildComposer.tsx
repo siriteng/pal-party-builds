@@ -12,7 +12,6 @@ type SelectedPal = { slug: string; role: string; stackNote: string };
 type Draft = {
   title: string;
   category: Category;
-  summary: string;
   strategy: string;
   passives: string;
   baseSupport: string;
@@ -21,7 +20,7 @@ type Draft = {
   pals: SelectedPal[];
 };
 
-const emptyDraft: Draft = { title: "", category: "Combat", summary: "", strategy: "", passives: "", baseSupport: "", tags: "", gameVersion: "1.0", pals: [] };
+const emptyDraft: Draft = { title: "", category: "Combat", strategy: "", passives: "", baseSupport: "", tags: "", gameVersion: "1.0", pals: [] };
 const draftKey = "pal-party-build-draft";
 
 export function BuildComposer() {
@@ -78,8 +77,8 @@ export function BuildComposer() {
   async function publish(event: React.FormEvent) {
     event.preventDefault();
     setError("");
-    if (!draft.title.trim() || !draft.summary.trim() || !draft.strategy.trim() || !draft.pals.length) {
-      setError("Add a title, a short summary, the strategy, and at least one Pal.");
+    if (!draft.title.trim() || !draft.strategy.trim() || !draft.pals.length) {
+      setError("Add a result title, the strategy, and at least one Pal.");
       return;
     }
     setPublishing(true);
@@ -114,9 +113,8 @@ export function BuildComposer() {
           <section className="composer-section">
             <div className="composer-step"><div><h2>Build details</h2></div></div>
             <div className="form-grid">
-              <label className="field field-wide"><span>Build title</span><input value={draft.title} onChange={(event) => update("title", event.target.value)} placeholder="e.g. Talented Pal Fishing Party" maxLength={80} /></label>
+              <label className="field field-wide"><span>Result title</span><input value={draft.title} onChange={(event) => update("title", event.target.value)} placeholder="e.g. +40–80% Water Pal Drops" maxLength={80} /></label>
               <div className="field field-wide"><span>Category</span><div className="category-picker">{categories.map((item) => <button type="button" key={item} className={draft.category === item ? "active" : ""} onClick={() => update("category", item)}>{item}</button>)}</div></div>
-              <label className="field field-wide"><span>One-line promise</span><textarea value={draft.summary} onChange={(event) => update("summary", event.target.value)} placeholder="What does this party make easier or faster?" rows={2} maxLength={220} /><small>{draft.summary.length}/220</small></label>
             </div>
           </section>
 

@@ -16,7 +16,7 @@ async function loadBuild(slug: string) {
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const build = await loadBuild(slug);
-  return build ? { title: build.title, description: build.summary } : { title: "Party build" };
+  return build ? { title: build.title } : { title: "Party build" };
 }
 
 export default async function BuildDetailPage({ params }: { params: Promise<{ slug: string }> }) {
@@ -31,7 +31,6 @@ export default async function BuildDetailPage({ params }: { params: Promise<{ sl
           <div className="detail-title">
             <span className={`category-chip category-${build.category.toLowerCase()}`}>{build.category}</span>
             <h1>{build.title}</h1>
-            <p>{build.summary}</p>
             <div className="detail-meta">{build.author.avatarUrl ? <img src={build.author.avatarUrl} alt="" /> : <span className="author-orb">{build.author.name.slice(0, 1)}</span>}<span>by <strong>{build.author.name}</strong></span><span>Palworld v{build.gameVersion}</span></div>
           </div>
           <LikeButton buildId={build.id} initialLikes={build.likes} initialLiked={build.likedByViewer} large />

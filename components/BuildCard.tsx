@@ -14,7 +14,6 @@ export function BuildCard({ build, featured = false }: { build: PartyBuild; feat
         </div>
         <div className="build-card-copy">
           <h3>{build.title}</h3>
-          <p>{build.summary}</p>
         </div>
         <PalLineup pals={build.pals} />
         <div className="build-card-footer">

@@ -28,6 +28,7 @@ type CreateBuildInput = {
 };
 
 let seedPromise: Promise<void> | null = null;
+const seedBuildById = new Map(seedBuilds.map((build) => [build.id, build]));
 
 function seedAuthorId(name: string) {
   return `seed-user-${name.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`;
@@ -125,23 +126,26 @@ export async function listBuilds(viewerUserId?: string): Promise<PartyBuild[]> {
   const likeTotals = new Map(likeRows.map((row) => [row.buildId, row.total]));
   const viewerLikes = new Set(viewerRows.map((row) => row.buildId));
 
-  return rows.map(({ build, authorName, avatarUrl }) => ({
-    id: build.id,
-    slug: build.slug,
-    title: build.title,
-    category: isCategory(build.category) ? build.category : "Combat",
-    summary: build.summary,
-    strategy: build.strategy,
-    passives: build.passives,
-    baseSupport: build.baseSupport,
-    tags: safeTags(build.tags),
-    gameVersion: build.gameVersion,
-    pals: palsByBuild.get(build.id) ?? [],
-    likes: build.baseLikes + (likeTotals.get(build.id) ?? 0),
-    likedByViewer: viewerLikes.has(build.id),
-    author: { name: authorName, avatarUrl: avatarUrl || undefined },
-    createdAt: build.createdAt,
-  }));
+  return rows.map(({ build, authorName, avatarUrl }) => {
+    const canonical = seedBuildById.get(build.id);
+    return {
+      id: build.id,
+      slug: build.slug,
+      title: canonical?.title ?? build.title,
+      category: canonical?.category ?? (isCategory(build.category) ? build.category : "Combat"),
+      summary: canonical?.summary ?? build.summary,
+      strategy: canonical?.strategy ?? build.strategy,
+      passives: canonical?.passives ?? build.passives,
+      baseSupport: canonical?.baseSupport ?? build.baseSupport,
+      tags: canonical?.tags ?? safeTags(build.tags),
+      gameVersion: canonical?.gameVersion ?? build.gameVersion,
+      pals: palsByBuild.get(build.id) ?? [],
+      likes: build.baseLikes + (likeTotals.get(build.id) ?? 0),
+      likedByViewer: viewerLikes.has(build.id),
+      author: { name: authorName, avatarUrl: avatarUrl || undefined },
+      createdAt: build.createdAt,
+    };
+  });
 }
 
 export async function findBuildBySlug(slug: string, viewerUserId?: string) {
@@ -169,7 +173,7 @@ function slugify(value: string) {
 
 export async function createBuild(userId: string, input: CreateBuildInput) {
   if (!isCategory(input.category)) throw new Error("Choose a valid category");
-  if (!input.title.trim() || !input.summary.trim() || !input.strategy.trim()) throw new Error("Title, summary, and strategy are required");
+  if (!input.title.trim() || !input.strategy.trim()) throw new Error("Title and strategy are required");
   if (!input.pals.length || input.pals.length > 5) throw new Error("Choose between 1 and 5 Pals");
 
   await ensureSeedData();
