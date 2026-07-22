@@ -1,7 +1,7 @@
 import { eq } from "drizzle-orm";
 import { getDb } from "@/db";
 import { users } from "@/db/schema";
-import { cookie, createSession, getSecret, OAUTH_RETURN_COOKIE, OAUTH_STATE_COOKIE, parseCookieHeader, safeReturnTo, SESSION_COOKIE } from "@/lib/auth";
+import { cookie, createSession, getSecret, OAUTH_RETURN_COOKIE, OAUTH_STATE_COOKIE, parseCookieHeader, redirect, safeReturnTo, SESSION_COOKIE } from "@/lib/auth";
 import { ensureSeedData } from "@/lib/build-repository";
 import { withBasePath } from "@/lib/paths";
 
@@ -21,7 +21,7 @@ export async function GET(request: Request) {
   const secure = url.protocol === "https:";
 
   if (!code || !state || !expectedState || state !== expectedState || !clientId || !clientSecret) {
-    return Response.redirect(new URL(withBasePath("/auth/error?reason=invalid-state"), url.origin));
+    return redirect(new URL(withBasePath("/auth/error?reason=invalid-state"), url.origin));
   }
 
   try {
@@ -56,12 +56,12 @@ export async function GET(request: Request) {
     }
 
     const session = await createSession(userId);
-    const response = Response.redirect(new URL(withBasePath(returnTo), url.origin));
+    const response = redirect(new URL(withBasePath(returnTo), url.origin));
     response.headers.append("Set-Cookie", cookie(SESSION_COOKIE, session.token, { maxAge: session.maxAge, secure }));
     response.headers.append("Set-Cookie", cookie(OAUTH_STATE_COOKIE, "", { maxAge: 0, secure }));
     response.headers.append("Set-Cookie", cookie(OAUTH_RETURN_COOKIE, "", { maxAge: 0, secure }));
     return response;
   } catch {
-    return Response.redirect(new URL(withBasePath("/auth/error?reason=callback"), url.origin));
+    return redirect(new URL(withBasePath("/auth/error?reason=callback"), url.origin));
   }
 }

@@ -22,7 +22,8 @@
     }
   ],
   "vars": {
-    "APP_URL": "https://palworld.iterationx.cloud/builds"
+    "APP_URL": "https://palworld.iterationx.cloud/builds",
+    "DISCORD_CLIENT_ID": "YOUR_DISCORD_CLIENT_ID"
   },
   "routes": [
     {

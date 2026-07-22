@@ -42,6 +42,10 @@ export function cookie(name: string, value: string, options: { maxAge?: number; 
   return pieces.join("; ");
 }
 
+export function redirect(location: string | URL, status = 302) {
+  return new Response(null, { status, headers: { Location: location.toString() } });
+}
+
 export function randomToken(bytes = 32) {
   const data = crypto.getRandomValues(new Uint8Array(bytes));
   return base64Url(data);
