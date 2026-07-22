@@ -3,6 +3,7 @@ import { env } from "cloudflare:workers";
 import { getDb } from "@/db";
 import { sessions, users } from "@/db/schema";
 import type { SessionUser } from "./types";
+import { BASE_PATH } from "./paths";
 
 export const SESSION_COOKIE = "ppb_session";
 export const OAUTH_STATE_COOKIE = "ppb_oauth_state";
@@ -34,7 +35,7 @@ export function safeReturnTo(value: string | null | undefined, fallback = "/") {
 }
 
 export function cookie(name: string, value: string, options: { maxAge?: number; secure?: boolean; httpOnly?: boolean } = {}) {
-  const pieces = [`${name}=${encodeURIComponent(value)}`, "Path=/", "SameSite=Lax"];
+  const pieces = [`${name}=${encodeURIComponent(value)}`, `Path=${BASE_PATH}`, "SameSite=Lax"];
   if (options.httpOnly !== false) pieces.push("HttpOnly");
   if (options.secure) pieces.push("Secure");
   if (typeof options.maxAge === "number") pieces.push(`Max-Age=${options.maxAge}`);

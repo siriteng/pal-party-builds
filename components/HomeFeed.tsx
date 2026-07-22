@@ -4,6 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import { BuildCard } from "./BuildCard";
 import { SearchIcon } from "./icons";
 import { categories, type PartyBuild } from "@/lib/types";
+import { withBasePath } from "@/lib/paths";
 
 export function HomeFeed({ initialBuilds }: { initialBuilds: PartyBuild[] }) {
   const [builds, setBuilds] = useState(initialBuilds);
@@ -12,7 +13,7 @@ export function HomeFeed({ initialBuilds }: { initialBuilds: PartyBuild[] }) {
   const [query, setQuery] = useState("");
 
   useEffect(() => {
-    fetch("/api/builds", { credentials: "include" })
+    fetch(withBasePath("/api/builds"), { credentials: "include" })
       .then((response) => response.ok ? response.json() : null)
       .then((payload) => payload?.builds?.length && setBuilds(payload.builds))
       .catch(() => undefined);

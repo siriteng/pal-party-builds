@@ -17,12 +17,12 @@ The homepage and sample build pages work without credentials. Publishing and lik
 - D1 binding: `DB`
 - `DISCORD_CLIENT_ID`
 - `DISCORD_CLIENT_SECRET` (secret)
-- `APP_URL` such as `https://palbuilds.iterationx.cloud`
+- `APP_URL` set to `https://palworld.iterationx.cloud/builds`
 
 Discord redirect URI:
 
 ```text
-https://palbuilds.iterationx.cloud/auth/discord/callback
+https://palworld.iterationx.cloud/builds/auth/discord/callback
 ```
 
 The app requests only the Discord `identify` scope.

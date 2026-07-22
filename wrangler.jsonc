@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "pal-party-builds",
-  "compatibility_date": "2026-07-22",
+  "compatibility_date": "2026-05-22",
   "compatibility_flags": ["nodejs_compat"],
   "main": "./worker/index.ts",
   "assets": {
@@ -21,11 +21,15 @@
     }
   ],
   "vars": {
-    "APP_URL": "https://palbuilds.iterationx.cloud"
+    "APP_URL": "https://palworld.iterationx.cloud/builds"
   },
   "routes": [
     {
-      "pattern": "palbuilds.iterationx.cloud/*",
+      "pattern": "palworld.iterationx.cloud/builds",
+      "zone_name": "iterationx.cloud"
+    },
+    {
+      "pattern": "palworld.iterationx.cloud/builds/*",
       "zone_name": "iterationx.cloud"
     }
   ]

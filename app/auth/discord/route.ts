@@ -1,9 +1,10 @@
 import { cookie, getSecret, OAUTH_RETURN_COOKIE, OAUTH_STATE_COOKIE, randomToken, safeReturnTo } from "@/lib/auth";
+import { withBasePath } from "@/lib/paths";
 
 export async function GET(request: Request) {
   const url = new URL(request.url);
   const clientId = getSecret("DISCORD_CLIENT_ID");
-  if (!clientId) return Response.redirect(new URL("/auth/error?reason=not-configured", url.origin));
+  if (!clientId) return Response.redirect(new URL(withBasePath("/auth/error?reason=not-configured"), url.origin));
 
   const state = randomToken(24);
   const returnTo = safeReturnTo(url.searchParams.get("return_to"));

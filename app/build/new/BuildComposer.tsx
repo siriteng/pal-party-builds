@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { DiscordIcon, PlusIcon, SearchIcon, SparkIcon } from "@/components/icons";
 import { categories, type Category } from "@/lib/types";
 import { pals, palBySlug } from "@/lib/pals";
+import { withBasePath } from "@/lib/paths";
 
 type SelectedPal = { slug: string; role: string; stackNote: string };
 type Draft = {
@@ -79,7 +80,7 @@ export function BuildComposer() {
     }
     setPublishing(true);
     try {
-      const response = await fetch("/api/builds", {
+      const response = await fetch(withBasePath("/api/builds"), {
         method: "POST",
         credentials: "include",
         headers: { "Content-Type": "application/json" },

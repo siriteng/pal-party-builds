@@ -4,7 +4,7 @@
 2. Apply the generated migration with `pnpm run db:migrate:remote`.
 3. Create a Discord application and add this redirect URI:
 
-   `https://palbuilds.iterationx.cloud/auth/discord/callback`
+   `https://palworld.iterationx.cloud/builds/auth/discord/callback`
 
 4. In the Worker settings, add:
    - `DISCORD_CLIENT_ID` as plaintext.
@@ -13,6 +13,6 @@
    - Build command: `pnpm run build`
    - Deploy command: `pnpm exec wrangler deploy`
    - Root directory: `/`
-6. Add `palbuilds.iterationx.cloud` under the Worker Domains tab if the route was not created automatically.
+6. Wrangler creates Worker routes for `palworld.iterationx.cloud/builds` and everything below it. The existing `/chest` app is unaffected.
 
 Never commit the Discord Client Secret.

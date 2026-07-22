@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import type { SessionUser } from "@/lib/types";
 import { DiscordIcon, PlusIcon } from "./icons";
+import { withBasePath } from "@/lib/paths";
 
 export function SiteHeader() {
   const [user, setUser] = useState<SessionUser | null>(null);
@@ -12,7 +13,7 @@ export function SiteHeader() {
   const pathname = usePathname();
 
   useEffect(() => {
-    fetch("/api/me", { credentials: "include" })
+    fetch(withBasePath("/api/me"), { credentials: "include" })
       .then((response) => response.ok ? response.json() : null)
       .then((payload) => setUser(payload?.user ?? null))
       .catch(() => setUser(null));
@@ -54,7 +55,7 @@ export function SiteHeader() {
             <Link href="/#builds" onClick={() => setMenuOpen(false)}>Discover builds</Link>
             <Link href="/build/new" onClick={() => setMenuOpen(false)}>Create a build</Link>
             <Link href="/about" onClick={() => setMenuOpen(false)}>How it works</Link>
-            {user && <a href="/auth/logout">Sign out</a>}
+            {user && <a href={withBasePath("/auth/logout")}>Sign out</a>}
             {!user && <Link href={signInHref}>Continue with Discord</Link>}
           </div>
         )}

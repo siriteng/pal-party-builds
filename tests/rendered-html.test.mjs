@@ -24,3 +24,15 @@ test("starter preview code and dependency are gone", async () => {
   assert.doesNotMatch(page, /SkeletonPreview|codex-preview/);
   assert.doesNotMatch(packageJson, /react-loading-skeleton/);
 });
+
+test("production is isolated under the shared /builds path", async () => {
+  const [nextConfig, wranglerConfig, paths] = await Promise.all([
+    readFile(new URL("../next.config.ts", import.meta.url), "utf8"),
+    readFile(new URL("../wrangler.jsonc", import.meta.url), "utf8"),
+    readFile(new URL("../lib/paths.ts", import.meta.url), "utf8"),
+  ]);
+  assert.match(nextConfig, /basePath:\s*["']\/builds["']/);
+  assert.match(wranglerConfig, /palworld\.iterationx\.cloud\/builds/);
+  assert.match(paths, /https:\/\/palworld\.iterationx\.cloud\/builds/);
+  assert.doesNotMatch(wranglerConfig, /palbuilds\.iterationx\.cloud/);
+});

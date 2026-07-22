@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { usePathname, useRouter } from "next/navigation";
 import { HeartIcon } from "./icons";
+import { withBasePath } from "@/lib/paths";
 
 type LikeButtonProps = {
   buildId: string;
@@ -25,7 +26,7 @@ export function LikeButton({ buildId, initialLikes, initialLiked = false, large 
     setLoading(true);
 
     try {
-      const response = await fetch(`/api/builds/${encodeURIComponent(buildId)}/like`, { method: "POST", credentials: "include" });
+      const response = await fetch(withBasePath(`/api/builds/${encodeURIComponent(buildId)}/like`), { method: "POST", credentials: "include" });
       if (response.status === 401) {
         const resumeLike = `/api/builds/${encodeURIComponent(buildId)}/like?return_to=${encodeURIComponent(pathname || "/")}`;
         router.push(`/auth/discord?return_to=${encodeURIComponent(resumeLike)}`);
