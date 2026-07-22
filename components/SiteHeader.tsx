@@ -26,17 +26,16 @@ export function SiteHeader() {
       <div className="header-shell">
         <Link href="/" className="brand" aria-label="Pal Party Builds home">
           <span className="brand-mark" aria-hidden="true"><span /></span>
-          <span className="brand-copy"><strong>PAL PARTY</strong><small>COMMUNITY BUILDS</small></span>
+          <span className="brand-copy"><strong>PAL BUILDS</strong></span>
         </Link>
 
         <nav className="desktop-nav" aria-label="Main navigation">
-          <Link href="/#builds">Discover</Link>
-          <Link href="/build/new">Create</Link>
-          <Link href="/about">How it works</Link>
+          <Link href="/#builds">Builds</Link>
+          <Link href="/about">About</Link>
         </nav>
 
         <div className="header-actions">
-          <Link href="/build/new" className="button button-primary button-compact"><PlusIcon size={17} /> Build a party</Link>
+          <Link href="/build/new" className="button button-primary button-compact"><PlusIcon size={16} /> New build</Link>
           {user ? (
             <button className="user-chip" type="button" onClick={() => setMenuOpen((value) => !value)} aria-expanded={menuOpen}>
               <img src={user.avatarUrl} alt="" />

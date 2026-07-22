@@ -26,7 +26,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <main>{children}</main>
         <footer className="site-footer">
           <div className="footer-shell">
-            <div><strong>PAL PARTY</strong><p>Built by players, for players.</p></div>
+            <div><strong>PAL BUILDS</strong><p>Community Palworld party builds.</p></div>
             <nav aria-label="Footer navigation"><Link href="/about">How it works</Link><Link href="/privacy">Privacy</Link><a href="https://paldb.cc/en/Partner_Skill" target="_blank" rel="noreferrer">Pal data source</a></nav>
             <p className="fan-disclaimer">Unofficial fan project. Palworld and related assets belong to their respective owners.</p>
           </div>

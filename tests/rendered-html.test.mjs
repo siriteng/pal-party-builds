@@ -9,7 +9,7 @@ test("home source contains the discovery experience", async () => {
     readFile(new URL("../app/layout.tsx", import.meta.url), "utf8"),
   ]);
   assert.match(layout, /Pal Party Builds/i);
-  assert.match(page, /Stop guessing/i);
+  assert.match(page, /Palworld community builds/i);
   assert.match(page, /HomeFeed/);
   assert.match(seedData, /Jelliette/i);
   assert.match(seedData, /Talented Pal Fishing Party/i);

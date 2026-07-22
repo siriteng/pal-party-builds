@@ -30,7 +30,7 @@ export function HomeFeed({ initialBuilds }: { initialBuilds: PartyBuild[] }) {
   return (
     <section className="feed-section" id="builds">
       <div className="section-heading">
-        <div><span className="eyebrow">COMMUNITY-TESTED</span><h2>Builds worth copying</h2></div>
+        <div><h2>Community builds</h2></div>
         <div className="sort-toggle" role="group" aria-label="Sort builds">
           {(["Top", "Fresh"] as const).map((item) => <button type="button" key={item} className={sort === item ? "active" : ""} onClick={() => setSort(item)}>{item}</button>)}
         </div>

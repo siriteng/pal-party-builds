@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
-import { DiscordIcon, PlusIcon, SearchIcon, SparkIcon } from "@/components/icons";
+import { DiscordIcon, PlusIcon, SearchIcon } from "@/components/icons";
 import { categories, type Category } from "@/lib/types";
 import { pals, palBySlug, palElements } from "@/lib/pals";
 import { withBasePath } from "@/lib/paths";
@@ -109,10 +109,10 @@ export function BuildComposer() {
     <div className="composer-page">
       <form className="page-shell composer-layout" onSubmit={publish}>
         <div className="composer-main">
-          <header className="composer-header"><span className="hero-kicker"><SparkIcon size={15} /> SHARE WHAT WORKS</span><h1>Create a party build</h1><p>Lead with the Pals. Explain the one trick that makes the team worth copying.</p></header>
+          <header className="composer-header"><h1>Create build</h1><p>Choose your Pals and explain how the party works.</p></header>
 
           <section className="composer-section">
-            <div className="composer-step"><span>1</span><div><h2>Name the idea</h2><p>Help players understand the goal at a glance.</p></div></div>
+            <div className="composer-step"><div><h2>Build details</h2></div></div>
             <div className="form-grid">
               <label className="field field-wide"><span>Build title</span><input value={draft.title} onChange={(event) => update("title", event.target.value)} placeholder="e.g. Talented Pal Fishing Party" maxLength={80} /></label>
               <div className="field field-wide"><span>Category</span><div className="category-picker">{categories.map((item) => <button type="button" key={item} className={draft.category === item ? "active" : ""} onClick={() => update("category", item)}>{item}</button>)}</div></div>
@@ -121,7 +121,7 @@ export function BuildComposer() {
           </section>
 
           <section className="composer-section">
-            <div className="composer-step"><span>2</span><div><h2>Choose up to five Pals</h2><p>Duplicates and variants are allowed. Order them the way players should read the combo.</p></div><b>{draft.pals.length}/5</b></div>
+            <div className="composer-step"><div><h2>Party</h2></div><b>{draft.pals.length}/5 selected</b></div>
 
             <div className="selected-party">
               {draft.pals.map((selection, index) => {
@@ -132,18 +132,18 @@ export function BuildComposer() {
                   <div><div className="selected-pal-name"><h3>{pal.name}</h3><button type="button" onClick={() => removePal(index)} aria-label={`Remove ${pal.name}`}>Remove</button></div><label><span>Job in this party</span><input value={selection.role} onChange={(event) => updatePal(index, "role", event.target.value)} placeholder="e.g. Fishing drop bonus" /></label><label><span>Stacking note <i>optional</i></span><input value={selection.stackNote} onChange={(event) => updatePal(index, "stackNote", event.target.value)} placeholder="e.g. Stacks with the Ignis variant" /></label></div>
                 </article>;
               })}
-              {!draft.pals.length && <div className="party-placeholder"><PlusIcon size={28} /><strong>Your lineup starts here</strong><span>Choose a Pal from the library below.</span></div>}
+              {!draft.pals.length && <div className="party-placeholder"><strong>No Pals selected</strong><span>Choose up to five from the library.</span></div>}
             </div>
 
             <div className="pal-library">
-              <div className="library-heading"><div><h3>Pal library <span className="library-count">{pals.length}</span></h3><span>Complete Palworld.gg library. Add variants or duplicates freely.</span></div><div className="library-controls"><label className="search-field"><SearchIcon size={17} /><span className="sr-only">Search Pals</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Name or Partner Skill" /></label><label className="element-filter"><span className="sr-only">Filter by element</span><select value={element} onChange={(event) => setElement(event.target.value)}><option value="All">All elements</option>{palElements.map((item) => <option value={item} key={item}>{item}</option>)}</select></label></div></div>
+              <div className="library-heading"><div><h3>Choose Pals <span className="library-count">{pals.length}</span></h3><span>Search by name or Partner Skill. Duplicates are allowed.</span></div><div className="library-controls"><label className="search-field"><SearchIcon size={17} /><span className="sr-only">Search Pals</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search Pals" /></label><label className="element-filter"><span className="sr-only">Filter by element</span><select value={element} onChange={(event) => setElement(event.target.value)}><option value="All">All elements</option>{palElements.map((item) => <option value={item} key={item}>{item}</option>)}</select></label></div></div>
               <div className="library-results"><span>{filteredPals.length} {filteredPals.length === 1 ? "Pal" : "Pals"}</span>{(query || element !== "All") && <button type="button" onClick={() => { setQuery(""); setElement("All"); }}>Clear filters</button>}</div>
               <div className="library-grid">{filteredPals.map((pal) => <button type="button" key={pal.slug} onClick={() => addPal(pal.slug)} disabled={draft.pals.length >= 5}><span className={`library-pal-art pal-tone-${pal.elements[0].toLowerCase()}`}><img src={pal.imageUrl} alt="" loading="lazy" decoding="async" /></span><strong>{pal.name}</strong><small>{pal.partnerSkill}</small><span className="add-pal-icon"><PlusIcon size={15} /></span></button>)}</div>
             </div>
           </section>
 
           <section className="composer-section">
-            <div className="composer-step"><span>3</span><div><h2>Explain the trick</h2><p>Short, specific advice beats a wall of text.</p></div></div>
+            <div className="composer-step"><div><h2>Strategy</h2></div></div>
             <div className="form-grid">
               <label className="field field-wide"><span>How to run it</span><textarea value={draft.strategy} onChange={(event) => update("strategy", event.target.value)} placeholder="What does each Pal contribute? When should a player swap a slot?" rows={6} /></label>
               <label className="field"><span>Recommended passives <i>optional</i></span><textarea value={draft.passives} onChange={(event) => update("passives", event.target.value)} rows={3} placeholder="Swift, Vanguard…" /></label>
@@ -155,7 +155,7 @@ export function BuildComposer() {
         </div>
 
         <aside className="publish-sidebar">
-          <div className="publish-card"><span className="eyebrow">READY TO SHARE?</span><h2>{draft.title || "Your build"}</h2><div className="mini-party-preview">{draft.pals.map((selection, index) => { const pal = palBySlug.get(selection.slug); return pal ? <div className={`pal-tone-${pal.elements[0].toLowerCase()}`} key={`${selection.slug}-${index}`}><img src={pal.imageUrl} alt={pal.name} /><span>{index + 1}</span></div> : null; })}{Array.from({ length: Math.max(0, 5 - draft.pals.length) }).map((_, index) => <div className="empty" key={`empty-${index}`}>{draft.pals.length + index + 1}</div>)}</div><p>Publishing is free. Your draft stays on this device while Discord sign-in opens.</p>{error && <div className="form-error" role="alert">{error}</div>}<button type="submit" className="button button-primary publish-button" disabled={publishing}>{publishing ? "Publishing…" : "Publish build"}</button><span className="discord-note"><DiscordIcon size={17} /> Discord is only required to publish or like.</span></div>
+          <div className="publish-card"><h2>{draft.title || "Build preview"}</h2><div className="mini-party-preview">{draft.pals.map((selection, index) => { const pal = palBySlug.get(selection.slug); return pal ? <div className={`pal-tone-${pal.elements[0].toLowerCase()}`} key={`${selection.slug}-${index}`}><img src={pal.imageUrl} alt={pal.name} /><span>{index + 1}</span></div> : null; })}{Array.from({ length: Math.max(0, 5 - draft.pals.length) }).map((_, index) => <div className="empty" key={`empty-${index}`}>{draft.pals.length + index + 1}</div>)}</div>{error && <div className="form-error" role="alert">{error}</div>}<button type="submit" className="button button-primary publish-button" disabled={publishing}>{publishing ? "Publishing…" : "Publish build"}</button><span className="discord-note"><DiscordIcon size={16} /> Discord sign-in required</span></div>
         </aside>
       </form>
     </div>
