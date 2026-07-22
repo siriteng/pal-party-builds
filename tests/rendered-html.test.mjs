@@ -46,3 +46,18 @@ test("Pal library contains the full sourced catalog", async () => {
     assert.ok(catalog.some((pal) => pal.name === name), `${name} should be available`);
   }
 });
+
+test("build discussion is backed by D1 comments", async () => {
+  const [schema, route, detail, migration, repository] = await Promise.all([
+    readFile(new URL("../db/schema.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/api/builds/[id]/comments/route.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/build/[slug]/page.tsx", import.meta.url), "utf8"),
+    readFile(new URL("../drizzle/0001_lush_moondragon.sql", import.meta.url), "utf8"),
+    readFile(new URL("../lib/build-repository.ts", import.meta.url), "utf8"),
+  ]);
+  assert.match(schema, /comments = sqliteTable/);
+  assert.match(route, /createBuildComment/);
+  assert.match(detail, /BuildComments/);
+  assert.match(migration, /CREATE TABLE `comments`/);
+  assert.doesNotMatch(repository, /if \(value > 0\) return/);
+});

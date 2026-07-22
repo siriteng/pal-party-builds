@@ -80,3 +80,19 @@ export const likes = sqliteTable(
     index("likes_user_id_idx").on(table.userId),
   ]
 );
+
+export const comments = sqliteTable(
+  "comments",
+  {
+    id: text("id").primaryKey(),
+    buildId: text("build_id").notNull().references(() => builds.id, { onDelete: "cascade" }),
+    userId: text("user_id").notNull().references(() => users.id, { onDelete: "cascade" }),
+    body: text("body").notNull(),
+    createdAt: integer("created_at").notNull(),
+  },
+  (table) => [
+    index("comments_build_id_idx").on(table.buildId),
+    index("comments_user_id_idx").on(table.userId),
+    index("comments_created_at_idx").on(table.createdAt),
+  ]
+);

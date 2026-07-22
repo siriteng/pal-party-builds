@@ -1,6 +1,6 @@
 import { and, asc, count, desc, eq, inArray } from "drizzle-orm";
 import { getDb } from "@/db";
-import { buildPals, builds, likes, users } from "@/db/schema";
+import { buildPals, builds, comments, likes, users } from "@/db/schema";
 import { seedBuilds } from "./seed-builds";
 import { isCategory } from "./seed-builds";
 import type { BuildPal, PartyBuild } from "./types";
@@ -34,9 +34,6 @@ function seedAuthorId(name: string) {
 
 async function seedDatabase() {
   const db = getDb();
-  const [{ value }] = await db.select({ value: count() }).from(builds);
-  if (value > 0) return;
-
   const now = Date.now();
   const authorRows = Array.from(new Set(seedBuilds.map((build) => build.author.name))).map((name) => ({
     id: seedAuthorId(name),
@@ -225,4 +222,39 @@ export async function toggleBuildLike(buildId: string, userId: string) {
   const [{ baseLikes }] = await db.select({ baseLikes: builds.baseLikes }).from(builds).where(eq(builds.id, buildId));
   const [{ total }] = await db.select({ total: count() }).from(likes).where(eq(likes.buildId, buildId));
   return { liked: !existing, likes: (baseLikes ?? 0) + total };
+}
+
+export async function listBuildComments(buildId: string) {
+  await ensureSeedData();
+  const rows = await getDb()
+    .select({ comment: comments, authorName: users.displayName, avatarUrl: users.avatarUrl })
+    .from(comments)
+    .innerJoin(users, eq(comments.userId, users.id))
+    .where(eq(comments.buildId, buildId))
+    .orderBy(desc(comments.createdAt))
+    .limit(100);
+
+  return rows.map(({ comment, authorName, avatarUrl }) => ({
+    id: comment.id,
+    body: comment.body,
+    createdAt: comment.createdAt,
+    author: { name: authorName, avatarUrl: avatarUrl || undefined },
+  }));
+}
+
+export async function createBuildComment(buildId: string, userId: string, value: string) {
+  const body = value.trim();
+  if (!body) throw new Error("Write a comment first.");
+  if (body.length > 500) throw new Error("Comments can be up to 500 characters.");
+
+  await ensureSeedData();
+  const db = getDb();
+  const [build] = await db.select({ id: builds.id }).from(builds).where(and(eq(builds.id, buildId), eq(builds.status, "published"))).limit(1);
+  if (!build) throw new Error("Build not found.");
+
+  const id = crypto.randomUUID();
+  const createdAt = Date.now();
+  await db.insert(comments).values({ id, buildId, userId, body, createdAt });
+  const [author] = await db.select({ name: users.displayName, avatarUrl: users.avatarUrl }).from(users).where(eq(users.id, userId)).limit(1);
+  return { id, body, createdAt, author: { name: author?.name ?? "Player", avatarUrl: author?.avatarUrl || undefined } };
 }

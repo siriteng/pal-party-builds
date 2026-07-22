@@ -45,3 +45,10 @@ export type SessionUser = {
   displayName: string;
   avatarUrl: string;
 };
+
+export type BuildComment = {
+  id: string;
+  body: string;
+  createdAt: number;
+  author: BuildAuthor;
+};

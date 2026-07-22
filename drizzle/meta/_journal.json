@@ -8,6 +8,13 @@
       "when": 1784694525276,
       "tag": "0000_narrow_silver_centurion",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1784700924662,
+      "tag": "0001_lush_moondragon",
+      "breakpoints": true
     }
   ]
 }
